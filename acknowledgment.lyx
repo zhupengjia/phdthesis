@@ -1,0 +1,154 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+First of all, I would like to thank my parents and my girlfriend.
+ Without them I could not stick to the end.
+ 
+\end_layout
+
+\begin_layout Standard
+I would like to thank Prof.
+ Yunxiu Ye, my supervisor, who gave me the support and the chance to work
+ with a group of smart people at Jefferson Lab.
+ Also I would like to thank for her guidance and patient in correcting my
+ papers and my draft thesis.
+\end_layout
+
+\begin_layout Standard
+Prof.
+ Jian-ping Chen, my research advisor at Jefferson Lab, who gave me the most
+ help when I was working at Jefferson Lab.
+ His profound knowledge and rich experience impressed me.
+ The experiment will not success without him.
+ He is also very patient on answering any questions and helping me correcting
+ my papers.
+ 
+\end_layout
+
+\begin_layout Standard
+I would also like to thank Haijiang Lu, who supported me the place and gave
+ me help in Huangshan University for studying my thesis.
+ Also I would like to thank Xinhu Yan for his friendship and help when I
+ was in Huangshan.
+\end_layout
+
+\begin_layout Standard
+I would like to thank for the friendship from the E08-027 group, Alexandre
+ Camsonne, Melissa Cummings, Chao Gu, Min Huang, Jie liu, Jixie Zhang, Kalyan
+ Allada, Toby Badman, Ryan Zielinski.
+ Alexandre helped me a lot for the beamline study.
+ Melissa was very patient to correct my paper.
+ Chao, Min, Jie and Jixie are the best friends when I was in JLab.
+ Kalyan ,Toby and Ryan are also very nice.
+ I had two years full of memories when I was in JLab.
+\end_layout
+
+\begin_layout Standard
+This work was supported by US DOE contract DE-AC05-84ER40150 under which
+ the Southeastern Universities Research Association (SURA) operates the
+ Thomas Jefferson National Accelerator Facility, and by the National Natural
+ Science Foundation of China (11135002, 11275083), the Natural Science Foundatio
+n of Anhui Education Committee (KJ2012B179).
+\end_layout
+
+\end_body
+\end_document

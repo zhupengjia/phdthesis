@@ -1,0 +1,558 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\usepackage{lineno,hyperref}
+\linenumbers
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+The E08-027 (g2p) Experiment 
+\end_layout
+
+\begin_layout Standard
+The E08-027 (g2p) experiment studied the spin structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ by measuring the cross section of the inclusive electron-proton scattering.
+ The experiment successfully collected data from March to May, 2012 in Hall
+ A at Jefferson Lab.
+ This chapter will go through the experiment in detail.
+\end_layout
+
+\begin_layout Section
+Motivation
+\end_layout
+
+\begin_layout Standard
+As discussed in the previous chapters, measurement of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ needs more precise data than 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+.
+ JLab has been at the forefront for measuring the nucleon spin structure
+ over the wide kinematic range in the latest decades.
+ With the high luminosity and high polarization electron beam and the high
+ precision equipment in all of three Halls, JLab has been completed a number
+ of precise experiments, which extended the data on spin structure significantly
+ on both kinematic ranges and the precision.
+ The data of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ for neutron has been collected precisely in both DIS and resonance region
+ for neutron in the previous experiments, but the data for proton in the
+ resonance region is still lacking.
+ Comparing with the DIS region, studying in the resonance region can reveal
+ more information on the internal structure of nucleon resonances and their
+ excitation, which is important to check the related theory, such as the
+ chiral perturbative theory and the lattice QCD.
+ 
+\end_layout
+
+\begin_layout Standard
+In addition, the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data can provide a test of the Burkhardt-Cottingham sum rule.
+ Since the BC sum rule should apply at all values of 
+\begin_inset Formula $Q^{2}>0$
+\end_inset
+
+, it can be tested by either at DIS region or at low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ region.
+ The data from the neutron shows agreement with the B-C sum rule, while
+ the proton result from SLAC E155 shows large disagreement.
+ Also a significant contribution to the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ integral comes from the nuclear resonance region.
+ The precise 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data from low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+is important to test the B-C sum rule.
+\end_layout
+
+\begin_layout Standard
+A measurement of the longitudinal-transverse spin polarizability 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ is expected to be a good test for 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+.
+ The resent neutron result shows significant disagreement with the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculation.
+ However, the 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ for the proton at low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+does not exist yet.
+ 
+\end_layout
+
+\begin_layout Standard
+The low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data will help to improve the precision in the hyperfine splitting of the
+ hydrogen ground state, since the leading uncertainty in the measurement
+ of the hyperfine splitting in the hydrogen ground state comes from the
+ proton structure correction 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.96.163001"
+
+\end_inset
+
+.
+ The data from this experiment may also help to improve the precision of
+ the measurement for the proton charge radius.
+\end_layout
+
+\begin_layout Section
+Experiment Overview
+\end_layout
+
+\begin_layout Standard
+The goal of the E08-027 experiment is to measure the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ structure function for the proton at low 
+\begin_inset Formula $Q^{2}.$
+\end_inset
+
+ A measurement of the scattered electrons in the reaction 
+\begin_inset Formula $\overrightarrow{p}(\overrightarrow{e},e')X$
+\end_inset
+
+ at a scattering-angle of 
+\begin_inset Formula $5.69\textdegree$
+\end_inset
+
+ in the low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ region of 
+\begin_inset Formula $0.02<Q^{2}<0.2\,GeV^{2}$
+\end_inset
+
+ was performed to obtain the proton spin-dependent cross sections (see figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Kinematic-coverage-during"
+
+\end_inset
+
+).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/kin_achieved.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Kinematic-coverage-during"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Kinematic coverage during the experimental run period
+\end_layout
+
+\end_inset
+
+Kinematic coverage during the experimental run period.
+ The numbers next to the vertical axis on the right side are the constant
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ values where the moments of the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ will be extracted.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A polarized 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target operating at 1 K was used as the proton target.
+ The Dynamic Nuclear Polarization (DNP) process was used to polarize the
+ solid 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target.
+ To avoid too much depolarization of the target, beam current was limited
+ to 
+\begin_inset Formula $50-100$
+\end_inset
+
+ nA during the experiment.
+ New BPM and BCM receivers were designed and used for low current condition
+ since the existing beam current monitors (BCMs), beam position monitors
+ (BPMs) and calibration methods did not work at such a low current range.
+ A pair of super-harps and a tungsten calorimeter were installed to calibrate
+ the BPMs and BCMs, respectively.
+ To compensate for the effect of the 2.5/5 T transverse target magnet field,
+ two chicane dipole magnets were installed.
+ A pair of slow rasters were installed for the first time in Hall A to spread
+ the beam to a diameter of 2 cm, combining with a pair of fast rasters.
+ To allow detection of scattered elections at the scattering angle of 
+\begin_inset Formula $5.69\textdegree$
+\end_inset
+
+, the target was installed at 876.93mm upstream from the pivot and a pair
+ of septum magnets were installed.
+ A new scintillator detector was developed and placed near the target to
+ monitor the polarization of the beam and target.
+ The schematic of experimental components is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/beamline.png
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:beamline-for-g2p"
+
+\end_inset
+
+Schematic of components for g2p experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The experiment measured the transversely polarized cross section difference
+ 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ in 5 settings with different beam energy and target magnet field.
+ Combining with the longitudinal polarized cross section difference 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ from EG4 experiment, the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is extracted as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g_{2}=\frac{1}{K_{1}K_{2}}(\frac{\Delta\sigma_{\bot}}{K_{3}}-\frac{\Delta\sigma_{\Vert}}{K_{4}}),
+\end{equation}
+
+\end_inset
+
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+K_{1} & =-\frac{4\alpha^{2}E'}{MQ^{2}E\nu},\nonumber \\
+K_{2} & =\frac{2Mx}{E+E'cos\theta}+\frac{2E}{\nu},\nonumber \\
+K_{3} & =E'sin\theta,\nonumber \\
+K_{4} & =E+E'cos\theta,
+\end{align}
+
+\end_inset
+
+The experiment also measured the 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ in one beam energy setting with 5 T target magnet field for checking the
+ results from EG4 experiment.
+ Detail run summary is in appendix.
+\end_layout
+
+\begin_layout Standard
+The projected results for the 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ and B-C sum rule are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Projected-uncertainties"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/BCg2p.png
+	lyxscale 40
+	width 45col%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pic/deltaltg2p.png
+	lyxscale 40
+	width 45col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Projected-uncertainties"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Projected uncertainties for 
+\begin_inset Formula $\Gamma_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ for the E08-027 (g2p) experiment
+\end_layout
+
+\end_inset
+
+Projected uncertainties for 
+\begin_inset Formula $\Gamma_{2}$
+\end_inset
+
+ (left) and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ (right) for the E08-027 (g2p) experiment.
+ The light and dark bands represent the experimental systematic, and the
+ uncertainty arising from the unmeasured contributions to 
+\begin_inset Formula $\Gamma_{2}$
+\end_inset
+
+, respectively.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The data will provide benchmark tests of chiral perturbation theory calculation
+s.
+ In addition, the data will allow tests of the B-C sum rules and significantly
+ impact ongoing calculations of the hydrogen hyperfine splitting.
+\end_layout
+
+\end_body
+\end_document

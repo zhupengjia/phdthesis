@@ -1,0 +1,2307 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+The Polarized Target System
+\end_layout
+
+\begin_layout Standard
+Polarized target was widely used to extract the polarized neutron and proton
+ data in order to study the nucleon structure in the spin degree of freedom
+ in nuclear and particle experiments.
+ There are several types of polarized target system used in Jefferson Lab.
+ The polarized ammonia (
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+) target is used to study the spin of proton, while the polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target acts as an neutron target.
+ 
+\end_layout
+
+\begin_layout Subsection
+Polarized 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target
+\end_layout
+
+\begin_layout Standard
+The polarized proton target used during the g2p experiment is from UVa target
+ group, which uses solid ammonia as the proton material.
+ It has been used for many experiments before, like SANE, RSS in Hall C
+ and EG1-4 in Hall B at Jefferson Lab, and E143, E155, E155x in SLAC.
+ The dynamic nuclear polarization (DNP) method is used to polarize the target,
+ which is using low temperature down to 1 K and 140 GHz microwave to pump
+ the polarization into a high level up to 94 %.
+ The nuclear magnetic resonance (NMR) is used for measuring the polarization,
+ while the thermal equilibrium (TE) polarization is used for calibrating
+ it.
+\end_layout
+
+\begin_layout Subsubsection
+Polarization mechanisms
+\end_layout
+
+\begin_layout Subsubsection*
+Dynamic Nuclear Polarization
+\end_layout
+
+\begin_layout Standard
+The dynamic nuclear polarization (DNP) was used to achieve high polarization
+ for the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target.
+ A microwave generator emits the microwaves at the splitting energy of 
+\begin_inset Formula $\nu_{NMR}$
+\end_inset
+
+.
+ The energy splitting between two electron sublevel 
+\begin_inset Formula $m_{e}=\frac{1}{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $m_{e}=-\frac{1}{2}$
+\end_inset
+
+ is about 140 GHz at 5 T and 70 GHz at 2.5 T, and the energy splitting between
+ two proton sublevels 
+\begin_inset Formula $m_{P}=\frac{1}{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $m_{p}=-\frac{1}{2}$
+\end_inset
+
+ is about 200 MHz at 5T.
+ Thanks for the granular control of the microwave technology, we can obtain
+ any frequency we want use in microwave section accurately by using the
+ cavity.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+positive
+\begin_inset Quotes erd
+\end_inset
+
+ polarization from the state of 
+\begin_inset Formula $e_{-\frac{1}{2}}p_{-\frac{1}{2}}$
+\end_inset
+
+ to 
+\begin_inset Formula $e_{\frac{1}{2}}p_{\frac{1}{2}}$
+\end_inset
+
+ needs 140.2 GHz microwave and the 
+\begin_inset Quotes eld
+\end_inset
+
+negative
+\begin_inset Quotes erd
+\end_inset
+
+ polarization from the state of 
+\begin_inset Formula $e_{\frac{1}{2}}p_{\frac{1}{2}}$
+\end_inset
+
+ to 
+\begin_inset Formula $e_{-\frac{1}{2}}p_{-\frac{1}{2}}$
+\end_inset
+
+ needs 140.5 GHz microwave for the 5T magnet.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Thermal Equilibrium (TE) Polarization
+\end_layout
+
+\begin_layout Standard
+A Zeeman splitting because of the high magnet field causes 2 sublevels which
+ the proton's spin is 
+\begin_inset Formula $I=\frac{1}{2}$
+\end_inset
+
+.
+ The population of these two sublevels is calculated by the Boltzmann law:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+N_{\frac{1}{2}}=N_{-\frac{1}{2}}e^{-\frac{\Delta E}{k_{B}T}},\label{eq:te}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $N_{\frac{1}{2}}$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{-\frac{1}{2}}$
+\end_inset
+
+ are the population of two sublevels, 
+\begin_inset Formula $T$
+\end_inset
+
+ is the temperature of the environment, 
+\begin_inset Formula $k_{B}$
+\end_inset
+
+ is the Boltzmann constant, 
+\begin_inset Formula $\Delta E$
+\end_inset
+
+ is the energy difference of two sublevels in the magnetic field of 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ As defined polarization by 
+\begin_inset Formula $P(\frac{1}{2})=\frac{N_{\frac{1}{2}}-N_{-\frac{1}{2}}}{N_{\frac{1}{2}}+N_{-\frac{1}{2}}}$
+\end_inset
+
+, the thermal equilibrium polarization is calculated as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P(\frac{1}{2})=tanh(\frac{\mu B}{k_{B}T})\label{eq:teP}
+\end{equation}
+
+\end_inset
+
+which is only the function of magnetic field 
+\begin_inset Formula $B$
+\end_inset
+
+ and temperature 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ The proton's thermal polarization is about 
+\begin_inset Formula $0.5\%$
+\end_inset
+
+ at 5 T magnet field and 1 K temperature.
+ It is used for calibrating the NMR measurement.
+\end_layout
+
+\begin_layout Subsubsection
+Target system
+\end_layout
+
+\begin_layout Subsubsection*
+Target magnet
+\end_layout
+
+\begin_layout Standard
+The original 5 T oxford superconducting magnet was burned before the experiment
+ during a quench while the target was being tested in preparation for installati
+on.
+ The superconducting magnet from the Hall B polarized target was replaced
+ and installed in the g2p cryostat.
+ Because of the power and construction limit for the chicane dipole magnet,
+ also for the reason of getting smaller 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, the 2.5 T magnet field was used in addition to the 5 T magnet field.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target system is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Polarized-nh3-target"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/NH3target.png
+	lyxscale 30
+	width 80line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Polarized-nh3-target"
+
+\end_inset
+
+Polarized 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The open geometry of the target magnet allows the beam to pass through
+ longitudinal or transverse.
+ The magnet allows to generate a uniform field region of less than 
+\begin_inset Formula $10^{-4}$
+\end_inset
+
+ over a cylindrical volume with 2 cm in diameter and 2 cm long 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pierce201454"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Refrigerator
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset Formula $^{4}He$
+\end_inset
+
+ evaporation refrigerator was used to cool down the temperature of the target
+ to 1 K, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1K-refrigerator"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/Refrigerator.png
+	lyxscale 10
+	width 20line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1K-refrigerator"
+
+\end_inset
+
+1K refrigerator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ It is installed vertically along the center of the magnet.
+ The liquid helium is siphoned from the magnet to the separator via a transfer
+ line.
+ The vapor is pumped away by a small diaphragm pump and cools the baffles.
+ The liquid helium in the bottom of the separator is delivered to the target
+ nose via a copper tube.
+ The vapor is pumped away from the target nose by a 
+\begin_inset Formula $12000m^{3}h^{-1}$
+\end_inset
+
+ roots pump set to reach the temperature to about 0.9 K 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pierce201454"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Target Material
+\end_layout
+
+\begin_layout Standard
+There are many requirements used to select the material: the polarization
+ that can be obtained, the dilution factor (ratio of the free polarizable
+ nucleons to the total), the build-up time of polarization, the simplicity
+ for the preparation and handling, and the radiation damage resistance 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Crabb67"
+
+\end_inset
+
+.
+ Butanol has less polarized background than ammonia and higher dilution
+ factor than propanediol, ammonia and propanedial can achieve higher polarizatio
+n.
+\end_layout
+
+\begin_layout Standard
+The most important thing that can reduce the polarization is radiation damage.
+ The radiation can produce additional radicals that the Larmor frequency
+ of it is different as the material.
+ As the increasing of these radicals, the relax time of nucleon is shortened
+ and the polarization of it is reduced.
+ The ammonia is chosen because of its high resistance of radiation damage
+ and low temperature (~77K) for annealing to recover.
+ Even so, the target material was changed for many times during the g2p
+ experiment.
+\end_layout
+
+\begin_layout Standard
+The material was processed granularity in order to averagely cool the material.
+ The equal size of the beads is about 1 mm.
+ The rapid freezing process is used to create a glassy state in order to
+ achieve the hypodispersion of paramagnetic radicals.
+ In order to get more paramagnetic radicals, the irradiation process is
+ necessary.
+ The high temperature irradiation at ~80 K was taken in NIST before the
+ g2p experiment.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/unirradiated.jpg
+	lyxscale 50
+	width 25col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Before irradiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/irradiated.jpg
+	lyxscale 50
+	width 25col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+After irradiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ beads before and after the irradiation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Target insert
+\end_layout
+
+\begin_layout Standard
+The target insert consists of several cells, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Target-insert"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/Target-insert.png
+	lyxscale 10
+	width 35line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Target-insert"
+
+\end_inset
+
+Target insert
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ From up to down in the picture, it is 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ cell, 
+\begin_inset Formula $CH_{2}$
+\end_inset
+
+ hole, carbon hole, 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ cell, dummy cell and carbon cell.
+ Two 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ cells were used during the production runs, with the ammonia beads filled
+ and the aluminum foil covered.
+ The dummy cell was used to calculate the dilution factor of the target,
+ with the same structure as the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ cell but without the ammonia beads.
+ The carbon cell was used for the optics study.
+ The 
+\begin_inset Formula $CH_{2}$
+\end_inset
+
+ hole and the carbon hole were designed to load the 
+\begin_inset Formula $CH_{2}$
+\end_inset
+
+ foil and the carbon foil in order to do the optics study.
+ But at the most of the time they didn't load anything.
+ 
+\end_layout
+
+\begin_layout Standard
+The position of the target insert is in the center of the refrigerator,
+ it moved vertically to different target positions by a remote controlled
+ stepper motor.
+\end_layout
+
+\begin_layout Subsubsection*
+Microwave
+\end_layout
+
+\begin_layout Standard
+The microwave generator contains: a microwave chamber (EIO tube) used to
+ generate the microwave, a motor and motor control used to change the length
+ of the chamber in order to change the frequency of microwave, a water cooling
+ system, high voltage and power supply, a power meter used to measure the
+ frequency, and a circular waveguide used to lead the microwave to the target
+ insert.
+ Both 70 GHz and 140 GHz EIO tube has a tunable frequency of about 1% 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Crabb9"
+
+\end_inset
+
+.
+ Due to the lower attenuation in the waveguide at 70 GHz, the microwave
+ power was delivered to the target cells more than 2W at 70 GHz, while it
+ is 1W at 140 GHz 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pierce201454"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Microwave-system"
+
+\end_inset
+
+ shows a 140 GHz microwave system.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/microwave.JPG
+	lyxscale 40
+	width 85line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Microwave-system"
+
+\end_inset
+
+Microwave system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+NMR system - Q meter
+\end_layout
+
+\begin_layout Standard
+The NMR coil is a short coil of CuNi capillary.
+ It was installed inside the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ cell, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:NMR-system-NH3"
+
+\end_inset
+
+ (a).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/Qmeter.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Overview of the NMR system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/QmeterCircuit.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Overview of the NMR system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:NMR-system-NH3"
+
+\end_inset
+
+NMR system for 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The signal of the NMR coil was connected to the Q-meter circuit 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Court1993"
+
+\end_inset
+
+ which is used measure the polarization of target in NMR system.
+\end_layout
+
+\begin_layout Standard
+The circuit of the Q-meter is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:NMR-system-NH3"
+
+\end_inset
+
+ (b).
+ The polarization 
+\begin_inset Formula $P$
+\end_inset
+
+ of the target is related to the susceptibility caused by the polarized
+ nucleons as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P=K\int_{0}^{\infty}\chi"(\omega)d\omega,\label{eq:NH3pol}
+\end{equation}
+
+\end_inset
+
+where the polarized nucleons caused susceptibility 
+\begin_inset Formula $\chi(\omega)=\chi'(\omega)-i\chi"(\omega)$
+\end_inset
+
+.
+ The 
+\begin_inset Formula $\chi'(\omega)$
+\end_inset
+
+ and the 
+\begin_inset Formula $\chi"(\omega)$
+\end_inset
+
+ are the dispersive and the absorptive part of the susceptibility.
+ K is a constant related to the properties of the concerned nucleus (polarized
+ proton).
+ The NMR coil itself has a inductance 
+\begin_inset Formula $L_{0}$
+\end_inset
+
+, the target material changes the inductance as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L(\omega)=L_{0}(1+4\pi\eta\chi(\omega)),\label{eq:qmeterinductance}
+\end{equation}
+
+\end_inset
+
+where the 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is the filling factor of coil.
+ For proton, the value of 
+\begin_inset Formula $\chi(\omega)$
+\end_inset
+
+ is 0 in all frequency range except near of the larmor resonance frequency
+ 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+, causing a peak in the output of the Q-meter circuit, as shown in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:NMR-signal-Qmeter"
+
+\end_inset
+
+ (a).
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/Qmeter_raw.png
+	lyxscale 50
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NMR peak, Blue is the baseline when the 
+\begin_inset Formula $\omega$
+\end_inset
+
+ moved away from 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/Qmeter_subtracted.png
+	lyxscale 50
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NMR signal after subtracting the baseline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:NMR-signal-Qmeter"
+
+\end_inset
+
+NMR signal for the Q-meter 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:NMR-signal-Qmeter"
+
+\end_inset
+
+ (b) shows the signal after removing the baseline, which was measured at
+ the same setting when the 
+\begin_inset Formula $\omega$
+\end_inset
+
+ moved away from 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Polarization
+\end_layout
+
+\begin_layout Standard
+The uncertainty of the calculated polarization was from the polynomial fit
+ of raw NMR signal and the uncertainty from the TE measurement.
+ The uncertainty from the fit was largely based on the quality of the NMR
+ signal, but never larger than 3%.
+ The uncertainty from the TE measurement was from the target field reading
+ and the temperature reading.
+ The former was provided as 2% dictated by the precision of the magnet power
+ supply.
+ The temperature in the target nose was measured using both manometer that
+ measured the pressure in the target nose and convert it to temperature.
+ The final uncertainty of the polarization was around 3.5%~4%.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:nh3pol"
+
+\end_inset
+
+ (3rd/4nd) shows the polarization when using the 5 T magnet field during
+ the experiment.
+ About 70% polarization was gotten by average 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tobytgttech"
+
+\end_inset
+
+.
+ The figure shows the polarization drop caused from the radiation damage
+ by the beam, and the polarization recovered after taking anneal or replacing
+ the material.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:nh3pol"
+
+\end_inset
+
+ (1st/2nd) shows the polarization when using the 2.5 T magnet field, which
+ shows the average of 15% polarization.
+  
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/tgtpol.png
+	lyxscale 5
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:nh3pol"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Target polarization
+\end_layout
+
+\end_inset
+
+Target polarization for 2.5 T magnet field (1st/2nd) and 5.0 T magnet field
+ (3rd/4th) during experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tobytarget"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target
+\end_layout
+
+\begin_layout Standard
+Free neutrons are hardly achieved due to the short lifetime (under 15 minutes),
+ other materials are used instead.
+ 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ has one neutron and two protons.
+ The spin of neutron is aligned with the spin of the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ nucleus since the spins of two protons are paired.
+ A polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target lab was built in 1998 at Jefferson Lab and has been undergoing upgrade
+ and improvement continuously.
+ A mount of experiments have successfully run with the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target.
+ Several experiments after JLab 12 GeV upgrade are proposed to use the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target.
+ Although the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target was not used for the g2p experiment, I also worked on testing the
+ 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target for several months.
+\end_layout
+
+\begin_layout Subsubsection
+Polarization mechanisms
+\end_layout
+
+\begin_layout Standard
+Since the density of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ is too low, the spin exchange optical pumping was used instead of direct
+ optical pumping 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "3HeTarget"
+
+\end_inset
+
+.
+ The 
+\begin_inset Formula $K-Rb$
+\end_inset
+
+ mixture is first polarized by optical pumping.
+ Three diode lasers were installed to generate right circular light.
+ The ground state of 
+\begin_inset Formula $^{85}Rb\,5S_{1/2}$
+\end_inset
+
+ splits to 
+\begin_inset Formula $F=2$
+\end_inset
+
+ and 
+\begin_inset Formula $F=3$
+\end_inset
+
+ hyperfine status with the nuclear spin 
+\begin_inset Formula $I=\frac{5}{2}$
+\end_inset
+
+ and electron spin 
+\begin_inset Formula $S=\frac{1}{2}$
+\end_inset
+
+.
+ Each 
+\begin_inset Formula $F$
+\end_inset
+
+ splits to 
+\begin_inset Formula $2F+1$
+\end_inset
+
+ fine status as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ground-state-enegy"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../He3/pic/state.png
+	lyxscale 50
+	width 85line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ground-state-enegy"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Ground state enegy levels for 
+\begin_inset Formula $^{85}Rb$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Ground state enegy levels for 
+\begin_inset Formula $^{85}Rb$
+\end_inset
+
+, as 466 kHz/G of Zeeman splitting and 3036 MHz of hyperfine splitting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The first excited state 
+\begin_inset Formula $5P_{1/2}$
+\end_inset
+
+ and the other alkalis split to a similar pattern.
+ The right circular light causes 
+\begin_inset Formula $m_{F}$
+\end_inset
+
+ plus 1 for every excitation.
+ Most of the electrons stay in the 
+\begin_inset Formula $m_{F}=+3$
+\end_inset
+
+ state at last.
+ The polarization of alkali reaches more than 
+\begin_inset Formula $90\%$
+\end_inset
+
+.
+ The collision transfer of polarization between the polarized alkali and
+ the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ causes the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ polarized at a high record of 
+\begin_inset Formula $65\%$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "3HeTarget"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Target Setup
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:he3-target-setup"
+
+\end_inset
+
+ is the equipment construction of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target in target lab.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/setup_he3.svg
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:he3-target-setup"
+
+\end_inset
+
+
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Three pairs of orthogonal Helmholtz coils provide the holding field of
+ target.
+ The wavelength of diode laser has good monochromaticity and is true to
+ the absorption spectrum of Rb and K.
+ The laser will be leaded into the oven via the optics.
+ The Rb and K in the oven will be polarized.
+ The NMR and EPR part is used for measuring the polarization of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+.
+ The holding field control is used for controlling the magnitude and direction
+ of holding field.
+ The data is collected by GPIB to PC for control and analysis.
+\end_layout
+
+\begin_layout Subsubsection*
+Laser Optics
+\end_layout
+
+\begin_layout Standard
+In order to get high brightness, three diode lasers and six light roads
+ has been used.
+ The laser optics is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Laser-optics"
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/laser.png
+	lyxscale 30
+	width 70line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Laser-optics"
+
+\end_inset
+
+Laser optics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ There are two quarter wave plates, one lens, one cube and two mirrors in
+ every three roads.
+ The laser is lead into optics with fiber first, and then passes through
+ the lens in order to be focused into parallel.
+ When the laser passes through the cube, it is splitted to two roads, most
+ part of P wave passes through and is reflected by the 3
+\begin_inset Quotes erd
+\end_inset
+
+ mirror.
+ All of the S wave and about 10% P wave are reflected to the direction of
+ quarter wave plate by cube, then they passes through the quarter wave plate
+ twice.
+ The laser is transformed into right circular polarized light after the
+ optics.
+ Totally 6 roads of laser are extracted by the optics.
+ About 10% of laser is reflected back to fiber, and the necessary protection
+ for fiber is needed.
+\end_layout
+
+\begin_layout Subsubsection
+The principle of polarization measurement
+\end_layout
+
+\begin_layout Standard
+Two methods are used for measuring the polarization of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+, one is NMR, the other is EPR.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Nuclear Magnetic Resonance (NMR)
+\end_layout
+
+\begin_layout Standard
+The technique of adiabatic Fast Passage (AFP) is the key method in NMR Sweep.
+ The NMR signal is received with NMR pick-up coils when the spin reversal
+ happened since the holding field or frequency sweeping across resonance.
+ Combining with the same measurement performed for a water sample, the polarizat
+ion of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ is obtained.
+ Both the field sweep and the frequency sweep are used for the NMR measurement.
+ The NMR field sweep is described as follows.
+ The frequency sweep has similar principle.
+\end_layout
+
+\begin_layout Standard
+Classically, a torque is exerted by the magnetic field if a 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ nucleus is in a static magnetic field:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\frac{d\vec{M}}{dt} & =\gamma\vec{M}\times\vec{H_{0}},\label{eq:1}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\vec{M}$
+\end_inset
+
+ is the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ nucleus magnetic moment,
+\begin_inset Formula $\vec{H_{0}}$
+\end_inset
+
+ is the holding field, and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is the gyromagnetic ratio.
+ The 
+\begin_inset Formula $\frac{d\vec{M}}{dt}$
+\end_inset
+
+ is written in rotating frame as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\frac{d\vec{M}}{dt} & =\frac{\partial\vec{M}}{\partial t}+\vec{\omega}\times\vec{M},\label{eq:2}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\vec{\omega}$
+\end_inset
+
+ is the frequency of the rotating frame.
+ Combining (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+
+\end_inset
+
+) with (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:2"
+
+\end_inset
+
+), the following formula is obtained:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\frac{\partial\vec{M}}{\partial t} & =\gamma\vec{M}\times(\vec{H_{0}}+\frac{\vec{\omega}}{\gamma}).\label{eq:3}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we make comparisons about (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3"
+
+\end_inset
+
+), the holding field 
+\begin_inset Formula $\vec{H_{0}}$
+\end_inset
+
+ in (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+
+\end_inset
+
+) has been changed as effective field 
+\begin_inset Formula $(\vec{H_{0}}+\frac{\vec{\omega}}{\gamma})$
+\end_inset
+
+ in (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3"
+
+\end_inset
+
+).
+ We can choose a rotating frame that make the effective field vanished,
+ i.e.
+ let 
+\begin_inset Formula $\omega_{0}=-\gamma H_{0}$
+\end_inset
+
+ .
+ The holding field is in z direction in all time, and we can write 
+\begin_inset Formula $\vec{H_{0}}$
+\end_inset
+
+ as 
+\begin_inset Formula $H_{0}\vec{e_{z}}$
+\end_inset
+
+.
+ In x direction a RF field of 
+\begin_inset Formula $\vec{H}_{RF}=2H_{1}cos(\omega t)\vec{e_{z}}=H_{1}\hat{e}_{+}^{'}+H_{1}\hat{e}_{\_}^{'}$
+\end_inset
+
+ is applied, where 
+\begin_inset Formula $\hat{e}_{\pm}^{'}=cos(\omega t)\hat{e}_{x}\pm sin(\omega t)\hat{e}_{y}$
+\end_inset
+
+ which only needs one of them.
+ In the rotating frame the effective field can be written as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\vec{H_{e}} & =(H_{0}+\frac{\omega}{\gamma})\vec{e_{z}}+H_{1}\hat{e}_{+}^{'},\label{eq:4}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $H_{1}\vec{i}$
+\end_inset
+
+ is perpendicular to 
+\begin_inset Formula $\vec{H_{0}}$
+\end_inset
+
+ and have a frequency 
+\begin_inset Formula $\omega$
+\end_inset
+
+ to rotate it.
+ The absolute value, i.e.
+ the magnitude of 
+\begin_inset Formula $\vec{H_{e}}$
+\end_inset
+
+ is written as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+H_{e} & =\sqrt{(H_{0}+\frac{\omega}{\gamma})^{2}+H_{1}^{2}}.\label{eq:5}
+\end{align}
+
+\end_inset
+
+The angle 
+\begin_inset Formula $\theta$
+\end_inset
+
+ between the holding field 
+\begin_inset Formula $\vec{H_{0}}$
+\end_inset
+
+ and effective field 
+\begin_inset Formula $\vec{H_{e}}$
+\end_inset
+
+ can be written as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+tan\theta=\frac{H_{1}}{H_{0}+\frac{\omega}{\gamma}} & =\frac{\omega_{1}}{\omega_{0}-\omega}\label{eq:6}
+\end{align}
+
+\end_inset
+
+As the 
+\begin_inset Formula $H_{1}$
+\end_inset
+
+ is much smaller than 
+\begin_inset Formula $H_{0}$
+\end_inset
+
+, the angle 
+\begin_inset Formula $\theta$
+\end_inset
+
+ can be regarded as 0 unless 
+\begin_inset Formula $\omega_{0}-\omega$
+\end_inset
+
+ close to 0.
+ Once the 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+ is passed to 
+\begin_inset Formula $\omega$
+\end_inset
+
+, the nuclear magnetic resonance could be happened and the magnetic moment
+ of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ becomes anti-parallel to the holding field by following the effective field.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ average magnetic moment 
+\begin_inset Formula $<\vec{M}>$
+\end_inset
+
+ is proportional to the signal height.
+ Because the polarization of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ is proportional to 
+\begin_inset Formula $<\vec{M}>$
+\end_inset
+
+, the relationship between signal height and polarization is obtained by
+ taking the calibration process.
+\end_layout
+
+\begin_layout Standard
+The water calibration is used to calibrate the NMR signal by measuring the
+ thermal polarization of the proton in water.
+\end_layout
+
+\begin_layout Subsubsection*
+Electron paramagnetic resonance
+\end_layout
+
+\begin_layout Standard
+When the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ nucleus are polarized, a small magnet field at a level of 
+\begin_inset Formula $\sim0.1\,Gauss$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "XiaochaoZheng"
+
+\end_inset
+
+ was generated by their spins.
+ In addition to the holding magnet field of 
+\begin_inset Formula $25\,Gauss$
+\end_inset
+
+, the EPR frequency is decomposed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\nu_{EPR}=\nu_{0}\pm\Delta\nu_{EPR},\label{eq:nuepr}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\nu_{0}$
+\end_inset
+
+ is caused by holding field, 
+\begin_inset Formula $\Delta\nu_{EPR}$
+\end_inset
+
+ is related to the polarization of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+, and 
+\begin_inset Formula $\pm$
+\end_inset
+
+ corresponds to the direction of polarization.
+ Since the 
+\begin_inset Formula $\Delta\nu_{EPR}$
+\end_inset
+
+ is much smaller than 
+\begin_inset Formula $\nu_{0}$
+\end_inset
+
+, the adiabatic fast passage (AFP) sweep 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "abagrambook"
+
+\end_inset
+
+ was taken to reverse the polarization of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ periodically.
+ The 
+\begin_inset Formula $\Delta\nu_{EPR}$
+\end_inset
+
+ is extracted from the EPR frequency calculated before and after spin reversal:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta\nu_{EPR}=\frac{\nu_{EPR,\uparrow\Uparrow}-\nu_{EPR,\downarrow\Uparrow}}{2},\label{eq:deltanuepr}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+ and 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+ are two spin directions of the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ nucleus, 
+\begin_inset Formula $\Uparrow$
+\end_inset
+
+ are the direction of holding field.
+\end_layout
+
+\begin_layout Standard
+The polarization 
+\begin_inset Formula $P_{He}$
+\end_inset
+
+ has the following relation with the 
+\begin_inset Formula $\Delta\nu_{EPR}$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevA.71.013414"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P_{He}=\frac{3}{8\pi}\frac{(2I+1)}{g_{s}\mu_{B}}\frac{h}{\mu_{K}}\frac{\Delta\nu_{EPR}}{(1+\epsilon)\kappa_{0}\rho_{He}},\label{eq:polvsnu}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $g_{s}$
+\end_inset
+
+ is the electron 
+\begin_inset Formula $g$
+\end_inset
+
+ factor, 
+\begin_inset Formula $\mu_{B}$
+\end_inset
+
+ is Bohr magneton, 
+\begin_inset Formula $I$
+\end_inset
+
+ is the nuclear spin, 
+\begin_inset Formula $\frac{\mu_{K}}{h}$
+\end_inset
+
+ is the magnetic moment of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+, 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ is the magnetic moment correction factor, 
+\begin_inset Formula $\kappa_{0}$
+\end_inset
+
+ is the frequency shift enhancement factor depending on temperature
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kelleher,PhysRevA.58.3004"
+
+\end_inset
+
+, 
+\begin_inset Formula $\rho_{He}$
+\end_inset
+
+ is the density of 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Frequency lock
+\end_layout
+
+\begin_layout Standard
+The frequency modulation (FM) sweep is used to find the EPR resonance frequency
+ in order to lock it to do the AFP sweep.
+ If a magnetic field with EPR resonance frequency is added, two splitted
+ states between 
+\begin_inset Formula $5P_{1/2}$
+\end_inset
+
+ and 
+\begin_inset Formula $5P_{3/2}$
+\end_inset
+
+ are mixed.
+ More electrons in state of 
+\begin_inset Formula $5P_{3/2}$
+\end_inset
+
+ causes decay from 
+\begin_inset Formula $5P_{3/2}$
+\end_inset
+
+ to 
+\begin_inset Formula $5S_{1/2}$
+\end_inset
+
+ and emit 785nm light which called 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ light.
+ In the meantime the 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ absorption spectrum happens caused by 
+\begin_inset Formula $5S_{1/2}\:\rightarrow\,5P_{1/2}$
+\end_inset
+
+.
+ Because of the narrow laser we used, the laser light absorbed cleanly with
+ little noise of background, which means we can get a clean 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ absorption spectrum.
+ The original gaussian peak of 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ light is almost absorbed.
+ Either 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ light could be used to lock the EPR resonance frequency.
+ The 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ light are picked by photodiode and exported by fiber.
+ In order to get maximum signal, the best place was found for photodiode.
+ The photodiode for 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ was placed in the top of the oven, and for 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ was placed in the front of the oven.
+ A 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ filter was used for the 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ photodiode to detect the increase in 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ light.
+ Since 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ light is much brighter than 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+, no filter was added for 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ photodiode.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Frequency-modulation-sweep"
+
+\end_inset
+
+ shows an example of EPR FM sweep by either using 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../He3/pic/D2AllPeaks.png
+	lyxscale 30
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+FM sweep using 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ light
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../He3/pic/D1AllPeaks.png
+	lyxscale 30
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+FM sweep using 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ light
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Frequency-modulation-sweep"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Frequency modulation sweep
+\end_layout
+
+\end_inset
+
+Frequency modulation sweep, x axis is the frequency, y axis is the signal
+ after Fourier transformer.
+ Each peak indicate one alkali nuclide.
+ The red lines are the real part, while the blue lines are the imaginary
+ part.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

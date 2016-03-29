@@ -1,0 +1,2624 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+The Hall A High Resolution Spectrometers 
+\end_layout
+
+\begin_layout Standard
+The g2p experiment uses the standard Hall A high resolution spectrometers
+ (HRS) and their detector package to detect the scattered electrons, as
+ shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+, id 13 and 14.
+ Since the g2p experiment is an inclusive experiment, two arms, left arm
+ and right arm, did the same job for the reason of increasing the statistic
+ and independent with each other.
+ Each arm has a group of Q1-Q2-D-Q3 super conducting magnets set.
+ The Q1, Q2 and Q3 are three quadrupoles for focusing.
+ The D is a dipole magnet to select the electrons with chosen momentum value.
+ It bends the electron to the detector set with a vertical bend of 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+ in a small range of momenta and scattering angles, which provides the momentum
+ resolution at the level of 
+\begin_inset Formula $10^{-4}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+.
+ Other characteristics of HRS are shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:CharacteristicsHRS"
+
+\end_inset
+
+.
+ 
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Optical length
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.4 m
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Momentum range
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3-4.0 GeV/c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Momentum acceptance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-4.5\%<\delta p/p<+4.5\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Momentum resolution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1\times10^{-4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Left arm HRS angular range
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12.5-150^{\circ}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Right arm HRS angular range
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12.5-130^{\circ}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horizontal angular acceptance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm30$
+\end_inset
+
+ mrad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical angular acceptance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm60$
+\end_inset
+
+ mrad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horizontal angular resolution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5 mrad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical angular resolution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 mrad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solid angle at 
+\begin_inset Formula $\delta p/p=0,y_{0}=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 msr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transverse length acceptance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm5$
+\end_inset
+
+ cm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transverse position resolution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 mm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:CharacteristicsHRS"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Characteristics of the Hall A HRS
+\end_layout
+
+\end_inset
+
+Characteristics of the Hall A HRS 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Septum magnet
+\end_layout
+
+\begin_layout Standard
+The g2p experiment measured the scattered electron in 
+\begin_inset Formula $6^{\circ}$
+\end_inset
+
+ forward angle.
+ However, the minimum achievable angle for the HRS is 
+\begin_inset Formula $12.5^{\circ}$
+\end_inset
+
+.
+ The septum magnets were installed in front of the spectrometer to reach
+ the angle to 
+\begin_inset Formula $6^{\circ}$
+\end_inset
+
+ for two arms.
+ The target was placed 87.693 cm upstream of the traditional Hall A center
+ to accommodate the magnets.
+ The schematic of the septum is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:septum"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/septum.png
+	lyxscale 30
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:septum"
+
+\end_inset
+
+Schematic diagram of the septum magnet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Combining with the septum and the HRS, the angular acceptance is ~ 2 msr,
+ and the momentum resolution is ~
+\begin_inset Formula $2\times10^{-4}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Subsection
+Detector package in HRS
+\end_layout
+
+\begin_layout Standard
+The detector package for the HRS is installed in a shield hut with the data
+ acquisition electronics (DAQ) at the end of the magnet group as shown in
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+, id 14.
+ The layout of the detector package is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Layoutdetector"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/HRS2.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Layoutdetector"
+
+\end_inset
+
+Layout of the detector package
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The detector package contains a set of vertical drift chambers used for
+ tracking information, a gas Cerenkov detector and a set of lead glass calorimet
+er used for particle identify, two sets of scintillators used for the DAQ
+ trigger.
+ The efficiencies of the detectors were studied in detail.
+\end_layout
+
+\begin_layout Subsubsection
+Vertical drift chambers
+\end_layout
+
+\begin_layout Standard
+The vertical drift chambers (VDC) were used to measure the position and
+ angle of incidence electrons at the spectrometer focal plane at a level
+ of 
+\begin_inset Formula $\pm125\ \mbox{\mu m}$
+\end_inset
+
+ and 0.5 mrad, respectively 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallvdc"
+
+\end_inset
+
+.
+ The diagram of the VDC is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vdc"
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/vdc.png
+	lyxscale 30
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vdc"
+
+\end_inset
+
+Schematic diagram of the VDC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ The VDC is composed of two wire planes with 0.335 m vertical separation,
+ each plane contains 368 sense wires 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fissum2001108"
+
+\end_inset
+
+.
+ Each plane is selected a perpendicular UV wires configuration, which are
+ inclined angle of 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+ respect to the dispersive and non-dispersive directions.
+ The chambers are filled with the gas mixture of argon and ethane.
+ The electric field is generated by a high voltage with the nominal operating
+ voltage of -4 kV.
+ Each wire is connected to the Time-to-Digital Converter (TDC) to reconstruct
+ the track.
+ The timing is used to determine the drift distances for each wire.
+ A linear fit of drift distances versus wire position is used to determine
+ the cross-over point of the track.
+\end_layout
+
+\begin_layout Standard
+The VDC's track efficiency is defined as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiemultitrack"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Eff_{VDC}=\frac{N_{good}}{N_{total}},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $N_{total}$
+\end_inset
+
+ is the total events, 
+\begin_inset Formula $N_{good}$
+\end_inset
+
+ is the number of good events which have at least one track reconstructed
+ in VDC and verified by the lead glass calorimeters.
+ Usually we use the single-track efficiency instead:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Eff_{VDC\_single}=\frac{N_{single}}{N_{total}},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $N_{single}$
+\end_inset
+
+ is the number of events which only have one good track.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VDC-efficiencies-left"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VDC-efficiencies-right"
+
+\end_inset
+
+ (a) show the single-track efficiencies for the g2p experiment, and (b)
+ shows the multi-track probabilities.
+ The figures clearly show that in some momentum ranges (near the elastic)
+ the probability for an event with multi-tracks can reach 30%.
+ The multi-track events were carefully distinguished using the information
+ from lead glass.
+ The total track efficiencies can be reached to more than 99% after the
+ correction (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VDC-efficiencies-left"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VDC-efficiencies-right"
+
+\end_inset
+
+ (c) ).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/onetrackeff_left.png
+	lyxscale 20
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Single-track probabilities vs HRS momentum for left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/multitrackprob_left.png
+	lyxscale 20
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Multi-track probilities vs HRS momentum for left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/multitrackeff_left.png
+	lyxscale 20
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Total VDC track efficiencies vs momentum for left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VDC-efficiencies-left"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+VDC track efficiencies for left arm
+\end_layout
+
+\end_inset
+
+VDC track efficiencies for left arm 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiemultitrack"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/onetrackeff_right.png
+	lyxscale 20
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Single-track probabilities vs HRS momentum for right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/multitrackprob_right.png
+	lyxscale 20
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Multi-track probilities vs HRS momentum for right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/multitrackeff_right.png
+	lyxscale 20
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Total VDC track efficiencies vs momentum for right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VDC-efficiencies-right"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+VDC track efficiencies for right arm
+\end_layout
+
+\end_inset
+
+VDC track efficiencies for right arm 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiemultitrack"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Trigger scintillators
+\end_layout
+
+\begin_layout Standard
+A pair of plastic scintillator planes (S1 and S2m) separated by 2 m triggers
+ the data acquisition system.
+ The S1 has six 
+\begin_inset Formula $0.5\,cm\,\times\,30\,cm\,\times\:36\,cm$
+\end_inset
+
+ paddles in a 
+\begin_inset Formula $1\:\times\:6$
+\end_inset
+
+ arrangement.
+ The S2m has sixteen 
+\begin_inset Formula $43.2\,cm\,\times\,5.1\,cm\,\times\:14\,cm$
+\end_inset
+
+ paddles in a 
+\begin_inset Formula $1\:\times\:16$
+\end_inset
+
+ arrangement.
+ Each paddle is read out via two photomultiplier tubes (PMTs) on two sides.
+ Detail of the DAQ system will be described in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:The-Data-Acquisition"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Gas Cherenkov detector
+\end_layout
+
+\begin_layout Standard
+In order to distinguish between electrons and pions, a threshold gas Cherenkov
+ detector is installed with a pair of electromagnetic lead glass calorimeter
+ in each HRS.
+ The gas Cherenkov is mounted between two scintillators and operated at
+ atmospheric pressure with 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ with an index of refraction of 1.0004.
+ It is based on the detection of the Cherenkov light, which is produced
+ by a particle passing through faster than light in the medium.
+ A heavier particle such as a pion needs the momentum threshold of 4.87 GeV/c
+ to produce the Cherenkov light, compared with the threshold of 18 MeV/c
+ for an electron.
+ None of the g2p momentum settings are higher than 3.3 GeV, the gas Cherenkov
+ can suppress most of the pions.
+\end_layout
+
+\begin_layout Standard
+Ten spherical mirrors with the radius of curvature of 90 cm 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iodice1998223"
+
+\end_inset
+
+ and the focal length of 80 cm 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+ are installed.
+ Each mirror is viewed by a PMT.
+ The signals from the PMTs are sent to the analog-to-digital converter (ADC)
+ and summed.
+ The signal of the gas Cherenkov also provides the efficiency trigger for
+ the DAQ system.
+ 
+\end_layout
+
+\begin_layout Standard
+The detector efficiency of gas Cherenkov was determined by selecting a sample
+ of events that were seen in the lead-glass calorimeter, and counting the
+ number of these events that also fired the gas Cherenkov.
+ The detector efficiency for gas Cherenkov was found above 99.8%, as shown
+ in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cherencovdeteff"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/cherencoveff_left.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/cherencoveff_right.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cherencovdeteff"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Detector efficiency for gas Cherenkov detector 
+\end_layout
+
+\end_inset
+
+Detector efficiency for gas Cherenkov detector 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lead glass calorimeter
+\end_layout
+
+\begin_layout Standard
+The pion can produce the knocked electrons from the materials, which can
+ excite the signal in the Cherenkov detector.
+ It can be suppressed by two layers of lead glass calorimeters in each HRS
+ as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:shower"
+
+\end_inset
+
+.
+ The first layer for the right arm is composed of 48 
+\begin_inset Formula $10\,cm\,\times\,10\,cm\,\times\,35\,cm$
+\end_inset
+
+ lead glass blocks which oriented perpendicular to the particle track, whereas
+ the second layer is composed of 80 
+\begin_inset Formula $15\,cm\,\times\,15\,cm\,\times\,35\,cm$
+\end_inset
+
+ lead glass blocks which oriented parallel to the particle track for the
+ right arm.
+ For the left arm the first layer is composed of 34 
+\begin_inset Formula $15\,cm\,\times\,15\,cm\,\times\,30(35)\,cm$
+\end_inset
+
+ lead glass blocks, and the second layer is composed of 34 similar blocks.
+ Each block is viewed by a PMT and connected to the ADC.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/shower.png
+	lyxscale 30
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:shower"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Layout for the lead glass calorimeters for two arms
+\end_layout
+
+\end_inset
+
+Layout for the lead glass calorimeters for two arms
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+.
+ HRS-L for left arm, HRS-R for right arm.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+To determine the detector efficiency for the lead glass calorimeter, a selection
+ of electrons that triggered the gas Cherencov is made.
+ The number of these events that also trigger the lead glass calorimeter
+ are then counted.
+ The detector efficiency for the lead glass calorimeter was found above
+ 98.8% in all kinematic ranges, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:leadglassdeteff"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/showereff_left.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/showereff_right.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:leadglassdeteff"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Detector efficiency for lead glass calorimeter
+\end_layout
+
+\end_inset
+
+Detector efficiency for lead glass calorimeter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Cut efficiency and pion suppression
+\end_layout
+
+\begin_layout Standard
+Three cuts are used for particle identification: a gas Cherencov threshold
+ cut, a cut on the first layer of lead glass, and a cut on the total energy
+ deposited in the calorimeter.
+ The purpose of these cuts is maximum suppressing the pion contamination
+ and minimum cutting out the good electron events.
+ The gas Cherencov threshold cut can maintains a high electron detection
+ efficiency greater than 99.5% percent for most of the kinematic settings,
+ as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cherencovcuteff"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/cherencov_cuteff_left.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/cherencov_cuteff_right.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cherencovcuteff"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Cut efficiency for gas Cherenkov detector 
+\end_layout
+
+\end_inset
+
+Cut efficiency for gas Cherenkov detector 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The cuts on the lead glass calorimeter are momentum dependent, which were
+ determined separately for each kinematic settings.
+ They are chosen that the overall electron detection efficiency does not
+ fall below 99%.
+ The first layer cut was placed a conservative cut, while the summed energy
+ in both layers were placed a seperate cut.
+ The overall pion supression was determined by applying all of these three
+ cuts.
+ The level of residual pion contamination is below 0.0052 for 
+\begin_inset Formula $\pi/e$
+\end_inset
+
+ for all kinematic settings, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:pionsubeff"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/pion-sup_left.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/pion-sup_right.png
+	lyxscale 20
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Right arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:pionsubeff"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Pion suppression 
+\end_layout
+
+\end_inset
+
+Pion suppression 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissaeffucuency"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Simulation package
+\end_layout
+
+\begin_layout Standard
+A new Monte-Carlo simulation package was developed to study the spectrometer
+ acceptance and the optics calibration with the target field.
+ It has been tuned to work with the effect of the target and septum fields.
+ The package was developed with an optimized Runge-Kutta method with self-adjust
+ing step length to improve the speed and accuracy, based on the hall A Single
+ Arm Monte-Carlo (SAMC) package.
+ Several different cross-section models and energy-loss models are included
+ in the elastic and resonance kinematic regions.
+ The simulation results are also used to compare with the results in the
+ packing fraction study.
+\end_layout
+
+\begin_layout Subsection
+Spectrometer optics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/opticsdiag.png
+	lyxscale 40
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematicoptics"
+
+\end_inset
+
+Schematic of the components related in the optics study
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The purpose of the HRS optics study is to reconstruct the kinematic variables
+ of the scattered electrons at the reaction point with a set of optics matrix
+ elements, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematicoptics"
+
+\end_inset
+
+.
+ The relationship between the variables at the reaction point (target) and
+ at the focal plane for the first order approximation is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{c}
+\delta\\
+\theta\\
+y\\
+\phi
+\end{array}\right)_{tg}=\left(\begin{array}{cccc}
+<\delta|x> & <\delta|\theta>\\
+<\theta|x> & <\theta|\theta>\\
+ &  & <y|y> & <y|\phi>\\
+ &  & <\phi|y> & <\phi|\phi>
+\end{array}\right)\left(\begin{array}{c}
+x\\
+\theta\\
+y\\
+\phi
+\end{array}\right)_{focal},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\delta$
+\end_inset
+
+ is the defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\delta=\frac{P-P_{0}}{P_{0}},\label{eq:dp}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $P$
+\end_inset
+
+ is the measured momentum for scattered electron, and 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+ is the spectrometer central momentum.
+ The variables 
+\begin_inset Formula $(\delta,\theta,y,\phi)_{tg}$
+\end_inset
+
+ are defined in the target coordinate system, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Target-coordinate-system"
+
+\end_inset
+
+.
+ The z direction of the target coordinate system is defined by the direction
+ of spectrometer central ray.
+ The optics data with no target field has been optimized for both the left
+ and right HRS, which allows us to remove the additional complexity of the
+ target field and focus on the septa and HRS magnets.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/target_coord.png
+	lyxscale 40
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Target-coordinate-system"
+
+\end_inset
+
+Target coordinate system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The angles 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi$
+\end_inset
+
+ related optics matrix elements are calibrated with the standard sieve slit
+ method 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nilangaoptics"
+
+\end_inset
+
+.
+ A single carbon foil target and the point beam (without raster) were used
+ for this purpose.
+ The sieve slit (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sieve-slit"
+
+\end_inset
+
+(a)) was located between the target and the septum.
+ The 
+\begin_inset Formula $\theta_{tg}$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{tg}$
+\end_inset
+
+ were calculated from the known geometry of sieve slit and the survey data.
+ The reconstructed sieve slit histogram after the calibration is shown in
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sieve-slit"
+
+\end_inset
+
+(b).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/optics_sieve.png
+	lyxscale 20
+	width 40col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sieve slit.
+ Labels on the left and button are for convenient during the study.
+ Two of the holes are large holes which used to determine the orientation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/optics_sieve_hist.png
+	lyxscale 20
+	width 55col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Reconnstructed sieve slit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sieve-slit"
+
+\end_inset
+
+Sieve slit and its reconstructed histogram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\delta$
+\end_inset
+
+ was calibrated by using the elastic peak of carbon data.
+ The reconstructed momentum after the calibration is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optics_momentum"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/optics_momentum.png
+	lyxscale 30
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:optics_momentum"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Reconstructed momentum after calibration
+\end_layout
+
+\end_inset
+
+Reconstructed momentum after calibration, red line is calculated from carbon
+ elastic.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At the very forward scattering angle of 
+\begin_inset Formula $5.69^{\circ}$
+\end_inset
+
+, foil targets with a large 
+\begin_inset Formula $z$
+\end_inset
+
+ position separation are needed to calibrate the 
+\begin_inset Formula $y_{tg}$
+\end_inset
+
+ related optics matrix elements.
+ A single foil carbon target and the aluminum entrance window of the target
+ chamber are used for this purpose.
+ This will make the resolutions slightly worse but still satisfy our requirement.
+ The calibrated result is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optics_y"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/optics_y.png
+	lyxscale 30
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:optics_y"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Reconstructed y after calibration
+\end_layout
+
+\end_inset
+
+Reconstructed y after calibration.
+ The red histograms are calculated from survey, the black one are from reconstru
+ction.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+In additional to the calibration of the optics matrix, the central angle
+ of the spectrometer system is studied with two different methods: using
+ survey information or using double elastic peaks 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mincentangle"
+
+\end_inset
+
+.
+ The survey information provides smaller systematic uncertainty and is the
+ one being used.
+ The central angle, together with the relative scattering angle reconstructed
+ by the optics matrix, is used to calculate the scattering angle of the
+ out-going electrons.
+ 
+\end_layout
+
+\begin_layout Standard
+The resolutions for the optics without the target field are close to the
+ nominal performance of the HRS system as shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Performance-optics"
+
+\end_inset
+
+.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RMS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LHRS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RHRS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nominal performance 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nilangaoptics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\delta$
+\end_inset
+
+[dp] 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.5\times10^{-4}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.4\times10^{-4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.1\times10^{-4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta$
+\end_inset
+
+[out of plane angle] 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.59 mrad 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.57 mrad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.55 mrad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.3 mm 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.9 mm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.7 mm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi$
+\end_inset
+
+[in plane angle] 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.99 mrad 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.82 mrad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.85 mrad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Performance-optics"
+
+\end_inset
+
+Performance summary of RMS values for optics study without target field
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In g2p setting, the strong transverse target field makes the optics study
+ more challenging.
+ To deal with this target field, the reconstruction process is separated
+ into two parts.
+ The first part, containing the septum magnet and HRS, is assumed to be
+ represented by the matrix with no target field which has been described
+ above.
+ Unfortunately, the configuration changes during the experiment because
+ of the broken septum magnet, which requires the matrix elements to be re-calibr
+ated.
+ The simulation package mentioned above is used to calculate the reference
+ angles of the fits for the recalibration.
+ The second part, the target field region, is treated only with a ray-tracing
+ method.
+ The same simulation package is also used here to calculate the trajectory
+ of the scattered electrons.
+ 
+\end_layout
+
+\end_body
+\end_document

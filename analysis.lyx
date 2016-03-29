@@ -1,0 +1,5565 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Results
+\end_layout
+
+\begin_layout Section
+Extract asymmetry from data
+\end_layout
+
+\begin_layout Standard
+The calculation of asymmetry is the first step to extract the spin structure
+ functions.
+ In order to get the asymmetry, the study of the polarization of beam and
+ target, the packing fraction, the dilution factor and the radiative correction
+ are needed.
+ This section presents the physics asymmetries extracted from the data.
+\end_layout
+
+\begin_layout Subsection
+Asymmetry method
+\end_layout
+
+\begin_layout Standard
+The physics asymmetry in either longitudinal or transverse setting is defined
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{phys}=\frac{1}{P_{b}\cdot P_{t}\cdot D_{f}}A_{meas},\label{eq:asym}
+\end{equation}
+
+\end_inset
+
+where :
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{b}$
+\end_inset
+
+ is the beam polarization,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{t}$
+\end_inset
+
+ is the target polarization,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{f}$
+\end_inset
+
+ is the dilution factor,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{meas}$
+\end_inset
+
+ is the measured asymmetry, which is calculated by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{meas}=\frac{Y_{+}-Y_{-}}{Y_{+}+Y_{-}},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{\pm}$
+\end_inset
+
+ are the normalized yield in either helicity status.
+ The yield is calculated as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y=\frac{p_{s}\cdot N}{Q\cdot L\cdot\epsilon_{det}},
+\end{equation}
+
+\end_inset
+
+where:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $N$
+\end_inset
+
+ is the number of counts,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p_{s}$
+\end_inset
+
+ is the prescale factor,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\epsilon_{det}$
+\end_inset
+
+ is the detector efficiency which is equal to:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\epsilon_{det}=\epsilon_{VDC}\cdot\epsilon_{trig}\cdot\epsilon_{Cer}\cdot\epsilon_{cal},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\epsilon_{VDC}$
+\end_inset
+
+ is the VDC efficiency, 
+\begin_inset Formula $\epsilon_{trig}$
+\end_inset
+
+ is the trigger efficiency, 
+\begin_inset Formula $\epsilon_{Cer}$
+\end_inset
+
+ is the gas Cherenkov efficiency and 
+\begin_inset Formula $\epsilon_{cal}$
+\end_inset
+
+ is the lead glass calorimeter efficiency,
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $L$
+\end_inset
+
+ is the livetime of the DAQ system, which is equal to 
+\begin_inset Formula $1-deadtime$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q$
+\end_inset
+
+ is the total charge.
+ 
+\begin_inset Formula $Y_{\pm}$
+\end_inset
+
+, 
+\begin_inset Formula $Q_{\pm}$
+\end_inset
+
+ and 
+\begin_inset Formula $L_{\pm}$
+\end_inset
+
+ are the total charge and livetime in either helicity status, respectively.
+\end_layout
+
+\begin_layout Standard
+The uncertainty of the physics asymmetry caused by the statistic is calculated
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\delta A=\frac{2Y_{+}Y_{-}}{(Y_{+}+Y_{-})^{2}}\sqrt{\frac{S_{+}^{2}}{N_{+}}+\frac{S_{-}^{2}}{N_{-}}},\label{eq:asymerr}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $S$
+\end_inset
+
+ is the statistical fluctuation due to the prescale factor, which can be
+ calculated as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S=\sqrt{1-Lf(1-\frac{1}{p_{s}})},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $f$
+\end_inset
+
+ is the acceptance for useful events: 
+\begin_inset Formula 
+\begin{equation}
+f=\frac{N_{accepted}}{N_{recorded}}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Charge asymmetry
+\end_layout
+
+\begin_layout Standard
+The charge asymmetry is defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{Q}=\frac{Q_{+}-Q_{-}}{Q_{+}+Q_{-}}.
+\end{equation}
+
+\end_inset
+
+It is typically from the injector, such as from the pocket cell or half-wave
+ plate.
+ Checking the charge asymmetry is necessary to find the potential problems
+ which will cause additional uncertainties.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Charge-asymmetry"
+
+\end_inset
+
+ shows the charge asymmetries for the production runs during the whole experimen
+t period.
+ The average charge asymmetry for the whole run period is 
+\begin_inset Formula $83\pm187\ ppm$
+\end_inset
+
+, which is very small.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/chargeasym.png
+	lyxscale 30
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Charge-asymmetry"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Charge asymmetries for the production runs
+\end_layout
+
+\end_inset
+
+Charge asymmetries for the production runs during the whole experiment period
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+False asymmetry
+\end_layout
+
+\begin_layout Standard
+The false asymmetry is defined as the raw asymmetry for the unpolarized
+ target.
+ A lot of potential sources may cause abnormal false asymmetry, such as
+ charge, livetime, the power-supply for each electronics, or even the commercial
+ electricity.
+ It is important to check it in detail.
+ The false asymmetry was checked by using the carbon target or the dummy
+ target which is unpolarized.
+ The results are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:False-asymmetries"
+
+\end_inset
+
+.
+ The average false asymmetry during the experiment is 
+\begin_inset Formula $-96\pm48\ ppm$
+\end_inset
+
+ , which will be used in the systematic error calculation.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/falseasym_-10.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, Longitudinal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/falseasym_7.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, Transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/falseasym_9.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=3.3GeV, Field=5T, Transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/falseasym_5.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=2.5T, Transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/falseasym_4.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=1.7GeV, Field=2.5T, Transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/falseasym_1.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=1.1GeV, Field=2.5T, Transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:False-asymmetries"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+False asymmetries for different beam energy settings
+\end_layout
+
+\end_inset
+
+False asymmetries for different beam energy settings.
+ Blue dots are without the detector cut, while green dots are with the detector
+ cut.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Packing fraction
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target cell is comprised of ammonia beads and liquid helium.
+ The packing fraction, or the ratio of the length of ammonia to the total
+ target length, must be understood for dilution analysis.
+ The packing fraction was extracted from data using the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target, the dummy target and the carbon target.
+\end_layout
+
+\begin_layout Standard
+The diagram of the target nose is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:pack_targetnose"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/packing_tgtdiag.png
+	lyxscale 30
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:pack_targetnose"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Diagram for the comparison of the 
+\begin_inset Formula $l_{tg}$
+\end_inset
+
+ and 
+\begin_inset Formula $l_{tot}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Diagram for the comparison of the 
+\begin_inset Formula $l_{tg}$
+\end_inset
+
+ and 
+\begin_inset Formula $l_{tot}$
+\end_inset
+
+, where the former is the length of the target cell, and the latter is the
+ length of the target nose 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The 
+\begin_inset Formula $l_{tg}$
+\end_inset
+
+ is the length of the target chamber, while the 
+\begin_inset Formula $l_{tot}$
+\end_inset
+
+ is the total length of the target nose.
+ Both of them were surveyed before the experiment.
+ The 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target chamber is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Target-insert"
+
+\end_inset
+
+.
+ The yield of production data using the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target can be exploded by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{prod}=Y_{He}^{out}+(1-p_{f})Y_{He}^{full}+p_{f}Y_{NH_{3}}^{full},\label{eq:packing-yprod}
+\end{equation}
+
+\end_inset
+
+where:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Y_{He}^{out}$
+\end_inset
+
+ is the yield for helium outside the target chamber,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Y_{He}^{full}$
+\end_inset
+
+ is the yield for helium inside the target chamber if the target chamber
+ is full of helium,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Y_{NH_{3}}^{full}$
+\end_inset
+
+ is the yield for ammonia if the target chamber is full of the target material,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p_{f}$
+\end_inset
+
+ is the packing fraction.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $Y_{He}^{out}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{He}^{full}$
+\end_inset
+
+ can be obtained from the dummy target, where the target cell is filled
+ only with liquid helium:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+Y_{He}^{out} & =\frac{l_{tot}-l_{tg}}{l_{tot}}Y_{dummy},\\
+Y_{He}^{full} & =\frac{l_{tg}}{l_{tot}}Y_{dummy,}\label{eq:packing-Yhefull}
+\end{align}
+
+\end_inset
+
+The packing fraction can be extracted from the ratio of yield instead of
+ calculating the absolute cross section which needs the additional acceptance
+ factors from equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:packing-yprod"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:packing-Yhefull"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+p_{f}=\frac{l_{tot}}{l_{tg}}(\frac{Y_{prod}}{Y_{dummy}}-1)(\frac{Y_{NH_{3}}^{full}}{Y_{He}^{full}}-1),\label{eq:pf}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is not possible to extract the 
+\begin_inset Formula $Y_{NH_{3}}^{full}$
+\end_inset
+
+ from the data.
+ The elastic form factors are used to extract the ratio of 
+\begin_inset Formula $Y_{NH_{3}}^{full}/Y_{He}^{full}$
+\end_inset
+
+.
+ The yield has the relation with the cross section as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y=\sigma\frac{A_{cc}\cdot N_{A}\rho l}{M},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $M$
+\end_inset
+
+ is the molar mass, 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is the density, 
+\begin_inset Formula $A_{cc}$
+\end_inset
+
+ is the acceptance, and 
+\begin_inset Formula $l$
+\end_inset
+
+ is the length.
+ The equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pf"
+
+\end_inset
+
+) can then be written as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+p_{f}=\frac{l_{tot}}{l_{tg}}(\frac{Y_{prod}}{Y_{dummy}}-1)(\frac{\sigma_{N}}{\sigma_{He}}\frac{\rho_{N}M_{He}}{\rho_{He}M_{N}}+\frac{\sigma_{H}}{\sigma_{He}}\frac{\rho_{H}M_{He}}{\rho_{He}M_{H}}-1).
+\end{equation}
+
+\end_inset
+
+The cross section ratios 
+\begin_inset Formula $\sigma_{N}/\sigma_{He}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{H}/\sigma_{He}$
+\end_inset
+
+ are determined from the elastic form factors 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.83.015203"
+
+\end_inset
+
+, while the yield ratio 
+\begin_inset Formula $Y_{prod}/Y_{dummy}$
+\end_inset
+
+ is obtained from data.
+ The fits to the elastic peak of 
+\begin_inset Formula $N$
+\end_inset
+
+, 
+\begin_inset Formula $H$
+\end_inset
+
+ and 
+\begin_inset Formula $He$
+\end_inset
+
+ are used to extract the 
+\begin_inset Formula $Y_{prod}/Y_{dummy}$
+\end_inset
+
+ , as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:pack-fit"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/packing_dummypeak.png
+	lyxscale 20
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fit for the dummy target.
+ Dotted line represents the elastic region
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/packing_prodpeak.png
+	lyxscale 20
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fit for the production run 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:pack-fit"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fit to elastic and quasi-elastic peak in order to extract the yield ratio
+\end_layout
+
+\end_inset
+
+Fit to elastic and quasi-elastic peak in order to extract the yield ratio.
+ Figures are from Melissa 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The quasi-elastic contamination is need to be removed.
+ For the dummy target, two fits were taken: Landau-Gaussian fit for elastic
+ peak and a Gaussian fit for quasi-elastic peak.
+ For the production data, it is more complicated, since the first peak contains
+ the nitrogen and helium elastic peak, and the second peak contains the
+ nitrogen and helium quasi-elastic peak and the hydrogen elastic peak.
+ The hydrogen elastic peak was predicted from the elastic factors.
+ The QFS model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ConnellQFS"
+
+\end_inset
+
+ was used to predict the quasi-elastic peak.
+ For the helium quasi-elastic peak, the parameters of model were adjusted
+ in the dummy target.
+ For the nitrogen quasi-elastic peak, the parameters were first adjusted
+ using the data from carbon target since there is no pure nitrogen data
+ collected in the experiment, and second adjusted in the ammonia target.
+ The final yield ratio is extracted from the fitted areas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{Y_{prod}}{Y_{dummy}}=\frac{S_{e-He}+S_{e-N}+S_{e-H}}{S_{e-He}},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{e-He}$
+\end_inset
+
+, 
+\begin_inset Formula $S_{e-N}$
+\end_inset
+
+ and 
+\begin_inset Formula $S_{e-H}$
+\end_inset
+
+ is the area of the elastic peak for 
+\begin_inset Formula $He$
+\end_inset
+
+, 
+\begin_inset Formula $N$
+\end_inset
+
+ and 
+\begin_inset Formula $H$
+\end_inset
+
+ after subtracting the quasi-elastic contamination, respectively.
+\end_layout
+
+\begin_layout Standard
+The preliminary results for each settings during the experiment can be found
+ in Melissa's technote 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Dilution
+\end_layout
+
+\begin_layout Standard
+The measured asymmetry is diluted by contributions from the nitrogen in
+ the ammonia target material, helium used to cool the target, and the aluminum
+ target end caps.
+ It can be rewritten as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{meas}=\frac{Y_{H+}-Y_{H-}}{Y_{H+}+Y_{H-}+Y_{bg}},\label{eq:Ameas}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $Y_{bg}$
+\end_inset
+
+ is the background yield caused by the elements other than hydrogen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{bg}=Y_{N}+Y_{He}+Y_{Al}.\label{eq:Ybg}
+\end{equation}
+
+\end_inset
+
+The dilution factor is extracted from equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ameas"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D_{f}=1-\frac{Y_{bg}}{Y_{prod}}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Besides the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target, three other targets were used for dilution study: the empty target
+ which is full of liquid helium, the dummy target, and the carbon target.
+ Each yield can be expressed by the cross sections:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{prod}=A_{cc}N_{A}(\frac{p_{f}l_{tg}\rho_{N}}{M_{N}}\sigma_{N}+\frac{p_{f}l_{tg}\rho_{H}}{M_{H}}\sigma_{H}+\frac{(l_{tot}-p_{f}l_{tg})\rho_{He}}{M_{He}}\sigma_{He}+\frac{l_{Al}\rho_{Al}}{M_{Al}}\sigma_{Al}),
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{bg}=A_{cc}N_{A}(\frac{p_{f}l_{tg}\rho_{N}}{M_{N}}\sigma_{N}+\frac{(l_{tot}-p_{f}l_{tg})\rho_{He}}{M_{He}}\sigma_{He}+\frac{l_{Al}\rho_{Al}}{M_{Al}}\sigma_{Al}),
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{dummy}=A_{cc}N_{A}(\frac{l_{tot}\rho_{He}}{M_{He}}\sigma_{He}+\frac{l_{Al}\rho_{Al}}{M_{Al}}\sigma_{Al}),
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{empty}=A_{cc}N_{A}(\frac{l_{tot}\rho_{He}}{M_{He}}\sigma_{He}),
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{carbon}=A_{cc}N_{A}(\frac{(l_{tot}-l_{C})\rho_{He}}{M_{He}}\sigma_{He}+\frac{l_{C}\rho_{C}}{M_{C}}\sigma_{C}),
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $l_{C}$
+\end_inset
+
+ is the length of the carbon target.
+ The aluminum contamination is extracted from the dummy yield and the empty
+ yield:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{Al}=Y_{dummy}-Y_{empty},
+\end{equation}
+
+\end_inset
+
+and the helium contamination is extracted from the empty yield:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{He}=Y_{empty}\cdot(1-\frac{l_{tg}}{l_{tot}}p_{f}).
+\end{equation}
+
+\end_inset
+
+ The nitrogen contamination is more complicated since there is no pure nitrogen
+ data.
+ The carbon data was used in terms of the cross section ratio 
+\begin_inset Formula $\sigma_{N}/\sigma_{C}$
+\end_inset
+
+ from the P.Bosted model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.78.015202"
+
+\end_inset
+
+.
+ Since the Small Angle GDH experiment has similar kinematics to g2p, we
+ can use the nitrogen data set from the saGDH experiment to tune the P.Bosted
+ model for use at the g2p kinematics.
+ Elastic and inelastic radiative corrections have been completed on the
+ saGDH nitrogen data and the P.Bosted model has been tuned to 
+\begin_inset Formula $\pm5\%$
+\end_inset
+
+ level 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ryanradcorre"
+
+\end_inset
+
+.
+ The actual nitrogen background is scaled by using the tuned P.Bosted model
+ with the g2p carbon data:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Y_{N}=(Y_{carbon}-Y_{empty}\cdot\frac{l_{tot}-l_{C}}{l_{tot}})p_{f}K_{CN}\frac{\sigma_{N}}{\sigma_{C}},\label{eq:YN}
+\end{equation}
+
+\end_inset
+
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K_{CN}=\frac{l_{tg}\rho_{N}M_{C}}{l_{C}\rho_{C}M_{N}}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Combining with the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Ybg"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:YN"
+
+\end_inset
+
+), the dilution factor is extracted by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D_{f}=1-(\frac{Y_{dummy}}{Y_{prod}}+p_{f}K_{CN}\frac{\sigma_{N}}{\sigma_{C}}\frac{Y_{carbon}}{Y_{prod}}-p_{f}\frac{l_{tg}+(l_{tot}-l_{c})K_{CN}\frac{\sigma_{N}}{\sigma_{C}}}{l_{tot}}\frac{Y_{empty}}{Y_{prod}}),
+\end{equation}
+
+\end_inset
+
+The dilution factor can also be extracted from the cross section model:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D_{f}=\frac{3\frac{\rho_{NH3}p_{f}l_{tg}}{M_{NH3}}\sigma_{H}}{\frac{\rho_{NH3}p_{f}l_{tg}}{M_{NH3}}(3\sigma_{H}+\sigma_{N})+\frac{\rho_{He}(l_{tot}-p_{f}l_{tg})}{M_{He}}\sigma_{He}+\frac{\rho_{Al}l_{Al}}{M_{Al}}\sigma_{Al}}.
+\end{equation}
+
+\end_inset
+
+Before the dilution factor from the data becomes available, the one from
+ the model was used instead.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dilution-factor"
+
+\end_inset
+
+ shows the dilution factors for materials ID 17-20 calculated from the P.Bosted
+ model.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dilution_17.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Material 17
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dilution_18.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Material 18
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dilution_19.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Material 19
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dilution_20.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Material 20
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dilution-factor"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Dilution factors
+\end_layout
+
+\end_inset
+
+Dilution factors for material 17-20, calculated from the P.Bosted model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The dilution factor is related to the kinematic variables 
+\begin_inset Formula $W$
+\end_inset
+
+ and 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+.
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $l_{tg}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.8307 cm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $l_{tot}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.7045 cm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $l_{Al}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0004 cm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho_{NH3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.817 
+\begin_inset Formula $g/cm^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho_{He}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.145 
+\begin_inset Formula $g/cm^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho_{Al}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.7 
+\begin_inset Formula $g/cm^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:para_dilu"
+
+\end_inset
+
+Parameters used in dilution calculation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Radiative correction
+\end_layout
+
+\begin_layout Standard
+The Feynman diagram shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Feynman-DIS"
+
+\end_inset
+
+ only considered the Born process, which is assumed for theoretical analyses.
+ The data from experiment contains the higher order effect which is necessary
+ to be corrected in order to compare with the Born process in the theory.
+ The analysis of it is called radiative correction.
+\end_layout
+
+\begin_layout Standard
+The radiative correction was considered into several categories: the virtual
+ photon one-loop corrections, the internal and external bremsstrahlung,
+ and the ionization energy loss.
+ With the classification of the interaction material, the radiative correction
+ was considered into internal and external correction, while the former
+ was happened when the electrons interact with the target material (proton),
+ and the latter was happened when the electrons passing through the target
+ and HRS components before arriving to the detectors.
+ The external radiative correction was always considered as the unpolarized
+ situation, while the internal radiative correction was considered separately
+ for the unpolarized cross section and the polarized cross section.
+ 
+\end_layout
+
+\begin_layout Standard
+The next-to-leading order processes for the radiative correction are shown
+ in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:radcorrect"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_vacuum.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vacuum polarization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_selfE.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Self Energy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_selfE2.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Self Energy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_vertex.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vertex correction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_bremss1.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bremsstrahlung before scattering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_bremss2.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bremsstrahlung after scattering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:radcorrect"
+
+\end_inset
+
+Next to leading order internal radiative correction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ It includes the vacuum polarization correction (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:radcorrect"
+
+\end_inset
+
+(a)) which the virtual photon spontaneously splits into a 
+\begin_inset Formula $e^{+}/e^{-}$
+\end_inset
+
+ pair, the electron self-energy (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:radcorrect"
+
+\end_inset
+
+(b,c)), the vertex correction (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:radcorrect"
+
+\end_inset
+
+(d)), and the real photon bremsstrahlung emission before and after the electron-
+proton scattering (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:radcorrect"
+
+\end_inset
+
+(d,e)).
+ The main processes by which this happens are bremsstrahlung.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:bremsstrahlung"
+
+\end_inset
+
+ shows the internal and external bremsstrahlung emissions.
+ The 
+\begin_inset Formula $t_{b}$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{a}$
+\end_inset
+
+ are the radiation length before and after the scattering, respectively.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/bremsstrahlung.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:bremsstrahlung"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Internal and external bremsstrahlung emission
+\end_layout
+
+\end_inset
+
+Internal and external bremsstrahlung emission.
+ The 
+\begin_inset Formula $t_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{b}$
+\end_inset
+
+ are the radiation length before and after the scattering, respectively.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ryanradcorre"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+In addition of the bremsstrahlung, the ionization energy loss also happened
+ when the electrons pass through the materials.
+ The collison loss is mostly from the collisons between the scattered electrons
+ and the atomic electrons, which results in the ionization of the struck
+ atom.
+ It contributes a few MeV loss per 
+\begin_inset Formula $g/cm^{2}$
+\end_inset
+
+ material.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Formalism of the unpolarized radiative correction
+\end_layout
+
+\begin_layout Standard
+For the unpolarized cross section, the internal and external radiative correctio
+ns are predicted from the energy peaking approximation using Stein's formalism
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "escatstein"
+
+\end_inset
+
+.
+ It is calculated from the following formula 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "escatstein,karleloss"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\sigma_{inrad} & =(\frac{d^{2}\sigma}{d\Omega dE_{p}})_{in}=(\frac{R\Delta E}{E_{s}})^{b(t_{b}+t_{r})}(\frac{\Delta E}{E_{p}})^{b(t_{a}+t_{r})}[1-\frac{\xi/\Delta E}{1-b[t_{a}+t_{b}+2t_{r}]}]\bar{\sigma}_{in}(E_{s},E_{p})\nonumber \\
+ & +\intop_{E_{s\ min}}^{E_{s}-R\Delta E}\bar{\sigma}_{in}(E_{s}',E_{p})(\frac{E_{s}-E_{s}'}{E_{p}R})^{b(t_{a}+t_{r})}(\frac{E_{s}-E_{s}'}{E_{s}})^{b(t_{b}+t_{r})}\nonumber \\
+ & \times[\frac{b(t_{b}+t_{r})}{E_{s}-E_{s}'}\phi(\frac{E_{s}-E_{s}'}{E_{s}})+\frac{\xi}{2(E_{s}-E_{s}')^{2}}]dE_{s}'\nonumber \\
+ & +\intop_{E_{p}+\Delta E}^{E_{p\ max}}\bar{\sigma}_{in}(E_{s},E_{p}')(\frac{E_{p}'-E_{p}}{E_{p}'})^{b(t_{a}+t_{r})}(\frac{(E_{p}'-E_{p})R}{E_{s}})^{b(t_{b}+t_{r})}\nonumber \\
+ & \times[\frac{b(t_{a}+t_{r})}{E_{p}'-E_{p}}\phi(\frac{E_{p}'-E_{p}}{E_{p}'})+\frac{\xi}{2(E_{p}'-E_{p})^{2}}]dE_{p}',\label{eq:radinelastic}
+\end{align}
+
+\end_inset
+
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+R & =\frac{M_{T}+2E_{s}sin^{2}(\frac{\theta}{2})}{M_{T}-2E_{p}sin^{2}(\frac{\theta}{2})},
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta E=5\ MeV,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\phi(v)=1-v+\frac{3}{4}v^{2},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\bar{\sigma}_{in}(E_{s},E_{p}) & =\tilde{F}(Q^{2})\sigma_{in}(E_{s},E_{p}),
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b=\frac{4}{3}\{1+\frac{1}{9}[(Z+1)/(Z+\eta)][ln(183Z^{-1/3})]^{-1}\},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+t_{r}=\frac{\alpha}{b\pi}[ln(\frac{-q^{2}}{m^{2}})-1],
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+E_{s\ min} & =\frac{E_{p}}{1-\frac{E_{p}}{M_{T}}(1-cos\theta)},
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E_{p\ max}=\frac{E_{s}}{1+\frac{E_{s}}{M_{T}}(1-cos\theta)},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xi=\frac{\pi m}{2a}\frac{t_{a}+t_{b}}{(Z+\eta)ln(183/Z^{1/3})},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T=t_{a}+t_{b},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\tilde{F}(Q^{2}) & =1+0.5772bT+\frac{2\alpha}{\pi}[\frac{-14}{9}+\frac{13}{12}ln(\frac{Q^{2}}{m^{2}})]\\
+ & -\frac{\alpha}{2\pi}ln^{2}(\frac{E_{s}}{E_{p}})+\frac{\alpha}{\pi}[\frac{1}{6}\pi^{2}-\Phi(cos^{2}\frac{\theta}{2})],
+\end{align*}
+
+\end_inset
+
+and 
+\begin_inset Formula $\sigma_{in}$
+\end_inset
+
+ is the unradiated inelastic cross section, 
+\begin_inset Formula $m$
+\end_inset
+
+ is the mass of electron, 
+\begin_inset Formula $M_{T}$
+\end_inset
+
+ is the mass of target nuclei, 
+\begin_inset Formula $t_{b}$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{a}$
+\end_inset
+
+ are the radiation length before and after the scattering point, respectively,
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+ is the scattering angle, 
+\begin_inset Formula $Z$
+\end_inset
+
+ is the atomic number, 
+\begin_inset Formula $E_{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $E_{p}$
+\end_inset
+
+ are the energies of the incoming and outgoing electrons.
+ The spence function 
+\begin_inset Formula $\Phi$
+\end_inset
+
+ is defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Phi(x)=\intop_{0}^{x}\frac{-ln|1-y|}{y}dy.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If only considered the external radiative correction, just set 
+\begin_inset Formula $t_{r}$
+\end_inset
+
+ to 0 and set 
+\begin_inset Formula $\tilde{F}(Q^{2})=1+0.5772bT$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Elastic tail
+\end_layout
+
+\begin_layout Standard
+The elastic tail must be considered for the data, since it becomes relatively
+ large in the resonance region.
+ The elastic cross section without the energy loss is calculated as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "escatstein"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sigma_{el}(E_{0})=(\frac{d\sigma}{d\Omega})_{el}=\sigma_{Mott}\frac{E_{el}'}{E_{0}}[W_{2}^{el}+2tan^{2}\frac{\theta}{2}W_{1}^{el}],
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $E_{0}$
+\end_inset
+
+ is the energy of incoming electron, and 
+\begin_inset Formula $E_{el}'$
+\end_inset
+
+ is the elastic peak:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E_{el}'=\frac{2}{1+(2E_{0}/M_{T})sin^{2}(\frac{\theta}{2})}.
+\end{equation}
+
+\end_inset
+
+The 
+\begin_inset Formula $W_{1}^{el}$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{2}^{el}$
+\end_inset
+
+ are two elastic form factors, and they have the relationship with two elastic
+ form factors 
+\begin_inset Formula $G_{E}$
+\end_inset
+
+ and 
+\begin_inset Formula $G_{M}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+W_{1}^{el} & =\tau G_{M}^{2},\nonumber \\
+W_{2}^{el} & =\frac{G_{E}^{2}+G_{M}^{2}}{1+\tau},
+\end{align}
+
+\end_inset
+
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tau=\frac{Q^{2}}{4M_{T}^{2}}.
+\end{equation}
+
+\end_inset
+
+The form factors 
+\begin_inset Formula $G_{E}$
+\end_inset
+
+ and 
+\begin_inset Formula $G_{M}$
+\end_inset
+
+ are from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.69.022201"
+
+\end_inset
+
+.
+ The radiative tail caused from the external bremsstrahlung and the ionization
+ loss can be calculated as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "escatstein"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\sigma_{el\_extern} & =\frac{M_{T}+(2E_{s}-\omega_{s})sin^{2}(\frac{\theta}{2})}{M_{T}-2E_{p}sin^{2}(\frac{\theta}{2})}\times\bar{\sigma}_{el}(E_{s}-\omega_{s})[\frac{bt_{b}}{\omega_{s}}\phi(\nu_{s})+\frac{\xi}{2\omega_{s}^{2}}]\nonumber \\
+ & +\bar{\sigma}_{el}(E_{s})[\frac{bt_{a}}{\omega_{p}}\phi(\nu_{s})+\frac{\xi}{2\omega_{p}^{2}}],\label{eq:elasticextern}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\bar{\sigma}_{el}=\tilde{F}(Q^{2})\sigma_{el}$
+\end_inset
+
+, and 
+\begin_inset Formula 
+\begin{align}
+\omega_{s} & =E_{s}-\frac{E_{p}}{1-(2E_{p}/M_{T})sin^{2}(\frac{\theta}{2})},\\
+\omega_{p} & =\frac{E_{s}}{1+(2E_{s}/M_{T})sin^{2}(\frac{\theta}{2})}-E_{p},\\
+\nu_{s} & =\omega_{s}/E_{s},\\
+\nu_{p} & =\omega_{p}/(E_{p}+\omega_{p}).
+\end{align}
+
+\end_inset
+
+The radiative tail caused from the internal bremsstrahlung can be calculated
+ by the integration from equation (B.5) in MO.
+ and THAI.'s paper 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RevModPhys.41.205"
+
+\end_inset
+
+.
+ It can also be extracted from the angle-peaking approximation by assuming
+ the majority of bremsstrahlung photons are emitted in the same direction
+ as the incident and scattered electrons 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "escatstein"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\sigma_{el\_intern} & =\frac{M_{T}+(2E_{s}-\omega_{s})sin^{2}(\frac{\theta}{2})}{M_{T}-2E_{p}sin^{2}(\frac{\theta}{2})}\times\bar{\sigma}_{el}(E_{s}-\omega_{s})[\frac{bt_{r}}{\omega_{s}}\phi(\nu_{s})]\nonumber \\
+ & +\bar{\sigma}_{el}(E_{s})[\frac{bt_{r}}{\omega_{p}}\phi(\nu_{s})].\label{eq:elasticintern}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The correction from the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:elasticextern"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:elasticintern"
+
+\end_inset
+
+) is only for single-photon emission.
+ It is corrected by multiplying a factor for multiple-soft-photon radiation
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "escatstein"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{soft}=(\frac{\omega_{s}}{E_{s}})^{b(t_{b}+t_{r})}(\frac{\omega_{p}}{E_{p}+\omega_{p}})^{b(t_{a}+t_{r})}.\label{eq:radFsoft}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:polrad"
+
+\end_inset
+
+Radiative correction for the polarized cross section
+\end_layout
+
+\begin_layout Standard
+The internal radiative correction for the polarized cross section is different
+ as the unpolarized cross section.
+ Akushevich described the correction method in detail in his paper 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Akushevich:2001yp"
+
+\end_inset
+
+ and built a fortran code POLRAD 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Akushevich:1997di"
+
+\end_inset
+
+.
+ Karl Slifer and Seonho Choi improved the code to allow an interative procedure
+ which built a model based on the measured data from experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "karlthesis"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Acceptance cut
+\end_layout
+
+\begin_layout Standard
+Since the acceptance study is still ongoing, rough acceptance cuts are applied.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut-10"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut9"
+
+\end_inset
+
+ show the acceptance cuts for three different beam settings.
+\end_layout
+
+\begin_layout Standard
+Three variables are used for acceptance cut, which are calculated from optics
+ study:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $dp$
+\end_inset
+
+, or 
+\begin_inset Formula $\delta$
+\end_inset
+
+, is defined in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dp"
+
+\end_inset
+
+).
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut-10"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut9"
+
+\end_inset
+
+ (a) show the yield for 
+\begin_inset Formula $dp$
+\end_inset
+
+.
+ The x axis is 
+\begin_inset Formula $dp$
+\end_inset
+
+, and the y axis is the total counts (or events) for each bin in this beam
+ energy setting.
+ It is clear to distinguish the acceptance edge for 
+\begin_inset Formula $dp$
+\end_inset
+
+ from the picture.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\phi$
+\end_inset
+
+, or the in plane angle (the angle in the scattered plane).
+ The Mott cross section was weighted for the 
+\begin_inset Formula $\phi$
+\end_inset
+
+ yield in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut-10"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut9"
+
+\end_inset
+
+ (c) in order to eliminate the cross section factor.
+ The acceptance edge for 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is also clearly distinguished.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\theta$
+\end_inset
+
+, or the out of plane angle (the angle perpendicular to the scattered plane).
+ There is no clear acceptance edge for 
+\begin_inset Formula $\theta$
+\end_inset
+
+ yield in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut-10"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut9"
+
+\end_inset
+
+ (b).
+ The cut is taken near the tail of the histogram.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dp_-10.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $dp$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/th_-10.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/ph_-10.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Accepcut-10"
+
+\end_inset
+
+Acceptance cut for E=2.2GeV, Field=5T, longitudinal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dp_-10.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $dp$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/th_-10.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/ph_-10.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Accepcut7"
+
+\end_inset
+
+Acceptance cut for E=2.2GeV, Field=5T, transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/dp_9.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $dp$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/th_9.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/ph_9.png
+	lyxscale 30
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi$
+\end_inset
+
+ cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Accepcut9"
+
+\end_inset
+
+Acceptance cut for E=3.3GeV, Field=5T, transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Asymmetry-result"
+
+\end_inset
+
+Asymmetry result
+\end_layout
+
+\begin_layout Standard
+The physics asymmetries are calculated using the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:asym"
+
+\end_inset
+
+, with the detector cuts and the acceptance cuts.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Physics-Asymmetry"
+
+\end_inset
+
+ (a,b,c) are the asymmetries for the settings of 2.2 GeV beam energy with
+ 5 T longitudinal target magnet field, 2.2 GeV beam energy with 5 T transverse
+ target magnet field, and 3.3 GeV beam energy with 5 T transverse target
+ magnet field, respectively.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asym_-10.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, longitudinal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asym_7.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asym_9.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=3.3GeV, Field=5T, transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Physics-Asymmetry"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Physics asymmetry
+\end_layout
+
+\end_inset
+
+Physics Asymmetry (without the radiative correction).
+ Only considered the statistic error.
+ The dilution factor was calculated from the radiated P.Bosted model, with
+ the scattering angle fitted from the data.
+ The packing fraction was averaged from Melissa's result 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+ for each material.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The error bar of asymmetry is calculated from the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:asymerr"
+
+\end_inset
+
+, which only includes the statistic error.
+ The results are compared with the model in the following sections.
+\end_layout
+
+\begin_layout Subsection
+Asymmetry with different acceptance cuts
+\end_layout
+
+\begin_layout Standard
+The differential cross section 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ was calculated from the asymmetry and the unpolarized cross section.
+ The uncertainty of the unpolarized cross section is dominated by the systematic
+ error, while the uncertainty of the asymmetry is dominated by the statistic
+ error.
+ It is important to compare the calculated asymmetries with and without
+ the acceptance cuts, so that we can use the most events.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Physicsasymaccep"
+
+\end_inset
+
+ shows the asymmetries compared with and without the acceptance cut.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymdiff_-10.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, longitudinal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymdiff_7.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymdiff_9.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=3.3GeV, Field=5T, transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Physicsasymaccep"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Physics Asymmetries with the different acceptance cuts
+\end_layout
+
+\end_inset
+
+Physics Asymmetries with the different acceptance cuts (without the radiative
+ correction).
+ The red error bars are with the acceptance cuts, while The blue error bars
+ are without the acceptance cuts.
+ Only considered the statistic error.
+ The dilution factor was calculated from the radiated P.Bosted model, with
+ the scattering angle fitted from the data.
+ The packing fraction was averaged from Melissa's result 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+ for each material.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The normalized 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ are shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:accepx2"
+
+\end_inset
+
+.
+ 
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+settings
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+bins
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+normalized 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.2GeV,5T,longitudinal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.32
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.2GeV,5T,transverses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.53
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.3GeV,5T,transverses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:accepx2"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+comparison of the asymmetries with and without the acceptance cut
+\end_layout
+
+\end_inset
+
+Normalized 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ for the comparison of the asymmetries with and without the acceptance cut
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The comparison shows the asymmetry results are consistent before and after
+ applying the acceptance cuts in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut-10"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accepcut9"
+
+\end_inset
+
+.
+ Similar studies are needed to be taken when the acceptance study is done.
+\end_layout
+
+\begin_layout Section
+Model prediction
+\end_layout
+
+\begin_layout Subsection
+MAID 
+\end_layout
+
+\begin_layout Standard
+The unitary isobar model MAID2007 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drechsel:2007if"
+
+\end_inset
+
+ uses phenomenological fits to the photo-production and electro-production
+ data for the the nucleon from the pion-production threshold to W=2 GeV.
+ The major resonances contributions (table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:resonance"
+
+\end_inset
+
+) are included by assuming the resonance contributions have Breit-Wigner
+ forms with contributions to the transverse cross sections given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sigma_{\frac{1}{2}(\frac{3}{2})}=\frac{4M}{W_{res}\Gamma_{res}}A_{\frac{1}{2}(\frac{3}{2})}^{2}B(\nu,Q^{2}),
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $B(\nu,Q^{2})$
+\end_inset
+
+ represents the generalization to electroproduction of the Breit-Wigner
+ form, 
+\begin_inset Formula $W_{res}$
+\end_inset
+
+ is the mass of the resonance, 
+\begin_inset Formula $\Gamma_{res}$
+\end_inset
+
+ is the resonance width, and 
+\begin_inset Formula $A_{\frac{1}{2}(\frac{3}{2})}$
+\end_inset
+
+ is the relevant photo-coupling helicity amplitude.
+ A non-resonant background and contributions from vector mesons are also
+ included.
+\end_layout
+
+\begin_layout Subsection
+Peter Bosted Model
+\end_layout
+
+\begin_layout Standard
+The P.Bosted model ultilizes an empirical fit to the measurements of inclusive
+ inelastic electron-proton cross sections in the kinematic range of 
+\begin_inset Formula $0\leq Q^{2}\leq8\ GeV^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $1.1<W<3.1\ GeV$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christy:2007ve"
+
+\end_inset
+
+.
+ The fit covers the data from the high precision longitudinal/transverse
+ separated cross section measurements from E94-110, E00-116, E00-002 at
+ JLab Hall C and SLAC DIS, a smooth transition to the photonproduction point
+ from DAPHNE, and use of Breit-Wigner forms for all resonances.
+ The model also makes the empirical fits to the electron-nucleus scattering
+ for the cross sections 
+\begin_inset Formula $A>2$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bostedelecfit"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The P.Bosted model has been updated fairly regularly in the recent years
+ to include all available unpolarized data.
+ There is also some attempt to address nuclear effects in Bosted's fit.
+ The P.Bosted model is used for the unpolarized cross section for the further
+ analysis, which includes extracting the 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from the data and the dilution factors.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Asymmetry-from-model"
+
+\end_inset
+
+Asymmetry from the models
+\end_layout
+
+\begin_layout Standard
+The cross section from the model is the Born cross section.
+ It is needed to be radiated before comparing the data.
+ The radiated cross section is calculated as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sigma_{rad}=\sigma_{inrad}+\sigma_{elrad},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\sigma_{inrad}$
+\end_inset
+
+ is the radiated inelastic cross section and the 
+\begin_inset Formula $\sigma_{elrad}$
+\end_inset
+
+ is the radiated elastic tail.
+ For unpolarized P.Bosted model, the 
+\begin_inset Formula $\sigma_{inrad}$
+\end_inset
+
+ is calculated from equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:radinelastic"
+
+\end_inset
+
+) and the 
+\begin_inset Formula $\sigma_{elrad}$
+\end_inset
+
+ is calculated from the sum of the 
+\begin_inset Formula $\sigma_{el\_extern}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{el\_intern}$
+\end_inset
+
+.
+ For polarized 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+the internal part of the 
+\begin_inset Formula $\sigma_{inrad}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{elrad}$
+\end_inset
+
+ are dealt using Karl's code which mentioned in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:polrad"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:radcompare"
+
+\end_inset
+
+ shows the comparison of unradiated P.Bosted model cross section (red curve),
+ 
+\begin_inset Formula $\sigma_{rad}$
+\end_inset
+
+ (cyan curve), 
+\begin_inset Formula $\sigma_{inrad}$
+\end_inset
+
+ (blue curve) and 
+\begin_inset Formula $\sigma_{elrad}$
+\end_inset
+
+ (green curve), which shows a large influence from the radiation procedure.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rad_compare.png
+	lyxscale 30
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:radcompare"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Unradiated P.Bosted model compare with 
+\begin_inset Formula $\sigma_{rad}$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma_{inrad}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{elrad}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+Unradiated P.Bosted model (red curve) compare with 
+\begin_inset Formula $\sigma_{rad}$
+\end_inset
+
+ (cyan curve), 
+\begin_inset Formula $\sigma_{inrad}$
+\end_inset
+
+ (blue curve) and 
+\begin_inset Formula $\sigma_{elrad}$
+\end_inset
+
+ (green curve).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radiated-P.Bosted-model"
+
+\end_inset
+
+ shows the unpolarized cross section from P.Bosted model before and after
+ the radiation with the same kinematic settings as the data.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radiatedxs"
+
+\end_inset
+
+ shows the 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from MAID model before and after the radiation.
+ The asymmetry is calculated by the ratio of 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from MAID and 
+\begin_inset Formula $d\sigma_{unpol}$
+\end_inset
+
+ from P.Bosted model:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A=\frac{\Delta\sigma_{\Vert/\bot\_MAID}}{d\sigma_{unpol\_Bosted}}.
+\end{equation}
+
+\end_inset
+
+The asymmetries before and after the radiation are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radiatedasym"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/PBosted_-10.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Same kinematic settings as E=2.2GeV,Field=5T,longitudinal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/PBosted_7.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Same kinematic settings as E=2.2GeV,Field=5T,transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/PBosted_9.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Same kinematic settings as E=3.3GeV,Field=5T,transverse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radiated-P.Bosted-model"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Radiated P.Bosted model compared with the unradiated P.Bosted model
+\end_layout
+
+\end_inset
+
+Radiated P.Bosted model (blue solid line) compared with the unradiated P.Bosted
+ model (red solid line) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/maiddxsL_-10.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiated vs unradiated 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ , Same kinematic settings as E=2.2GeV,Field=5T,longitudinal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/maiddxsT_7.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiated vs unradiated 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ , Same kinematic settings as E=2.2GeV,Field=5T,transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/maiddxsT_9.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiated vs unradiated 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ , Same kinematic settings as E=3.3GeV,Field=5T,transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radiatedxs"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Radiated 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ compared with the unradiated 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from MAID
+\end_layout
+
+\end_inset
+
+Radiated 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ (blue solid line) compared with the unradiated 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from MAID (red solid line) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymL_-10.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiated vs unradiated 
+\begin_inset Formula $A_{\Vert}$
+\end_inset
+
+ , Same kinematic settings as E=2.2GeV,Field=5T,longitudinal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymT_7.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiated vs unradiated 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ , Same kinematic settings as E=2.2GeV,Field=5T,transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymT_9.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiated vs unradiated 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ , Same kinematic settings as E=3.3GeV,Field=5T,transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radiatedasym"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Radiated 
+\begin_inset Formula $A_{\Vert/\bot}$
+\end_inset
+
+ compared with the unradiated 
+\begin_inset Formula $A_{\Vert/\bot}$
+\end_inset
+
+ from Model
+\end_layout
+
+\end_inset
+
+Radiated 
+\begin_inset Formula $A_{\Vert/\bot}$
+\end_inset
+
+ (blue solid line) compared with the unradiated 
+\begin_inset Formula $A_{\Vert/\bot}$
+\end_inset
+
+ (red solid line) , calculated from Model 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Asymmetry Comparison
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:asymcompare"
+
+\end_inset
+
+ shows the asymmetries calculated from data in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Asymmetry-result"
+
+\end_inset
+
+ compare with the one calculated from model in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Asymmetry-from-model"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymL_datavsmodel.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, longitudinal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymT7_datavsmodel.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=2.2GeV, Field=5T, transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asymT9_datavsmodel.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+E=3.3GeV, Field=5T, transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:asymcompare"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Physics asymmetry compared with model
+\end_layout
+
+\end_inset
+
+Physics asymmetry compared with model (without the radiative correction).
+ Only considered the statistic error.
+ The dilution factor was calculated from the radiated P.Bosted model, with
+ the scattering angle fitted from the data.
+ The packing fraction was averaged from Melissa's result 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+ for each material.
+ The asymmetry from model was calculated from the radiated MAID/P.Bosted
+ model.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ is around 
+\begin_inset Formula $0.02\sim0.045\ GeV^{2}$
+\end_inset
+
+ for the setting of E=2.2GeV, field=5T,longitudinal, 
+\begin_inset Formula $0.066\sim0.084\ GeV^{2}$
+\end_inset
+
+ for the setting of E=2.2GeV, field=5T, transverse, and 
+\begin_inset Formula $0.88\sim0.1\ GeV^{2}$
+\end_inset
+
+ for the setting of E=3.3GeV, field=5T, transverse.
+ The data is not radiative corrected and the model is radiated.
+ 
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The longitudinal and transverse differential cross sections 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ are extracted from both the asymmetries and the unpolarized cross section
+ 
+\begin_inset Formula $d\sigma_{unpol}$
+\end_inset
+
+ from equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:asymlong"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:asymtran"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta\sigma_{\Vert/\bot}=A_{\Vert/\bot}\cdot d\sigma_{unpol}.
+\end{equation}
+
+\end_inset
+
+The unpolarized cross section 
+\begin_inset Formula $d\sigma_{unpol}$
+\end_inset
+
+ from data needs the absolute acceptance value.
+ Before it becomes available, the radiated P.Bosted model is used instead
+ to get the 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:dxs"
+
+\end_inset
+
+ shows the 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from data (error bar) compared with the model (solid line).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/maiddxsL_-10_rad.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ , E=2.2GeV,Field=5T,longitudinal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/maiddxsT_7_rad.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ , E=2.2GeV,Field=5T,transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/maiddxsT_9_rad.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ , E=3.3GeV,Field=5T,transverse 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:dxs"
+
+\end_inset
+
+ 
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from data compared with the model
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+ from data (error bar, before radiative correction, calculated by the asymmetry
+ from data with the help of radiated P.Bosted model) compared with the model
+ (solid line, from radiated MAID model).
+ Only considered the statistic error.
+ The dilution factor was calculated from the radiated P.Bosted model, with
+ the scattering angle fitted from the data.
+ The packing fraction was averaged from Melissa's result 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+ for each material.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Note the data is not radiative corrected and the model is radiated in the
+ picture.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ without the radiative correction are then extracted from the 
+\begin_inset Formula $\Delta\sigma_{\Vert/\bot}$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/g1_rad.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{1}$
+\end_inset
+
+, E=2.2GeV, Field=5T,longitudinal.
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+is around 
+\begin_inset Formula $0.02\sim0.045\ GeV^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/g2_7_rad.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{2}$
+\end_inset
+
+, E=2.2GeV, Field=5T,transverse.
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+is around 
+\begin_inset Formula $0.066\sim0.084\ GeV^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/g2_9_rad.png
+	lyxscale 20
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{2}$
+\end_inset
+
+, E=3.3GeV, Field=5T,transverse.
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+is around 
+\begin_inset Formula $0.088\sim0.1\ GeV^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:g12"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ compared with model
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ (before radiative correction, calculated by the asymmetry from data with
+ the help of P.Bosted and MAID model) compared with model (from radiated
+ MAID model).
+ Only considered the statistic error.
+ The dilution factor was calculated from the radiated P.Bosted model, with
+ the scattering angle fitted from the data.
+ The packing fraction was averaged from Melissa's result 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "melissapacking"
+
+\end_inset
+
+ for each material.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ is calculated from the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxslong2"
+
+\end_inset
+
+, with the 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ from the data of longitudinal setting and 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ from the MAID.
+ The 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is calculated from the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxstran2"
+
+\end_inset
+
+, with the 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ from the transverse setting and 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ from the MAID.
+ 
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+The physics asymmetries for both longitudinal and transverse calculated
+ from the data were mostly matched the one calculated from the MAID/P.Bosted
+ model.
+ From the both longitudinal and transverse asymmetries we can see a clear
+ 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance peak, and the blurred 
+\begin_inset Formula $N^{*}(1520/1535)$
+\end_inset
+
+ and 
+\begin_inset Formula $N^{*}(1680)$
+\end_inset
+
+ peaks.
+ The values in the 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance matched very well with the model, while the deviation appeared
+ in the 
+\begin_inset Formula $N^{*}(1440)$
+\end_inset
+
+ resonance, which shows the potential incorrect for the model.
+ More precise cross section from data is needed for further comparison.
+ 
+\end_layout
+
+\begin_layout Chapter
+Summary
+\end_layout
+
+\begin_layout Standard
+The experiment E08-027 successfully measured the transverse cross section
+ difference 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ at several kinematic settings in the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range of 
+\begin_inset Formula $0.02-0.2\ GeV^{2}$
+\end_inset
+
+.
+ The experiment also measured the longitudinal cross section difference
+ 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ at one beam energy setting for checking the EG4 result.
+ The structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is going to be extracted from the measured 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ with the combination of 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ from EG4 experiment.
+ The very preliminary results from the asymmetry shows a obvious 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance peak.
+ The data also shows several peaks from other resonances.
+ Compared with the asymmetry calculated from the models, the data matched
+ well with the models in the 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance, while the comparison indicates some deviation from other resonance
+ peaks.
+ More careful data analysis is needed for the further study.
+ 
+\end_layout
+
+\begin_layout Standard
+The data analysis is still ongoing, including the acceptance study and the
+ dilution study, which are needed to obtain final cross section and final
+ asymmetry.
+ The optics study is nearly complete.
+ The radiated model compared with the unradiated model indicates that the
+ radiative correction is very important for the final result.
+ The radiative correction for the data must be carefully studied after extractin
+g the cross section differences.
+ The data analysis for the EG4 experiment in Hall B at JLab is also ongoing,
+ the final physics results need to wait for their result.
+ Because of the different 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range between the data of 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ and the 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+, a data fit is necessary for the result of 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+ in order to cover the kinematic range of 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+.
+ Once the studies mentioned above is done, the spin structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ can be extracted.
+ The integrated 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ in 
+\begin_inset Formula $x$
+\end_inset
+
+ will give us a test for the B-C sum rule, with some assumptions and extensions
+ in the unmeasured 
+\begin_inset Formula $x$
+\end_inset
+
+ range.
+ The longitudinal-transverse spin polarizability 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ will finally be extracted to test the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculation.
+\end_layout
+
+\end_body
+\end_document

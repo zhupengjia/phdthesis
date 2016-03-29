@@ -1,0 +1,5628 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+The Beamline System
+\end_layout
+
+\begin_layout Standard
+The beamline system for g2p experiment was rearranged for the special requiremen
+ts of the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target.
+ The 2.5/5T transverse target magnetic field bend down the beam.
+ In order to offset this effect, two chicane dipole magnets were installed
+ about 1 meter upstream of the target.
+ Two beam position monitors (BPMs) were installed before the target in order
+ to get the beam position and angle at the target.
+ Two new super harps were installed for calibrating two BPMs.
+ In addition to the fast raster system, a slow raster was installed for
+ the first time in Hall A to minimize radiation damage to the target material.
+ A tungsten calorimeter was installed for calibrating the beam current/charge
+ monitor (BCM) in the low current environment.
+ In order to get more accuracy beam position and beam charge, a new digital
+ readout system was designed and built by the JLab instrumentation group
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mussonece652paper"
+
+\end_inset
+
+.
+ A local beam dump was installed for the 5T target field settings which
+ the beam was not going to the Hall A beam dump.
+ 
+\end_layout
+
+\begin_layout Subsection
+Beam Charge and Current
+\end_layout
+
+\begin_layout Subsubsection
+Beam Charge and Current Monitor (BCM)
+\end_layout
+
+\begin_layout Standard
+The BCMs used for the g2p experiment are two RF cavities which are standard
+ instrumentation during Hall A history.
+ The whole BCM system in the beamline contains two RF cavities, an Unser
+ monitor, and a BCM receiver with a data-acquisition system.
+ The BCM cavities are located 23 m upstream of g2p target location, as the
+ location shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+ (id.1).
+ The two RF cavities were tuned to match the 1497 MHz beam frequency, resulting
+ the output of the signal proportional to the beam current.
+\end_layout
+
+\begin_layout Subsubsection
+BCM and BPM receiver
+\end_layout
+
+\begin_layout Standard
+Since the original RMS-to-DC converter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Denard2001"
+
+\end_inset
+
+ did not work in low current, a new BCM receiver and BPM receiver were designed
+ by John Musson and his colleagues from JLab instrumentation group for the
+ purpose of achieving enough signal/noise (S/N) ratio in the beam current
+ environment from several nanoampere beam current to several micro-ampere
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mussonece652paper"
+
+\end_inset
+
+.
+ The design diagram is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BPM-receiver"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /mnt/a/Documents/Documents/papers/myself/thesis/pic/receiver.png
+	lyxscale 30
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:BPM-receiver"
+
+\end_inset
+
+BPM and BCM receiver used for g2p experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The receiver consists of analog part and digital part.
+ The analog part converts the ratio frequency (RF) signal to the intermediate
+ frequency (IF) signal and amplify it, while the digital part provides several
+ digital filters to reduce the S/N ratio.
+ 
+\end_layout
+
+\begin_layout Standard
+The RF wave from the beam is needed to convert to IF wave first for the
+ suitable frequency for the next processing.
+ The multiply mixer combines the 1497 MHz signal from beam and the sinusoidal
+ 1452 MHz signal from a local oscillator, the equation can be simplified
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+sin\theta sin\phi=\frac{1}{2}cos(\theta-\phi)-\frac{1}{2}cos(\theta+\phi),\label{eq:mixer-1}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi$
+\end_inset
+
+ are the signals from beam and oscillator.
+ Two signals with frequency of 
+\begin_inset Formula $\theta-\phi$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta+\phi$
+\end_inset
+
+ are generated.
+ The signal with frequency of 
+\begin_inset Formula $\theta+\phi$
+\end_inset
+
+ is filtered by the filter after the mixer, only remain the 
+\begin_inset Formula $\theta-\phi=45\ MHz$
+\end_inset
+
+ signal.
+ 
+\end_layout
+
+\begin_layout Standard
+The signal after two amplifier is digitized by a 36 MSPS ADC in order to
+ apply two digital filters.
+ The digital filter can achieve higher stop-band attenuation and faster
+ transition, also more efficient than the analog one.
+ For archiving enough S/N ratio and reaching enough resolution for the experimen
+t, a 175Hz filter was used for the BPM receiver, which caused the BPM can
+ only be used for getting average beam position.
+ The filter was set to 10.4 kHz for the BCM receiver.
+ The CORDIC system is used to calculate the amplitude and phase for the
+ digital signal.
+ The digital signal is converted back to 0~10 V analog signal to match the
+ existed Hall A DAQ system.
+ Since the signal is 20 bit, and the DAC is 18bit, the signal is needed
+ to intercept before going to DAC.
+ A div unit is used to do a bit shift and cut of the last several bits for
+ the signal.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Data acquisition system for BCM
+\end_layout
+
+\begin_layout Standard
+The BCM data from receiver was connected to the g2p data acquisition (DAQ)
+ system as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:daq_bcm"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /mnt/a/Documents/Documents/papers/myself/thesis/pic/bcm_daq.png
+	lyxscale 30
+	width 80line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:daq_bcm"
+
+\end_inset
+
+DAQ system for BCM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The output signal from receiver is a voltage analog signal, the V2F converts
+ the voltage signal to the frequency signal in order to connect to scalers
+ for counting.
+ The HAPPEX ADC is an 18bit ADC with 
+\begin_inset Formula $875\mu s$
+\end_inset
+
+ integration time which triggered by a 960 Hz helicity signal and expected
+ higher resolution than scaler 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ADC18bob"
+
+\end_inset
+
+.
+ Both sis3801 scaler and HAPPEX ADC were triggered by helicity to get the
+ helicity gated charge information, or the charge for each helicity status.
+ The sis3800 scaler was counting all of the time during a run for getting
+ the total charge of the whole run.
+ More details of the DAQ system are discussed in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:The-Data-Acquisition"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Tungsten Calorimeter
+\end_layout
+
+\begin_layout Standard
+The Unser monitor between two RF BCM cavities was used for double check
+ the farady cup calibration result for the experiments ran in high current.
+ The Unser in Hall A cannot work in the low current, and we cannot use the
+ farady cup in the injector to calibrate our BCM since the beam loss can
+ not be measured precisely in the low current.
+ Therefore a tungsten calorimeter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hacalorimeter"
+
+\end_inset
+
+ was installed for calibrating our BCM by using the temperature arisen by
+ the beam.
+ 
+\end_layout
+
+\begin_layout Standard
+The tungsten calorimeter is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tungsten-Calorimeter"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /mnt/a/Documents/Documents/papers/myself/thesis/pic/tungsten.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tungsten-Calorimeter"
+
+\end_inset
+
+Tungsten Calorimeter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The chamber hold the tungsten is pumped into vacuum to minimize heat loss.
+ The tungsten is in three positions for the different purpose: 
+\end_layout
+
+\begin_layout Enumerate
+Beam charging.
+ The tungsten is in the beam pipe, all the incoming beam electrons hit the
+ tungsten.
+ The temperature is arising during this period.
+\end_layout
+
+\begin_layout Enumerate
+Equilibrating.
+ The tungsten moves out the beam pipe but doesn't touch the cooling plate.
+ The beam turns off.
+ The temperature tend to stable.
+ The measurement of the temperature is in this period.
+\end_layout
+
+\begin_layout Enumerate
+Cooling.
+ The tungsten moves to the cooling plate so that the tungsten can be cooled
+ down.
+\end_layout
+
+\begin_layout Standard
+For the temperature measurement, 6 thermometry devices (RTDs) are mounted
+ on the outer surface at each end of the tungsten slug.
+\end_layout
+
+\begin_layout Subsubsection
+Calibrate the BCM
+\end_layout
+
+\begin_layout Standard
+The calibration was taken for several times during the experiment for the
+ different period.
+ In order to get the uniform heat from beam in the tungsten surface, the
+ rasters were turned on when taking the BCM calibration.
+ The data acquisition system was busy working during the calibration to
+ record the information from scaler and ADC.
+ The scaler sis3801 and HAPPEX ADC data are helicity gated and saved in
+ an array ringbuffer.
+ The size of the ringbuffer is limited, when the ringbuffer is full, the
+ front data will be overwritten and cause the data lost.
+ For the dead-time consideration, the DAQ system only read 50 group data
+ from ringbuffer for the maximum readout.
+ An additional clock trigger with larger than 20 Hz (
+\begin_inset Formula $\geqq$
+\end_inset
+
+960(helicity frequency)/50) was added to make sure there is no data lost
+ in ringbuffer recorded in data-stream.
+ Since the scaler and ADC have pedestal when there is no beam, the clock
+ signal is needed for calculating the pedestal.
+ For HAPPEX ADC since it is helicity triggered which is a periodic signal,
+ the helicity entries is used for clock signal.
+ 
+\end_layout
+
+\begin_layout Standard
+There are two type of clock signals, fast clock and slow clock.
+ The frequency of the fast clock is ~103.7 kHz, while the frequency of the
+ slow clock is ~1 kHz.
+ The pedestal value is related the frequency of the clock signal, the calibratio
+n constants for using the slow clock and the fast clock are different.
+\end_layout
+
+\begin_layout Standard
+A complete calibration period is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BCM-Calibration"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/bcm_calib.png
+	lyxscale 20
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:BCM-Calibration"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+BCM Calibration
+\end_layout
+
+\end_inset
+
+BCM Calibration, the first two pictures are the temperature arise for the
+ RTDs, the last four pictures are the counts recorded in different devices
+ at the same time.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The total temperature arise is used to calculate the total charge.
+ The zero-order polynomial fits are taken before the beam charging and after
+ the temperature become stable when tungsten in the equilibrating position.
+ The temperature used is the average of the temperatures in 6 RTDs.
+ The relationship between the total charge and the temperature arise is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Charge=K\cdot Temperature,\label{eq:c=kt}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $K$
+\end_inset
+
+ is the heat capacity of tungsten, the value of it was measured by Ahamad
+ Mahmoud before the experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tungstenelog"
+
+\end_inset
+
+.
+ The value of 
+\begin_inset Formula $K_{tungsten}$
+\end_inset
+
+ he got is 
+\begin_inset Formula $8555.5\,J/K$
+\end_inset
+
+, with at most 
+\begin_inset Formula $50\,J/K$
+\end_inset
+
+ uncertainty, as shown in figure 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/heatcap.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tungsten-calorimeter-heat"
+
+\end_inset
+
+Tungsten calorimeter heat capacity determination
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Formula $T$
+\end_inset
+
+ is the average temperature from 6 RTDs.
+ 
+\end_layout
+
+\begin_layout Standard
+There are several devices needed to be calibrated, each one has its own
+ special condition.
+ The detail calibration procedures for each device are as follows.
+\end_layout
+
+\begin_layout Subsubsection*
+Calibration for sis3800 scaler
+\end_layout
+
+\begin_layout Standard
+The sis3800 scaler is a VME implement.
+ A reset signal was sent to the sis3800 scaler at the beginning of run to
+ clean the counts.
+ The HRS DAQ sampled the counts for each event.
+ Since the scaler was found to cause high deadtime, only clock signals were
+ sampled for each event, others were sampled for each 1000 events.
+ Also the DAQ read the scaler once at the end of the run.
+ 
+\end_layout
+
+\begin_layout Standard
+The third picture in the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BCM-Calibration"
+
+\end_inset
+
+ is a calibration run for sis3800.
+ The steep range is the period when the beam come, corresponding to the
+ steep range in the first picture.
+ To remove the pedestal from the scaler, the first-order polynomial fits
+ are taken before and after beam.
+ The pedestal value is defined as the slope from the fit.
+ The total charge has the following relation with the counts:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Charge=slope\cdot(\Delta counts-ped\cdot\Delta clockcounts),\label{eq:sis3800charge}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta counts$
+\end_inset
+
+ is the total BCM counts accumulated in the scaler, 
+\begin_inset Formula $\Delta clockcounts$
+\end_inset
+
+ is the total clock counts accumulated in the scaler.
+ The 
+\begin_inset Formula $slope$
+\end_inset
+
+ and 
+\begin_inset Formula $ped$
+\end_inset
+
+ are two calibration constants which is calculated from calibration run.
+ The 
+\begin_inset Formula $ped$
+\end_inset
+
+ is the pedestal value mentioned above.
+ To get the 
+\begin_inset Formula $slope$
+\end_inset
+
+ value, two time points are chosen before and after the beam.
+ Using the 
+\begin_inset Formula $\Delta counts$
+\end_inset
+
+ and the 
+\begin_inset Formula $\Delta clockcounts$
+\end_inset
+
+ between these two time points and combined with the charge calculated from
+ the temperature, the 
+\begin_inset Formula $slope$
+\end_inset
+
+ value is then calculated.
+\end_layout
+
+\begin_layout Standard
+Since the beam current is equal to 
+\begin_inset Formula $Q/t$
+\end_inset
+
+, the calibration constants are used to calculate the beam current as below:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Current=slope\cdot(rate-ped\cdot clockrate),\label{eq:sis3800current}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $rate$
+\end_inset
+
+ and 
+\begin_inset Formula $clockrate$
+\end_inset
+
+ are defined as the BCM counts and clock counts per second.
+\end_layout
+
+\begin_layout Subsubsection*
+Calibration for sis3801 scaler
+\end_layout
+
+\begin_layout Standard
+A jumper in the sis3800 scaler is used to switch the scaler to sis3801 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sis3801manual"
+
+\end_inset
+
+.
+ The sis3801 was controlled by the T-Settle signal which is one of the output
+ from helicity control board 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "helicityboard"
+
+\end_inset
+
+ as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:T-Settle-signal"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /mnt/a/Documents/Documents/papers/myself/thesis/pic/helicity.png
+	lyxscale 40
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:T-Settle-signal"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+T-Settle signal from helicity control board
+\end_layout
+
+\end_inset
+
+T-Settle signal from helicity control board, with 971.65 
+\begin_inset Formula $\mu s$
+\end_inset
+
+ T-Stable time and 
+\begin_inset Formula $70\mu s$
+\end_inset
+
+ T-Settle time.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The high-level T-Settle is 70 
+\begin_inset Formula $\mu s$
+\end_inset
+
+ which indicates the helicity flips, or has unsure helicity status.
+ The low-level T-Settle (or called T-Stable) means a stable helicity status.
+ The rising edge of the T-Settle resets the scaler counts.
+ The scaler stops counting during T-Settle, and recovers counting during
+ T-Stable.
+ The count for each helicity window was saved in a ringbuffer before merging
+ to the standard DAQ system.
+ 
+\end_layout
+
+\begin_layout Standard
+To calibrate the sis3801 scaler it is necessary to accumulate all of the
+ counts for each helicity window, which needs no data lost.
+ There are two methods to get the total counts.
+ One is using the virtual scaler.
+ The DAQ will automatically accumulate the total counts for positive helicity
+ status and negative helicity status, which present two independent variables
+ in the raw data, which named the virtual scaler.
+ The total counts equal to the summary of the counts in the positive and
+ negative scaler.
+ Another is using the data from scaler ringbuffer, which is accumulating
+ all of the counts from the ringbuffer, and using helicity decoder to check
+ if data lost.
+ The calculated calibration constants are same from two methods.
+ The other procedures are the same as the sis3800.
+ The total charge has the following relation with the counts:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Charge=slope\cdot(\Delta counts-ped\cdot\Delta clockcounts),\label{eq:sis3801charge}
+\end{equation}
+
+\end_inset
+
+the 
+\begin_inset Formula $\Delta counts$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta clockcounts$
+\end_inset
+
+ are all from the sis3801 scaler.
+ Since the sis3801 is not counting in 70 
+\begin_inset Formula $\mu s$
+\end_inset
+
+ for each 1041.65 
+\begin_inset Formula $\mu s$
+\end_inset
+
+, the slope calculated for sis3801 are larger than the slope for sis3800.
+ The beam current is calculated by the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Current=Slope\cdot(rate-ped\cdot103700/s\cdot971.65\mbox{\mu s})/1041.65\mu s,\label{eq:sis3801current}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $103700/s$
+\end_inset
+
+ is the frequency of the fast clock, 
+\begin_inset Formula $971.65\ \mbox{\mu s}$
+\end_inset
+
+ is the duration of T-Stable, 
+\begin_inset Formula $1041.65\ \mu s$
+\end_inset
+
+ is the duration of a helicity window.
+\end_layout
+
+\begin_layout Subsubsection*
+Calibration for HAPPEX ADC
+\end_layout
+
+\begin_layout Standard
+To calibrate the HAPPEX ADC, the values were accumulated for all of the
+ events between two time points as the total counts.
+ The entries in the HAPPEX DAQ was used as the time stamp since it is triggered
+ by the periodic helicity signal.
+ The total charge has the following relation with the counts:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Charge=slope\cdot875\mbox{\mu s}\cdot(\Delta counts-ped\cdot\Delta entries),\label{eq:happexcharge}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $875\mu s$
+\end_inset
+
+ is the integration time of the ADC.
+ The beam current is calculated by the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Current=slope\cdot(rate-ped)\cdot875\mbox{\mu s}/1041.65\mbox{\mu s}.\label{eq:happexcurrent}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Uncertainty
+\end_layout
+
+\begin_layout Standard
+The uncertainty of the calculated charge from the tungsten calorimeter came
+ from the beam energy, RTD, measured tungsten heat capacity, and the heat
+ loss.
+ The accuracy of beam energy calculated from Arc measurement is 0.2MeV for
+ range of 0.5 to 6 GeV 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "arcmeasurepage"
+
+\end_inset
+
+, which contributes the uncertainty of calculated charge of 0.34 nC per 1K
+ temperature rise (2.2GeV beam energy).
+ The uncertainties of the RTDs are 12.5 mK 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "calorimeterrtd"
+
+\end_inset
+
+, which contribute uncertainty of 
+\begin_inset Formula $0.046\,\mu C$
+\end_inset
+
+ (2.2GeV beam energy).
+ The 
+\begin_inset Formula $50\,J/K$
+\end_inset
+
+ uncertainty of heat capacity contributes 
+\begin_inset Formula $0.18\,\mu C$
+\end_inset
+
+ per 1K temperature rise (2.2GeV beam energy).
+ The Hall A calorimeter thermal and mechanical design limits heat losses
+ to the ~ 0.2 % level if the measurement within 20 min 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hacalorimeter"
+
+\end_inset
+
+, which caused the uncertainty of calculated charge additional 0.2 %.
+ The total uncertainty is ~ 0.68 % for the calculated charge from tungsten.
+\end_layout
+
+\begin_layout Standard
+By comparing of the difference between upstream and downstream BCM, the
+ fluctuations between upstream and downstream are below 
+\begin_inset Formula $0.19\:\mu C$
+\end_inset
+
+ for 90 % runs.
+ The relative differences between them for 90 % runs are below 0.7 %, as
+ shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparingud"
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/sis3800.png
+	lyxscale 30
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Absolute difference between upstream and downstream charge.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/sis3800_relative.png
+	lyxscale 30
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Relative difference between upstream and downstream charge.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Comparingud"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Comparing of the charge calculated from upstream and downstream
+\end_layout
+
+\end_inset
+
+Comparing of the charge calculated from upstream and downstream.
+ Each event in picture is the total charge calculated from one run from
+ experiment.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ The differences indicate the uncertainty for the BCM is below 0.7 %.
+ Combining with the uncertainty of the tungsten calorimeter, the final uncertain
+ty of BCM is below 1 %.
+\end_layout
+
+\begin_layout Subsection
+Beam polarization
+\end_layout
+
+\begin_layout Standard
+The polarization of beam is measured by the Møller polarimeter which located
+ in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+, id 5.
+ The Hall A Møller polarimeter was built in 1997 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mollerresult"
+
+\end_inset
+
+ and was successfully used for many years.
+ It uses the process of Møller scattering of 
+\begin_inset Formula $\vec{e}^{-}+\vec{e}^{-}=e^{-}+e^{-}$
+\end_inset
+
+ with a ferromagnetic foil magnetized in a magnetic field of about 24 mT
+ as a target of polarized electron 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+.
+ The polarization of beam was extracted from measured asymmetry:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P_{b}=\frac{A_{measured}}{AnPow*P_{t}},\label{eq:mollerpol}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $AnPow$
+\end_inset
+
+ is the analyzing power which depends on the beam position, 
+\begin_inset Formula $P_{t}$
+\end_inset
+
+ is the Møller target polarization.
+ The measured asymmetry 
+\begin_inset Formula $A_{measured}=\frac{N_{+}-N_{-}}{N_{+}+N_{-}}$
+\end_inset
+
+, which 
+\begin_inset Formula $+/-$
+\end_inset
+
+ are the helicity status which the signal from helicity control board.
+\end_layout
+
+\begin_layout Standard
+Nine measurements were taken during the experiment, as shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:mollerresult"
+
+\end_inset
+
+.
+ 
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+#
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+polarization (%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Syst.err.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03.03.2012 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79.91 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.20 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03.30.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80.43 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03.30.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79.89 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.58
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+04.10.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+88.52 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+04.23.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+89.72 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+05.04.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+83.47 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.57
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+05.04.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+81.82 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.59
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+05.04.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80.40 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+05.15.2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+83.59 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 0.31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm$
+\end_inset
+
+1.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:mollerresult"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Summary of the Møller measurements for g2p experiment
+\end_layout
+
+\end_inset
+
+Summary of the Møller measurements for g2p experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mollerresult"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Chicane dipole magnet
+\end_layout
+
+\begin_layout Standard
+The transverse magnetic field in the target region would cause the beam
+ deflected downward when the beam passes the target region.
+ To compensate for this effect, two chicane magnets were placed in front
+ of the target to pre-bend the beam upwards (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+, label 7).
+ The first chicane magnet was installed 5.92 m upstream of the target which
+ bend the beam down of the horizontal plane.
+ The second chicane magnet, which was installed 2.66 m upstream of the target,
+ bend the beam back to the target.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/chicane.jpg
+	lyxscale 20
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Chicane dipole magnet upstream of the target
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Beam Position and Angle
+\end_layout
+
+\begin_layout Subsubsection
+Beam Position Monitor
+\end_layout
+
+\begin_layout Standard
+The BPM is designed to get the beam position information.
+ There are several types of BPM using different methods.
+ The cavity monitor uses the TM010 microwave in a resonant cavity to detect
+ the beam current, and uses TM110 microwave to detect the beam position.
+ The resolution of it can reach to 
+\begin_inset Formula $100\ \mu m$
+\end_inset
+
+ for 1 orbit/s measuring rate with 1 nA continuous wave beam 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rok1998"
+
+\end_inset
+
+, but it has a big frame that needs more than 1 meter space.
+ The stripline BPM and antenna BPM used in Jefferson Lab contain 4 antennae
+ placed symmetrically around the beam pipe.
+ When beam passes through the BPM pipe, each antenna receives an induction
+ signal.
+ The both end of the output for each antenna in the stripline BPM are terminated
+ by the same impedance, which only terminated in upstream end and kept open
+ in downstream end in the antenna BPM 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Barry301"
+
+\end_inset
+
+.
+ The higher voltage sensitivity compared with the stripline BPM for open-ended
+ antenna BPM was tested before experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "beamline11/23/2010"
+
+\end_inset
+
+.
+ For the consideration of the test result and the limited space between
+ the second chicane magnet and target (<1m), the open-ended antenna BPM
+ was chosen for the experiment.
+ The design diagram for the antenna BPM is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:bpm-design-diagram"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/bpmdiag.png
+	lyxscale 5
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BPM design diagram,from JLab engineer group
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/bpm.png
+	lyxscale 5
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+M15 chamber which contains 4 antennas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:bpm-design-diagram"
+
+\end_inset
+
+BPM Chamber
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The BPM front-end receiver collects and sends the signal to the regular
+ Hall A DAQ system and another DAQ system designed for parity violation
+ experiments, the HAPPEX system.
+ The new BPM receiver was designed by the JLab instrumentation group 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mussonece652paper"
+
+\end_inset
+
+ in order to achieve the required precision at a level of 0.1 mm with a beam
+ current as low as 50 nA.
+ The regular DAQ system was connected to a 13-bit fastbus ADC (Lecroy ADC
+ 1881) with an integration time of 50 ns, which was triggered by a scattered
+ electron event.
+ The HAPPEX system 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ADC18bob"
+
+\end_inset
+
+ was connected to an 18-bit ADC with an integration time of 875 
+\begin_inset Formula $\mu$
+\end_inset
+
+s, which was triggered by a beam helicity signal at 1 kHz.
+\end_layout
+
+\begin_layout Standard
+The BPM receiver generates a large time delay for the output signals.
+ The digital filter used in the receiver contributes 
+\begin_inset Formula $1/175\,$
+\end_inset
+
+s delay time, which was the inverse of the bandwidth setting chosen for
+ the filter.
+ There is a 
+\begin_inset Formula $\sim4\ \mu$
+\end_inset
+
+s delay as a result of finite processing times.
+ The BPM cannot provide event by event position because of these time delays,
+ due to the 25 kHz fast raster system.
+\end_layout
+
+\begin_layout Standard
+Because of the space limitation on the beam-line, the two BPMs were placed
+ very close to each other.
+ One was placed 95.5 cm upstream of the target while the other was placed
+ 69 cm upstream, making the distance between them only 26.5 cm.
+ The short distance magnified the position uncertainty from the BPMs to
+ target.
+\end_layout
+
+\begin_layout Subsubsection
+Super-Harp 
+\end_layout
+
+\begin_layout Standard
+The information achieved from BPM is relative since the BPM is a non-invasive
+ device.
+ A calibration is needed before using it.
+ The harp is designed for doing this job.
+ 
+\end_layout
+
+\begin_layout Standard
+Two super harps were designed and installed in the beam-line, as shown in
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+ (label 6a - 1H04 and 6b - 1H05A), to provide an absolute measurement of
+ the beam position for calibration of the BPMs.
+ Because of the space limitation, only one harp (named 1H05A) was installed
+ between the 2 BPMs.
+ The other one was installed upstream of the first chicane magnet.
+ For the space limit, the 1H05A harp was rotated 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+ with respect to the beam pipe.
+ 
+\end_layout
+
+\begin_layout Standard
+JLab's CEBAF can produce two types of beam, one is a continuous wave beam
+ (CW) with 100% duty factor used for production runs, with high luminosity
+ in excess of 
+\begin_inset Formula $10^{38}\,cm^{-2}s^{-1}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+.
+ The other is a pulsed wave beam with 1% duty factor used for tuning the
+ beam.
+ For 50nA continuous wave beam (CW), harp scans were not reliable due to
+ noisy signals.
+ CW beam with higher current cannot be used due to the current limit of
+ the target system.
+ The harp used previously in Hall A was not suitable for either low current
+ CW beam or high current pulsed beam, therefore the old harps were replaced
+ by a new design.
+ The new harps were able to work in pulsed beam with a current of several
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+A.
+ A diagram for the harp is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:harp-diagram"
+
+\end_inset
+
+,
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/harp_one.png
+	lyxscale 5
+	width 100col%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:harp-diagram"
+
+\end_inset
+
+Harp diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ which consists of three wires with a thickness of 50 
+\begin_inset Formula $\mu$
+\end_inset
+
+m, a fork and a controller chassis.
+ The harp chamber is perpendicular to the beam pipe and connected to the
+ beam pipe as part of the vacuum chamber of the beamline.
+ The two harps have different configurations of three wires: vertical(
+\begin_inset Formula $|$
+\end_inset
+
+), bank left(
+\begin_inset Formula $\backslash$
+\end_inset
+
+), and bank right(
+\begin_inset Formula $/$
+\end_inset
+
+) for 1H04, and 
+\begin_inset Formula $/$
+\end_inset
+
+, 
+\begin_inset Formula $|$
+\end_inset
+
+, 
+\begin_inset Formula $\backslash$
+\end_inset
+
+ for 1H05.
+ The angle of the 
+\begin_inset Formula $/$
+\end_inset
+
+ or 
+\begin_inset Formula $\backslash$
+\end_inset
+
+ wire is 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+ relative to the wire dock frame.
+ The wires are arranged in a fork (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:harp-diagram"
+
+\end_inset
+
+) controlled by a step motor 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yan261"
+
+\end_inset
+
+ which can be moved in and out of the beam-line.
+ The harps must be moved out of the beam-line when production data is being
+ taken because they are invasive to the beam.
+ The original position of the wires was surveyed before the experiment at
+ a precision level of 0.1 mm.
+ As the motor driver moved the fork through the beam, each wire received
+ a signal, which was recorded for further analysis.
+ The signals received from the wire and the step-counters from the motor
+ driver were then sent to an amplifier and the DAQ.
+ The amplification and the speed of the motor were adjustable for the purpose
+ of optimizing the signals of each scan.
+ Recorded data combined with the survey data was used to calculate the absolute
+ beam position.
+\end_layout
+
+\begin_layout Standard
+The signal from the 
+\begin_inset Formula $|$
+\end_inset
+
+ wire (
+\begin_inset Formula $peak_{|}$
+\end_inset
+
+) was used for getting the 
+\begin_inset Formula $x$
+\end_inset
+
+ position (
+\begin_inset Formula $x_{harp}$
+\end_inset
+
+) of the beam, and the signals from the 
+\begin_inset Formula $/$
+\end_inset
+
+, 
+\begin_inset Formula $\backslash$
+\end_inset
+
+ wires (
+\begin_inset Formula $peak_{/}$
+\end_inset
+
+ and 
+\begin_inset Formula $peak_{\backslash}$
+\end_inset
+
+) were used for getting the 
+\begin_inset Formula $y$
+\end_inset
+
+ position (
+\begin_inset Formula $y_{harp}$
+\end_inset
+
+):
+\begin_inset Formula 
+\begin{eqnarray}
+x_{harp} & = & survey_{|}-peak_{|}\nonumber \\
+y_{harp} & = & \frac{1}{2}[(survey_{\backslash}-survey_{/})-(peak_{\backslash}-peak_{/})]\label{eq:harp}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An example of a harp scan result is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1H05A-harp-scan"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/harp05_pos_index.png
+	lyxscale 5
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:position-vs-index"
+
+\end_inset
+
+position vs index for harp scan, used for extending position record
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\qquad$
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/harp05_peak.png
+	lyxscale 5
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:position-vs-signal"
+
+\end_inset
+
+Signal vs position for harp, 
+\begin_inset Formula $x$
+\end_inset
+
+ axis is position, 
+\begin_inset Formula $y$
+\end_inset
+
+ axis is the length of signal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1H05A-harp-scan"
+
+\end_inset
+
+1H05A harp scan data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ There are three groups of recorded data for each harp scan, which are 
+\begin_inset Quotes eld
+\end_inset
+
+index
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+position
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+signal
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The index is related to the moving steps of the fork during the scan.
+ Each step of the index increases by 0.008-0.07 mm depending on the speed
+ of the motor driver 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yan261"
+
+\end_inset
+
+.
+ The position is the wire location for each index.
+ The testing results show a good linear relation between the position and
+ the index as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1H05A-harp-scan"
+
+\end_inset
+
+(a), because the motor speed is uniform.
+ The line is the fitted result with 
+\begin_inset Formula $pos=a*index+b$
+\end_inset
+
+.
+ According to this linear relation, interpolation or extrapolation can be
+ applied when a few data points are missing, in some cases.
+ The strength of signal vs.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+position is plotted in figure 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1H05A-harp-scan"
+
+\end_inset
+
+(b).
+ Each peak represents the location when one of the three wires passed through
+ the beam.
+\end_layout
+
+\begin_layout Standard
+The positions measured by the two harps were used for calibrating the beam
+ positions in the two BPMs.
+ When the chicane magnets were on, beam did not pass straight through from
+ the first harp to the second harp.
+ BPM calibrations using two harps were only possible when the chicane magnets
+ were off, i.e.
+ in the straight-through settings.
+ Since the BPM was calibrated in the local coordinate system, the calibration
+ constants were independent from the settings of other instruments.
+ To make sure that the calibration constants for the BPMs were still valid
+ during the non-straight-through settings, the settings for the BPM receiver
+ were kept the same as in the straight-through settings during production
+ running.
+ 
+\end_layout
+
+\begin_layout Standard
+The scan data from the harps was not reliable when the current of CW beam
+ (100% duty factor) was lower than 100 nA due to the low signal-to-noise
+ ratio.
+ The harp scans were taken in pulsed mode at a current of a few 
+\begin_inset Formula $\mu$
+\end_inset
+
+A, while the BPMs were used for production data taking in CW mode at a beam
+ current of 50-100 nA.
+ For a BPM calibration run, a harp scan was done first in pulsed mode, then
+ a DAQ run was taken immediately to record the ADC value in CW mode without
+ changing the beam position.
+ The harp scan was then taken again in the pulsed mode to double check the
+ beam position.
+ The harp scan data was discarded and the scan was taken again if the beam
+ position changed.
+\end_layout
+
+\begin_layout Subsubsection
+Raster system
+\end_layout
+
+\begin_layout Standard
+In order to minimize the depolarization, avoid damage to the target material
+ from radiation, and reduce systematic error for the polarization measurement
+ by NMR, two raster systems were installed at 
+\begin_inset Formula $\sim$
+\end_inset
+
+17 m upstream of the target, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+ (labels 2 and 3 for fast and slow rasters, respectively).
+ Both the fast and slow rasters consist of two dipole magnets.
+ The same triangular waveforms with frequency of 25 kHz were used to drive
+ the magnet coils of the fast raster to move the beam in x and y directions,
+ forming a rectangular pattern of 2mm
+\begin_inset Formula $\times$
+\end_inset
+
+2 mm, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fast-raster"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/triangle.png
+	lyxscale 5
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Current waveform for the fast raster in x or y channel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\qquad$
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/fast raster shape.png
+	lyxscale 20
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The 2D histogram of magnet current signals of fast raster
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fast-raster"
+
+\end_inset
+
+Fast raster pattern
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The slow raster further spreads out the beam to a circle with a diameter
+ of ~2 cm.
+ When combined, the rastered beam has a diameter of ~2.2 cm, spread evenly
+ over the most face of the 2.5 cm diameter target.
+\end_layout
+
+\begin_layout Standard
+A dual-channel function-generator
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+agilent 33522A function generator, http://www.home.agilent.com/en/pd-1871286-pn-335
+22A/function-arbitrary-waveform-generator-30-mhz
+\end_layout
+
+\end_inset
+
+ was used to generate two independent waveforms to drive the magnet coils
+ of the slow raster.
+ The waveforms for the 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ directions are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+x & = & A_{x}t{}^{1/2}sin(\omega t),\nonumber \\
+y & = & A_{y}(t+t_{0})^{1/2}sin(\omega t+\mbox{\phi}),\label{eq:slraster_func}
+\end{eqnarray}
+
+\end_inset
+
+where the 
+\begin_inset Formula $A_{x}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{y}$
+\end_inset
+
+ are the maximum amplitude, 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi$
+\end_inset
+
+ are the AM and sin phase difference between 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ waveform, respectively.
+ 
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/slow_raster_shape2.png
+	lyxscale 10
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Magnet current waveform for the slow raster
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/slow_raster_shape.png
+	lyxscale 10
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The 2D histogram of magnet current signals of slow raster
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Slow-raster"
+
+\end_inset
+
+Slow raster pattern 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Both of them are sine functions modulated by a function 
+\begin_inset Formula $t^{1/2}$
+\end_inset
+
+ in order to generate a uniform circular pattern 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "HCraster200501"
+
+\end_inset
+
+, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster"
+
+\end_inset
+
+.
+ The frequencies of the 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ waveforms kept same: 
+\begin_inset Formula $\omega=99.412$
+\end_inset
+
+ Hz.
+ In order to cycle the amplitude modulation (AM) function, four piece-wise
+ functions are combined together.
+ The first term is 
+\begin_inset Formula $t^{1/2}$
+\end_inset
+
+, and the second term is 
+\begin_inset Formula $period-t^{1/2}$
+\end_inset
+
+, and so on for the third and fourth terms.
+ The cycled function has the frequency of 30 Hz.
+ 
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/slraster_uniform_real.png
+	lyxscale 10
+	width 33col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AM-phase-=0022600"
+
+\end_inset
+
+Raster pattern with 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ensuremath{
+\backslash
+neq}
+\end_layout
+
+\end_inset
+
+0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/slraster_uniform_sim.png
+	lyxscale 10
+	width 33col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:simulated-raster-shape"
+
+\end_inset
+
+Simulated raster pattern, with 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ensuremath{
+\backslash
+neq}
+\end_layout
+
+\end_inset
+
+0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/slraster_uniform.png
+	lyxscale 10
+	width 33col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AM-phase=00003D0"
+
+\end_inset
+
+Manually adjust 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ to 0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Slow-raster-uniformity"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+None-zero 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ caused slow raster non-uniformity
+\end_layout
+
+\end_inset
+
+None-zero 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ caused slow raster non-uniformity, (a) and (c) are from the data recorded
+ in the ADC, (b) is simulated.
+ The color palette shows the uniformity of the raster pattern.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\phi$
+\end_inset
+
+ was locked to 
+\begin_inset Formula $\frac{\pi}{2}$
+\end_inset
+
+ by the function generator, while the 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ was manually fixed to 0.
+ Non-zero 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ could cause a non-uniformity pattern, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-uniformity"
+
+\end_inset
+
+(a), which would cause non-uniformity beam distribution.
+ A simulation was reproduced the non-uniformity by setting the 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ to non-zero, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-uniformity"
+
+\end_inset
+
+(b).
+ The 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ was carefully adjusted and minimized before production data taking to avoid
+ the non-uniformity.
+ The pattern of the spread beam was relatively uniform after this adjustment
+ during the experiment, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-uniformity"
+
+\end_inset
+
+(c).
+\end_layout
+
+\begin_layout Subsubsection
+BPM Calibration Coordinate System
+\end_layout
+
+\begin_layout Standard
+There are three coordinate systems used for BPM calibration: Hall A coordinate
+ system, BPM rotated coordinate system, BPM/Harp local coordinate system.
+ The relation of them is shown in figure 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/bpm_coordinate.png
+	lyxscale 15
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coordinate system used for the BPM calibration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Hall coordinate is the global coordinate system in the hall, with the
+ origin of the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target.
+\end_layout
+
+\begin_layout Standard
+The origin of each local coordinate system is the surveyed location for
+ each device.
+ The angular components of survey data decide the orientation of each local
+ coordinate system.
+ The rotation between the BPMA local coordinate and the Hall coordinate
+ is about 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+, while it is about 
+\begin_inset Formula $57^{\circ}$
+\end_inset
+
+ between the BPMB local coordinate and the Hall coordinate.
+ To avoid confusion, the directions use 
+\begin_inset Formula $u$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+ instead of 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The harp scan data analysis was taken in the harp local coordinate.
+ The calculated positions from two harps were transferred to the BPM local
+ coordinate in order to calibrate the BPMs.
+\end_layout
+
+\begin_layout Standard
+The BPM calibration was taken in the BPM local coordinate.
+ In the straight through setting without the target magnet field, the positions
+ calculated from the BPMs were transferred to the Hall coordinate in order
+ to transport to the target location.
+ For the settings with a transverse magnetic field, the input terms of the
+ transport functions are the positions in the BPM rotated coordinate, which
+ has the same origin with the BPM local coordinate but with the same directions
+ with the Hall coordinate.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+BPM Calibration
+\end_layout
+
+\begin_layout Subsubsection*
+Transport the Absolute Beam Position from Harps to BPMs
+\end_layout
+
+\begin_layout Standard
+The position calculated from equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:harp"
+
+\end_inset
+
+ is the position in the harp local coordinate system.
+ It is necessary to convert it to Hall coordinate system first and transport
+ the position to the two BPMs.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/harp_bpm_target.png
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:harp_bpm_target"
+
+\end_inset
+
+Position for 2 BPMs and 2 Harps
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+When the chicane magnet field is off, the absolute beam position at BPM
+ can be linear transported from the harp.
+\end_layout
+
+\begin_layout Standard
+During the experiment the BPM B receiver was not very stable, the receiver
+ was replaced by another one during 4/26 and 5/3.
+ The alternate receiver used a different gain setting, so calibrations for
+ BPM B is not available for these runs.
+ To determine the calibration for BPM B for these runs, the calibrated BPM
+ A information is combined with the 1H05A harp data to get the absolute
+ beam position at BPM B by using the linear transport method.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Get beam position from BPMs
+\end_layout
+
+\begin_layout Standard
+The traditional difference-over-sum (
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+) method of calculating the beam position has the non-linearity effect at
+ the position far away from the center of the beam pipe 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Barry301"
+
+\end_inset
+
+.
+ It is necessary to correct the equation of 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ since we have a slow raster with a large size of ~2 cm.
+ With the assumption of an infinitely long chamber and neglecting the antenna
+ influence on the electric field inside the chamber, the signal from each
+ antenna excited by the beam can be calculated via image charge method (figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mirror_method"
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "carmanbpm,piotbpm"
+
+\end_inset
+
+ : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi_{i}=\phi_{0}I\frac{R^{2}-\rho^{2}}{R^{2}+\rho^{2}-2R\rho cos(\theta_{i}-\theta_{0})},\label{eq:antenna_signal}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\phi_{i}$
+\end_inset
+
+ is the signal received in the antenna, and 
+\begin_inset Formula $i$
+\end_inset
+
+ is 
+\begin_inset Formula $u_{+}$
+\end_inset
+
+, 
+\begin_inset Formula $u_{-}$
+\end_inset
+
+, 
+\begin_inset Formula $v_{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{-}$
+\end_inset
+
+, respectively, 
+\begin_inset Formula $\phi_{0}$
+\end_inset
+
+ is a constant related to the geometry of the BPM-chamber and the output
+ resistance, 
+\begin_inset Formula $I$
+\end_inset
+
+ is the beam current, 
+\begin_inset Formula $R$
+\end_inset
+
+ is the radius of the BPM vacuum chamber, 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is the radial position of the beam, and 
+\begin_inset Formula $\theta_{i}-\theta_{0}$
+\end_inset
+
+ is the angle difference between the antenna and the beam in the polar coordinat
+e .
+ 
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/mirror_method.png
+	lyxscale 10
+	width 40col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mirror method
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/antenna_signal.png
+	lyxscale 10
+	width 40col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Signal on antenna
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mirror_method"
+
+\end_inset
+
+Signal for each antenna of BPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The four antennas in the BPM chamber are used to determine the beam positions
+ u and v in the BPM; 
+\begin_inset Formula $u_{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{-}$
+\end_inset
+
+ for the 
+\begin_inset Formula $u$
+\end_inset
+
+ position, and 
+\begin_inset Formula $v_{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{-}$
+\end_inset
+
+ for the 
+\begin_inset Formula $v$
+\end_inset
+
+ position.
+ In order to extract the beam position information, and eliminate the dependence
+ on the beam current in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:antenna_signal"
+
+\end_inset
+
+), the 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ method is used as follows:
+\begin_inset Formula 
+\begin{eqnarray}
+D_{U} & = & \frac{\phi_{U+}-\phi_{U-}}{\phi_{U+}+\phi_{U-}},\label{eq:diff/sum}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $U$
+\end_inset
+
+ denotes 
+\begin_inset Formula $u$
+\end_inset
+
+ and 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ Substituting equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:antenna_signal"
+
+\end_inset
+
+) into equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:diff/sum"
+
+\end_inset
+
+), it can be rewritten as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D_{U}=\frac{\phi_{U+}-\phi_{U-}}{\phi_{U+}+\phi_{U-}}=\frac{2}{R}\frac{\rho cos(\theta-\theta_{0})}{1+\frac{\rho^{2}}{R^{2}}}=\frac{2}{R}\frac{U}{1+\frac{\rho^{2}}{R^{2}}},\label{eq:xb=xy}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\rho^{2}=u^{2}+v^{2}$
+\end_inset
+
+.
+ When 
+\begin_inset Formula $u^{2}+v^{2}\ll R^{2}$
+\end_inset
+
+, equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:xb=xy"
+
+\end_inset
+
+) is simplified as:
+\begin_inset Formula 
+\begin{eqnarray}
+U & \approx & \frac{R}{2}D_{U}=\frac{R}{2}\frac{\phi_{U+}-\phi_{U-}}{\phi_{U+}+\phi_{U-}}.\label{eq:litexyb=xy}
+\end{eqnarray}
+
+\end_inset
+
+Equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+) can be used in the simple case when the beam is near the center of the
+ beam pipe.
+ When the beam is far from the center, equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+) is no longer valid.
+ For the g2p experiment, the beam was rastered to have a diameter of about
+ 2 cm at the target.
+ From equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:xb=xy"
+
+\end_inset
+
+) the beam position is calculated as:
+\begin_inset Formula 
+\begin{eqnarray}
+U & = & RD_{U}(\frac{1}{D_{u}^{2}+D_{v}^{2}}-\frac{1}{\sqrt{D_{u}^{2}+D_{v}^{2}}}\sqrt{\frac{1}{D_{u}^{2}+D_{v}^{2}}-1}).\label{eq:realxy}
+\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/diffsumvscorrected.jpg
+	lyxscale 5
+	width 45col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Data from experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/benchlinear.jpg
+	lyxscale 5
+	width 45col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Data from bench test
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:BPM-non-linearity-correction"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+BPM non-linearity correction
+\end_layout
+
+\end_inset
+
+BPM non-linearity correction.
+ (a) Comparison between the position calculated from 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+) (y axis) and the one from correction equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:realxy"
+
+\end_inset
+
+) (x axis).
+ Red solid line is a reference line came from linear fit of the center points.
+ Data is collected from the experiment.
+ (b) Comparison between the 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+) and the correction equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:realxy"
+
+\end_inset
+
+) using the bench test data.
+ The x axis is the real beam position.
+ The red triangles are the positions calculated from correction equation
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:realxy"
+
+\end_inset
+
+).
+ The blue circles are the positions calculated from 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+) .
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The correction equation is tested by using the experiment data and the bench
+ test data.
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BPM-non-linearity-correction"
+
+\end_inset
+
+(a) shows the comparison between the position calculated from the correction
+ equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:realxy"
+
+\end_inset
+
+) and the one from the 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+).
+ The red solid line is a reference line came from linear fit of the center
+ points.
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BPM-non-linearity-correction"
+
+\end_inset
+
+(b) shows the comparison with the real beam position from the bench test
+ data.
+ In this way the method using equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:realxy"
+
+\end_inset
+
+) can correct the non-linearity effect caused by the 
+\begin_inset Formula $\Delta/\Sigma$
+\end_inset
+
+ method.
+ The handling of the BPM information which only used for the center beam
+ position also reduced this non-linearity effect.
+ 
+\end_layout
+
+\begin_layout Standard
+The final information recorded in the data-stream was designed to have a
+ linear response with the raw signal in the 50-100nA current range.
+ The amplitude, 
+\begin_inset Formula $A_{i}$
+\end_inset
+
+, recorded in the ADC has the following relation with the BPM signal, 
+\begin_inset Formula $\phi$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{i}\propto\phi_{i}*10^{\frac{g_{i}}{20}},\label{eq:adcsignalvsantenna}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+ is the total gain for the BPM readout electronics.
+ The 
+\begin_inset Formula $\phi_{i}$
+\end_inset
+
+ in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:xb=xy"
+
+\end_inset
+
+) can be rewritten as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi_{i}=a_{i}(A_{i}-A_{i\_ped}+b_{i}),\label{eq:phivsA}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $A_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{i\_ped}$
+\end_inset
+
+ are the recorded ADC value and pedestal value, and 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+ are the slope and intercept of the relationship between 
+\begin_inset Formula $\phi_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{i}-A_{i\_ped}$
+\end_inset
+
+.
+ Equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:litexyb=xy"
+
+\end_inset
+
+) can be rewritten as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+D_{U} & = & \frac{(A_{U+}-A_{U+\_ped}+b_{U+})-h_{U}(A_{U-}-A_{U-\_ped}+b_{U-})}{(A_{U+}-A_{U+\_ped}+b_{U+})+h_{U}(A_{U-}-A_{U-\_ped}+b_{U-})},\label{eq:xbfab}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $h_{x}$
+\end_inset
+
+ = 
+\begin_inset Formula $a_{x-}/a_{x+}$
+\end_inset
+
+, and is related to the ratio of the signals for the 
+\begin_inset Formula $x_{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{-}$
+\end_inset
+
+ antennas and the gain settings of the two channels.
+ Similarly, 
+\begin_inset Formula $h_{y}=a_{y-}/a_{y+}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Combining the equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phivsA"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:antenna_signal"
+
+\end_inset
+
+), the calibration constant 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+ was obtained by taking the linear fit between the ADC values of BPM and
+ the beam current: 
+\begin_inset Formula 
+\begin{equation}
+I\propto(A_{i}-A_{i\_ped}+b_{i}),\label{eq:bpmvscurrent}
+\end{equation}
+
+\end_inset
+
+.
+ Besides, the linear fit used a group of runs which had the same beam position
+ but different beam current.
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/currvspos.png
+	lyxscale 10
+	width 50col%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:BPM-raw-signalVScurrent"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+ADC value of BPM raw signal V.S.
+ beam current
+\end_layout
+
+\end_inset
+
+ADC value of BPM raw signal (
+\begin_inset Formula $A-A_{ped}$
+\end_inset
+
+) V.S.
+ beam current
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BPM-raw-signalVScurrent"
+
+\end_inset
+
+ shows the 
+\begin_inset Formula $A_{i}-A_{i\_ped}$
+\end_inset
+
+ versus the beam current.
+ It shows that the ADC values were linear with beam current in the considering
+ current range of 50-100 nA.
+ The intercept from the linear fit of figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BPM-raw-signalVScurrent"
+
+\end_inset
+
+ is the value 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+By transporting the position 
+\begin_inset Formula $x_{harp}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{harp}$
+\end_inset
+
+ in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:harp"
+
+\end_inset
+
+) from two harps to the BPM local coordinate 
+\begin_inset Formula $u_{harp}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{harp}$
+\end_inset
+
+, a fit between the BPM data 
+\begin_inset Formula $U$
+\end_inset
+
+ and the harp data 
+\begin_inset Formula $U_{harp}$
+\end_inset
+
+ determined three calibration constants 
+\begin_inset Formula $c_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+U_{harp}=U_{c}=c_{0}+c_{1}u+c_{2}v,\label{eq:Uvu}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $U_{c}$
+\end_inset
+
+ is the calibrated BPM position.
+ It was converted to Hall coordinate 
+\begin_inset Formula $X_{c}$
+\end_inset
+
+ for further transporting to the target location.
+ An calibration example is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Harpscan"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/harpscan.png
+	lyxscale 10
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Harpscan"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Harp scan data combined with BPM data
+\end_layout
+
+\end_inset
+
+Harp scan data combined with BPM data, the asterisks are the positions from
+ harp, while the dots are from BPM.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The asterisks and the dots in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Harpscan"
+
+\end_inset
+
+ represent 
+\begin_inset Formula $U_{harp}$
+\end_inset
+
+ and 
+\begin_inset Formula $U$
+\end_inset
+
+, respectively.
+ 
+\end_layout
+
+\begin_layout Standard
+In order to reduce the noise and improve the resolution during data analysis,
+ a software filter was applied.
+ Since the 18 bit ADC was triggered by the helicity signal with a fixed
+ frequency, it could be regarded as a sampling ADC.
+ 
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/fft_signal.jpg
+	lyxscale 20
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Normal run with beam
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/fft_pedestal.jpg
+	lyxscale 20
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pedestal run without beam
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2Hz-filter-added"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Software filter applied to BPM signal
+\end_layout
+
+\end_inset
+
+Software filter applied to BPM signal.
+ (a) is the signal with beam, (b) is the pedestal signal without beam.
+ (1,2,3) in (a,b) are the raw signal without applying the filter, (4,5,6)
+ are applied a 2 Hz finite-impulse-response filter with 4th order.
+ (7,8,9) are averaged with 0.5 s.
+ (1,4,7) are the 1-D histogram of the recorded signal, (2,5,8) are the signal
+ in time domain, (3,6,9) are in frequency domain.
+ Note all of the plots in (a) are from a single signal, same as in (b).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2Hz-filter-added"
+
+\end_inset
+
+ shows the signal dealt with a 2 Hz low pass filter.
+ Three plots at the bottom of figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2Hz-filter-added"
+
+\end_inset
+
+ (a,b) are the averaged signal used for comparing with the filtered signal.
+ The results show that the 2 Hz filter and the 0.5 s average are consistent
+ within the required precision.
+ The filter also erases the beam displacement caused by the rasters, which
+ is necessary to extract the position of the beam center.
+\end_layout
+
+\begin_layout Subsubsection
+Beam position reconstruction at target
+\end_layout
+
+\begin_layout Standard
+It is easy to transport the position from the BPMs to the target by using
+ a linear transportation method for the straight through setting.
+ For the settings with a transverse magnetic field at the target, the linear
+ transportation method cannot be used since the beam is bent near the target.
+ A simulation package was constructed to simulate the behavior of the beam.
+ Polynomial curve fittings were used for simulated data to generate the
+ transport functions in order to transport the beam from the two BPMs to
+ the target (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transporting-beam-position"
+
+\end_inset
+
+).
+\begin_inset Float figure
+placement tbph
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rastersize_target1.jpg
+	lyxscale 10
+	width 60col%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transporting-beam-position"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Transporting beam position from BPM to target
+\end_layout
+
+\end_inset
+
+Transporting beam position from BPM to target with transverse target magnet
+ field.
+ Trajectories are from simulation.
+ Blue lines show the z positions of BPMA, BPMB and target.
+ y and z are in global Hall coordinate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A target magnet field map 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "winestosca"
+
+\end_inset
+
+ was generated from the TOSCA model.
+ To test the accuracy of the TOSCA model, the target magnet field was measured
+ before the experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiefieldmap,chaofieldmap"
+
+\end_inset
+
+.
+ The generated field map was used in the simulation.
+ An event generator generated thousands of electrons with different initial
+ positions and angles, with the energy of the electrons set to the same
+ values as in the experiment.
+ The Runge-Kutta method
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://en.wikipedia.org/wiki/Runge–Kutta_methods
+\end_layout
+
+\end_inset
+
+ with 0.02 mm step length was used to generate the trajectories from BPM
+ A to the target by using the field map.
+ The positions at BPM A, BPM B and the position and angle at the target
+ was extracted from the simulated trajectory.
+ 
+\end_layout
+
+\begin_layout Standard
+Data extracted from the simulation was used as input to a fitting program
+ that determined the best-fit polynomial.
+ In total, 24 different fits were taken for 4 different target positions
+ and 6 configurations with different target magnetic field and beam energy
+ settings.
+ The validity of the transport functions was explored in the simulation
+ using a new set of random trajectories generated in the same manner as
+ those used in the fitting.
+ The fits were compared with the full simulation and they are consistent
+ with negligible difference.
+ 
+\end_layout
+
+\begin_layout Standard
+The fitted transport functions were only used to transport the beam center
+ position from the two BPMs to the target by applying the 2 Hz filter, which
+ filtered out the fast raster and slow raster motion to keep only the beam
+ center position.
+ The transported position were expressed as 
+\begin_inset Formula $X_{center}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Determining the beam position event-by-event
+\end_layout
+
+\begin_layout Standard
+The readout of the magnet current for the two rasters was connected to a
+ series of ADCs.
+ Two scintillator planes in the HRS form a DAQ trigger.
+ This pulse signal triggered the ADC to record the magnet current for each
+ event.
+ The information from the rasters and the BPMs was combined to provide the
+ beam position event-by-event.
+ The position at the target was determined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+X & = & X_{center}+X_{fstraster}+X_{slraster},\label{eq:tot_pos}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $X_{fstraster}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{slraster}$
+\end_inset
+
+ were the position displaced by the fast raster and slow raster, respectively,
+ which were converted from the current values of the two raster magnets.
+ The calibration of the conversion factors between the magnet current of
+ the rasters and the displaced position will be discussed in the next subsection.
+ An example of reconstructed beam position is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Reconstructed-beam-position"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/reconed.png
+	lyxscale 5
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Reconstructed-beam-position"
+
+\end_inset
+
+Reconstructed beam position at the target
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Conversion factor for the slow raster
+\end_layout
+
+\begin_layout Standard
+Two methods were used to calibrate the conversion factor for the slow raster.
+ The first method used the calibrated BPM information, i.e., comparing the
+ raster magnet current with the beam shape shown in the ADC of the BPMs.
+ Several calibrations were taken during different run periods at a beam
+ current of 100nA using different values of the raster magnet current, as
+ shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-size"
+
+\end_inset
+
+(a).
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/raster_size_calib1.png
+	lyxscale 30
+	width 33col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:slow-raster-run_different_size"
+
+\end_inset
+
+ADC value of slow raster, with the raster current changing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\quad$
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/slow_raster_oval_fit.png
+	lyxscale 5
+	width 28col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:slow-raster-oval-fit"
+
+\end_inset
+
+Elliptical fit for the spread of magnet current of slow raster
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\quad$
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/raster_size_calib2.png
+	lyxscale 5
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:slow-raster-size_b"
+
+\end_inset
+
+Linear fit between the raster current and the range of beam distribution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Slow-raster-size"
+
+\end_inset
+
+Converting the raster current to beam position shift
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The range of the beam distribution at the target was calculated from the
+ ranges at the two BPMs without applying the filter, using the transport
+ functions fitted previously.
+ The range of the beam distribution at the two BPMs and the amplitude of
+ the raster current was calculated from an elliptical fit, an example is
+ shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-size"
+
+\end_inset
+
+(b).
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-size"
+
+\end_inset
+
+(c) shows a linear fit between the raster current and the range of the beam
+ distribution at the target.
+ The x axis in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-size"
+
+\end_inset
+
+(c) is the magnet current of the raster, and the y axis is the range of
+ the beam distribution obtained from the BPMs.
+\end_layout
+
+\begin_layout Standard
+The second method for calibrating the conversion factor used a target called
+ 
+\begin_inset Quotes eld
+\end_inset
+
+carbon hole
+\begin_inset Quotes erd
+\end_inset
+
+ as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Target-insert"
+
+\end_inset
+
+.
+ The location of the carbon hole target is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Target-insert"
+
+\end_inset
+
+.
+ Scattered electrons were used as the trigger for recording the raster magnet
+ current.
+ Since the density of the target frame was much higher than that of the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+hole
+\begin_inset Quotes erd
+\end_inset
+
+, which was submerged in liquid helium, the density of events triggered
+ from the target frame was much higher than that of the hole itself.
+ Recorded values reveal a hole shape as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Carbon-hole"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/carbon_hole.png
+	lyxscale 20
+	width 58col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Carbon-hole"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The shape of carbon hole in raster ADC
+\end_layout
+
+\end_inset
+
+The shape of carbon hole in raster ADC, x and y axis are corresponding to
+ the currents on x magnet and y magnet of slow raster, respectively.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The size of the carbon hole was surveyed before the experiment, and a fit
+ program was used to extract the radius of the recorded hole shape for that
+ raster current.
+ The conversion factor 
+\begin_inset Formula $F$
+\end_inset
+
+ was then calculated as the ratio of the size of the carbon hole 
+\begin_inset Formula $S_{hole}$
+\end_inset
+
+ and the radius of the hole shape 
+\begin_inset Formula $R_{hole}$
+\end_inset
+
+ in the ADC:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F=\frac{S_{hole}}{2*R_{hole}}.\label{eq:convfactorhole}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Conversion factor for the fast raster
+\end_layout
+
+\begin_layout Standard
+The conversion for the fast raster was the same as for the slow raster.
+ The low pass filter for the BPM was set to a higher value than the frequency
+ of the fast raster to see the beam shape at the BPM formed by the fast
+ raster.
+ For a higher frequency filter, a larger beam current was needed to get
+ a clear pattern.
+ The beam current chosen for calibrating the fast raster was near 300 nA,
+ which was the safety limit for the target.
+ The beam shape formed by the fast raster is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:fastrasteratbpm"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/fastrasteratbpm.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:fastrasteratbpm"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Beam shape formed by the fast raster at the BPM A location
+\end_layout
+
+\end_inset
+
+Beam shape formed by the fast raster at the BPM A location, the unit is
+ millimeter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Other improvements
+\end_layout
+
+\begin_layout Subsubsection*
+Slow raster shape reconstruction
+\end_layout
+
+\begin_layout Standard
+In order to improve the accuracy of the raster current value and minimize
+ the uncertainty caused by the ADC resolution, a slow raster shape reconstructio
+n was done using the fast clock signal.
+ This signal was recorded in the scalers for each events, with a frequency
+ of ~103.7 kHz.
+ Since the slow raster function and the frequency setting was well known
+ and controlled in the control room of Hall A, only phase information was
+ needed to rebuild the shape.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/raster_shape_reconstruct.png
+	lyxscale 20
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Slow-raster-phase"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Slow raster phase reconstruction
+\end_layout
+
+\end_inset
+
+Slow raster phase reconstruction, the four pictures were using one fit result
+ in one run, but in different time period of run.
+ The asterisk is the real raster ADC data, and the line is the fit result.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Slow-raster-phase"
+
+\end_inset
+
+ is an example of the slow raster shape reconstruction.
+ For the g2p experiment, there were about 7 million events in a production
+ run with 20 minute duration.
+ Unfortunately, the frequency of the fast clock signal was not stable, it
+ was shifting during the experiment at a 40 Hz level (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:fast-clock-frequency"
+
+\end_inset
+
+) 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/fast_clock_stability.png
+	lyxscale 30
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:fast-clock-frequency"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+fast clock frequency change during experiment
+\end_layout
+
+\end_inset
+
+fast clock frequency change during experiment, x axis is run number, y axis
+ is frequency (kHz) calculated by helicity signal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ A shift of 1 Hz during a run causes the shape to shift by 1.1 ms, corresponding
+ to 1.1 cycles of the sine function.
+ To avoid this shift, a fit was taken every 2000 events (1/3 second).
+ The fit was also used to calculate the fast raster frequency, the result
+ was matched with the one calculated with helicity.
+\end_layout
+
+\begin_layout Subsubsection*
+Beam motion determination
+\end_layout
+
+\begin_layout Standard
+The determination of beam move was taken to split the run for several regions
+ which have relatively stable beam position.
+\end_layout
+
+\begin_layout Standard
+To judge if the beam moves, the root mean square (RMS) is looked at.
+ A RMS deviation leaf for every 1000 events (0-1000,1-1001,2-1002,...) was
+ calculated as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Using-rms"
+
+\end_inset
+
+, Each entry in the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Using-rms"
+
+\end_inset
+
+ is the RMS of 1000 entries positions.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/rms.png
+	lyxscale 30
+	width 95col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Using-rms"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Using RMS to check if beam move
+\end_layout
+
+\end_inset
+
+Using RMS to check if beam move, x axis is entry, y axis on top pad is x
+ position, on buttom there is rms calculated from above pad
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ When the beam suddenly moves there is a peak in the deviation histogram.
+ When combined with another deviation leaf for every 300 entries, the baseline
+ can be subtracted, leaving only the peak data.
+ The peak positions were used for the first discontinuity point.
+\end_layout
+
+\begin_layout Standard
+We use all of the beam trip points as the discontinuity points.
+ Also, events that occurred during the beam trip, along with 2000 events
+ after the beam came back were discarded.
+ For case where the beam moved slowly, a discontinuity point was created
+ when the beam position changed by more than 0.2mm, which is close to the
+ BPM resolution.
+ Combining all of the discontinuity points, the run was split in several
+ regions which have a relatively stable position.
+\end_layout
+
+\begin_layout Subsubsection
+Uncertainty of the beam position and angle
+\end_layout
+
+\begin_layout Subsubsection*
+Auto-gain and Fixed gain mode
+\end_layout
+
+\begin_layout Standard
+Since the g2p experiment ran in 50 nA, the uncertainty of it should be carefully
+ calculated.
+ At the beginning of g2p experiment during 3/1/2012 and 3/29/2012, the BPM
+ setting use the auto-gain mode which was used for several experiments before
+ the g2p experiment.
+ As shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BPM-receiver"
+
+\end_inset
+
+, the BPM receiver have 4 channels, each antenna connected its own channel
+ and the gain of each one can be adjusted independently.
+ Combining the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:adcsignalvsantenna"
+
+\end_inset
+
+) and equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:antenna_signal"
+
+\end_inset
+
+), equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:diff/sum"
+
+\end_inset
+
+) can be rewritten as :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D_{U}=k\frac{I\cdot\mbox{\phi'}_{+}\cdot10^{\frac{g_{+}}{20}}-I\cdot\phi'_{-}\cdot10^{\frac{g_{-}}{20}}}{I\cdot\mbox{\phi'}_{+}\cdot10^{\frac{g_{+}}{20}}+I\cdot\phi'_{-}\cdot10^{\frac{g_{-}}{20}}}=k\frac{\phi'_{+}\cdot10^{\frac{g_{+}-g_{-}}{20}}-\phi'_{-}}{\phi'_{+}\cdot10^{\frac{g_{+}-g_{-}}{20}}+\phi'_{-}}.\label{eq:diff/sum_gain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Auto-gain mode means the gain setting automatically changes with the current,
+ but fix the 
+\begin_inset Formula $g_{+}-g_{-}$
+\end_inset
+
+ value.
+ Because the difference between 
+\begin_inset Formula $g_{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{-}$
+\end_inset
+
+ is fixed, the result 
+\begin_inset Formula $D_{U}$
+\end_inset
+
+ in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:diff/sum_gain"
+
+\end_inset
+
+) will not be changed when gain and current is changing.
+ The advantage of auto-gain mode is the BPM receiver can work in a large
+ current range and don't need to change the gain by hand.
+ But during the first range runs for g2p experiment we found that the auto-gain
+ mode cannot work well since the beam current g2p used was only around 50
+ nA, the signal/noise ratio became low enough that auto-gain mode didn't
+ work anymore.
+ After the date 3/29/2012, we changed to dual gain mode, that is use one
+ fixed gain setting below 500 nA for CW beam mode and use another fixed
+ gain setting above 500 nA for tuning beam.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Pedestal"
+
+\end_inset
+
+Pedestal
+\end_layout
+
+\begin_layout Standard
+From equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:bpmvscurrent"
+
+\end_inset
+
+) it is necessary to get the pedestal value 
+\begin_inset Formula $A_{ped}$
+\end_inset
+
+.
+ For auto-gain mode since the gain is always changing, the pedestal value
+ is always changing too.
+ For auto-gain mode the value 
+\begin_inset Formula $D_{U}$
+\end_inset
+
+ in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:xbfab"
+
+\end_inset
+
+) is calculated directly using 
+\begin_inset Formula $\frac{A_{+}-A_{-}}{A_{+}+A_{-}}$
+\end_inset
+
+, the uncertainty of it is calculated by using another method and will discuss
+ in next section.
+ Here we only discuss about the fixed gain setting.
+\end_layout
+
+\begin_layout Standard
+During 3/29 and 5/18 we have 6 different gain settings.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/pedestal.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pedestal"
+
+\end_inset
+
+Pedestal change during experiment for left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pedestal"
+
+\end_inset
+
+ is the pedestal change for each settings during experiment.
+ The data came from two parts, one is from the real pedestal run that the
+ beam kept off, another from the beam trip events in production runs.
+ The reason to use beam trip events as pedestal value is that the number
+ of the run with beam trip is much more than the pure pedestal run so that
+ we can get more closed value.
+ The data shows there is few different between pure pedestal run and beam
+ trip pedestal, and the pedestal is changing during the time.
+ The pedestal values in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pedestal"
+
+\end_inset
+
+ are saved were the sqlite database.
+ The pedestal value for each run choice the one closest for that run and
+ have the same gain setting.
+ The uncertainty of pedestal calculated from two part: One is the root-mean-squa
+re of 2 Hz filtered histogram for each pedestal run; The other part is from
+ the pedestal database that split several relatively stable range in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pedestal"
+
+\end_inset
+
+, and calculate root mean square for all of the pedestal values in that
+ range.
+ The final pedestal uncertainty used the larger one from those two parts.
+\end_layout
+
+\begin_layout Subsubsection*
+Pedestal uncertainty for auto gain mode 
+\end_layout
+
+\begin_layout Standard
+As mentioned above, the gain setting was always changing when in auto gain
+ mode.
+ Unfortunately the gain setting was only recorded at the beginning of run
+ and not recorded in epics file for each change.
+ For the reason above it is impossible to get pedestal uncertainty directly.
+ Since the gain was not fixed, the value of the calculated position changed
+ when the gain changed (Pedestal changed) is the most important one we should
+ consider and it is the meaning of pedestal uncertainty.
+ Luckily we don't have many runs in auto gain mode, most of them are optics
+ runs, and just a few of them are production runs.
+ All of the optics runs ran in 80~100 nA in auto gain period and that have
+ less pedestal disturbance than in 50 nA.
+ 
+\end_layout
+
+\begin_layout Standard
+The main idea to estimate the pedestal uncertainty in auto gain mode is,
+ choose some relatively stable position ranges (no manual change, beam is
+ stable), check the position deviation between each range.
+ Since there is no way to know how large the gain waggled during a run and
+ between runs, and how large calculated position change when the gain waggle,
+ even in the same gain setting the pedestal is still not stable (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Pedestal"
+
+\end_inset
+
+).
+ For the reason above the maximum position deviation is used for position
+ uncertainty caused by pedestal.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Total Uncertainty
+\end_layout
+
+\begin_layout Standard
+The uncertainty of the final beam position at the target for each event
+ contains several contributions:
+\end_layout
+
+\begin_layout Itemize
+The first part comes from the uncertainty of the calibration constant.
+ It includes the BPM resolution for the DAQ runs used for the calibration,
+ the uncertainty of the harp data corresponding to each calibration, and
+ the survey uncertainties for the BPMs and harps.
+ It contributes about 0.7 mm for the uncertainty of the position and 0.7 mrad
+ for the uncertainty of the angle.
+\end_layout
+
+\begin_layout Itemize
+The uncertainty on the pedestal is the largest uncertainty for the beam
+ position measurement, contributing about 0.7
+\begin_inset Formula $\sim$
+\end_inset
+
+1.5 mm to the uncertainty of the position and 0.7
+\begin_inset Formula $\sim$
+\end_inset
+
+1.5 mrad to the uncertainty of the angle.
+\end_layout
+
+\begin_layout Itemize
+The uncertainties from the BPM survey need to be included, since the production
+ data and the calibration data were taken at different beamline settings
+ when the equipment was moved.
+ They contribute 0.5 mm to the uncertainty of the position.
+\end_layout
+
+\begin_layout Itemize
+The uncertainty from the magnetic field map of the target was considered
+ for the settings with the target magnet field.
+\end_layout
+
+\begin_layout Itemize
+The uncertainties due to the size conversion of the rasters were also included.
+\end_layout
+
+\begin_layout Standard
+The position uncertainty was magnified by a factor of 5 at the target because
+ of the short distance between the two BPMs.
+ For example, in the straight through setting, if the uncertainty at BPM
+ A is 0.2 mm, and at BPM B is 0.27 mm, the uncertainty at the target is 1.1
+ mm for position and 1.3 mrad for angle.
+ The uncertainty for the position at the target was around 1
+\begin_inset Formula $\sim$
+\end_inset
+
+2 mm, while the uncertainty for the angle was 1
+\begin_inset Formula $\sim$
+\end_inset
+
+2 mrad.
+ More detail position and uncertainty can be found in g2p sql database.
+ 
+\end_layout
+
+\begin_layout Subsection
+Local beam dump
+\end_layout
+
+\begin_layout Standard
+For the settings with 5 T transverse target magnet field, the chicane magnet
+ cannot bend the beam to the Hall A beam dump.
+ The low beam current for the experiment allow for the use of a local beam
+ dump, which was installed downstream the 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ target and upstream the septum magnet, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:localbeamdump"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/localbeamdump.jpg
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:localbeamdump"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The local beam dump and the septum magnet
+\end_layout
+
+\end_inset
+
+The local beam dump (blue one) and the septum magnet (back of the local
+ beam dump).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The local beam dump worked great during the experiment without any high
+ radiation recorded.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,2420 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\usepackage{lineno,hyperref}
+\linenumbers
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Nucleon Spin
+\end_layout
+
+\begin_layout Standard
+As known from QCD, the nucleon is consisted of the quarks and gluons.
+ The total nucleon spin can be expressed as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jaffe1990509"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+J_{Z}^{N}=\frac{1}{2}=(\frac{1}{2}\Delta\Sigma+L_{q})+(\Delta G+L_{g}).\label{eq:spindecom}
+\end{equation}
+
+\end_inset
+
+The spin of the nucleon is equal to 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+.
+ It includes the quark and gluon angular momentum contributions: 
+\begin_inset Formula $L_{q}$
+\end_inset
+
+ and 
+\begin_inset Formula $L_{g}$
+\end_inset
+
+ respectively, and the intrinsic quark and gluon spin contribution: 
+\begin_inset Formula $\frac{1}{2}\Delta\Sigma$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+, respectively.
+ 
+\end_layout
+
+\begin_layout Standard
+The format of the relationship wasn't like this before the QCD corrected
+ the quark-parton model.
+ The naive quark-parton model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.23.1415"
+
+\end_inset
+
+ was invented long before the QCD in order to describe the nucleon structures.
+ Later on the spin crisis between the experiment and the prediction from
+ the naive quark-parton model activated the enthusiasm for the study of
+ the nucleon spin.
+\end_layout
+
+\begin_layout Section
+The Naive Quark-Parton Model
+\end_layout
+
+\begin_layout Subsection
+Spin structure in the naive quark-parton model
+\end_layout
+
+\begin_layout Standard
+When proton is considered to be comprised by only the valence 
+\begin_inset Formula $u$
+\end_inset
+
+ and 
+\begin_inset Formula $d$
+\end_inset
+
+ quarks, a simple non-relativistic wave function for proton can be expressed
+ as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Filippone:2001ux"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+|p\uparrow>=\frac{1}{\sqrt{6}}(2|u\uparrow u\uparrow d\downarrow>-|u\uparrow u\downarrow d\uparrow>-|u\downarrow u\uparrow d\uparrow>),\label{eq:protonwave}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\uparrow,\downarrow$
+\end_inset
+
+ indicate the spin of the quarks or the anti-quarks are parallel or anti-paralle
+l to the spin of the proton, respectively.
+ The color indices and permutations were suppressed in the equation.
+ The contribution of the 
+\begin_inset Formula $u$
+\end_inset
+
+ quark can be determined by using the following matrix element and projection
+ operator:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+u^{\uparrow} & =<p^{\uparrow}|\hat{O_{u\uparrow}}|p^{\uparrow}>,\\
+\hat{O_{u\uparrow}} & =\frac{1}{4}(1+\hat{\tau}_{3})(1+\hat{\sigma}_{3}),
+\end{align}
+
+\end_inset
+
+where the matrix element gives the number of the 
+\begin_inset Formula $u$
+\end_inset
+
+ quark which polarized along the polarization of proton.
+ Similar expression can be taken for the 
+\begin_inset Formula $d$
+\end_inset
+
+ quark.
+ The quark spin contributions can be defined using the matrix elements above:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\Delta u & =u^{\uparrow}-u^{\downarrow},\\
+\Delta d & =d^{\uparrow}-d^{\downarrow},
+\end{align}
+
+\end_inset
+
+so that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\Delta u & =\frac{1}{2}(<\sigma_{3}>+<\sigma_{3}\tau_{3}>)=\frac{4}{3},\\
+\Delta d & =\frac{1}{2}(<\sigma_{3}>-<\sigma_{3}\tau_{3}>)=-\frac{1}{3}.
+\end{align}
+
+\end_inset
+
+The proton's spin can then be expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+J_{Z}^{N}=\frac{1}{2}\Delta\varSigma=\frac{1}{2}(\Delta u+\Delta d+\Delta s)=\frac{1}{2}<\sigma_{3}>=\frac{1}{2},
+\end{equation}
+
+\end_inset
+
+which indicates all of the nucleon spin is carried by the quarks.
+\end_layout
+
+\begin_layout Subsection
+Structure functions in the naive quark-parton model
+\end_layout
+
+\begin_layout Standard
+The quark-parton was considered as a mass-less and point-like particle which
+ interact electromagnetically like lepton in the naive model.
+ The spin-averaged structure functions of hadron, 
+\begin_inset Formula $F_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $F_{2}$
+\end_inset
+
+, are presented in the naive quark-parton model (QPM) as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+F_{1}(x) & =\frac{1}{2}\underset{i}{\sum}e_{i}^{2}[q_{i}(x)+\bar{q}_{i}(x)],\label{eq:nativeQPMF1}\\
+F_{2}(x) & =\underset{i}{\sum}e_{i}^{2}x[q_{i}(x)+\bar{q}_{i}(x)],\label{eq:nativeQPMF2}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $q_{i}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $\bar{q}_{i}(x)$
+\end_inset
+
+ are the number density of the quarks and anti-quarks, 
+\begin_inset Formula $e_{i}$
+\end_inset
+
+ is the charge of the quark, 
+\begin_inset Formula $x$
+\end_inset
+
+ is the momentum fraction of the nucleon's total momentum carried by a quark
+ or anti-quark in the parton model.
+ The equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:nativeQPMF1"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:nativeQPMF2"
+
+\end_inset
+
+) lead to Callan-Gross relation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.21.311"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{2}(x)=2xF_{1}(x).\label{eq:F2eq2xF1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the polarized scattering the results become more interesting by the
+ spin contribution.
+ Spin plays an essential role for the more detailed structure of the nucleon.
+ The longitudinal spin-dependent structure function 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ is presented in the naive QPM as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g_{1}(x)=\frac{1}{2}\underset{i}{\sum}e_{i}^{2}\Delta q_{i}(x),\label{eq:g1native}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta q_{i}$
+\end_inset
+
+ is the difference of the number density of the quarks (anti-quarks) when
+ the helicity parallel and anti-parallel to the nucleon spin, represented
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta q_{i}(x)=q_{i}^{+}(x)+\bar{q}_{i}^{+}(x)-q_{i}^{-}(x)-\bar{q}_{i}^{-}(x).\label{eq:deltaqi}
+\end{equation}
+
+\end_inset
+
+where the helicity is defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+h=\frac{\vec{\sigma}\cdot\vec{p}}{|\vec{p}|},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+ is the particle's momentum, and 
+\begin_inset Formula $\vec{\sigma}$
+\end_inset
+
+ is the Pauli spin matrix.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ structure function represents the charge-weighted quark helicity distributions
+ at the Bjorken limit.
+ Another spin-dependent structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ cannot be leaded to simple results by using the naive quark-parton model
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anselmino:1994gn"
+
+\end_inset
+
+ and will discussed later.
+ 
+\end_layout
+
+\begin_layout Subsection
+First moment of 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ in the naive quark-parton model and Ellis-Jaffe sum rule
+\end_layout
+
+\begin_layout Standard
+The first moment of 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ is defined as the integration of 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $x=0$
+\end_inset
+
+ to 
+\begin_inset Formula $x=1$
+\end_inset
+
+.
+ For proton it is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varGamma_{1}^{p}(x)=\int_{0}^{1}g_{1}(x)dx.\label{eq:eta1p-1}
+\end{equation}
+
+\end_inset
+
+The equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:g1native"
+
+\end_inset
+
+) can be rewritten in terms of linear combinations of quark densities under
+ the group of flavor transformations 
+\begin_inset Formula $SU(3)_{F}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\Delta q_{3} & =\Delta u-\Delta d,\\
+\Delta q_{8} & =\Delta u+\Delta d-2\Delta s,\\
+\Delta\Sigma & =\Delta u+\Delta d+\Delta s,
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta q_{3}$
+\end_inset
+
+ is the third component of an isotopic spin triplet, 
+\begin_inset Formula $\Delta q_{8}$
+\end_inset
+
+ is the eighth component of an 
+\begin_inset Formula $SU(3)_{F}$
+\end_inset
+
+ octet, and 
+\begin_inset Formula $\Delta\Sigma$
+\end_inset
+
+ is a flavor singlet.
+ Then 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ becomes as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g_{1}(x)=\frac{1}{9}[\frac{3}{4}\Delta q_{3}(x)+\frac{1}{4}\Delta q_{8}(x)+\Delta\Sigma(x)].
+\end{equation}
+
+\end_inset
+
+The first moment for the proton is then expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varGamma_{1}^{p}(x)=\int_{0}^{1}g_{1}(x)dx=\frac{1}{9}(\frac{3}{4}a_{3}+\frac{1}{4}a_{8}+a_{0}),\label{eq:eta1p}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{3}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{8}$
+\end_inset
+
+ are three weak axial-vector couplings 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.9.1444"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+a_{0} & =\Delta\sum\equiv\int_{0}^{1}\Delta\Sigma(x)dx,\label{eq:a0}\\
+a_{3} & =\int_{0}^{1}\Delta q_{3}(x)dx=\left|\frac{g_{A}}{g_{V}}\right|=F+D,\label{eq:a3}\\
+a_{8} & =\int_{0}^{1}\Delta q_{8}(x)dx=3F-D,\label{eq:a8}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $F$
+\end_inset
+
+ and 
+\begin_inset Formula $D$
+\end_inset
+
+ are the symmetric and antisymmetric weak 
+\begin_inset Formula $SU(3)_{F}$
+\end_inset
+
+ couplings, which assuming that 
+\begin_inset Formula $SU(3)_{F}$
+\end_inset
+
+ is symmetry.
+ 
+\begin_inset Formula $g_{A}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{V}$
+\end_inset
+
+ are the axial and vector weak coupling constants of neutron 
+\begin_inset Formula $\beta-decay$
+\end_inset
+
+.
+ When assuming the strange (sea) quark in the nucleon is not polarized,
+ the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:a0"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:a8"
+
+\end_inset
+
+) leads to 
+\begin_inset Formula $a_{0}=a_{8}$
+\end_inset
+
+, and the form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\varGamma_{1}^{p}(x) & =\frac{1}{12}(F+D)+\frac{5}{36}(3F-D)\nonumber \\
+ & =\frac{1}{12}\left|\frac{g_{A}}{g_{V}}\right|(1+\frac{5}{3}\frac{3(F/D)-1}{(F/D)+1}),\label{eq:elsumrule}
+\end{align}
+
+\end_inset
+
+which is the Ellis-Jaffe sum rules 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.9.1444"
+
+\end_inset
+
+.
+ The ratio of 
+\begin_inset Formula $F/D$
+\end_inset
+
+ can be measured from hyperon decays, and implying that: 
+\begin_inset Formula $a_{0}=a_{8}\approx0.59$
+\end_inset
+
+.
+ The result of the first moment can be obtained 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.9.1444"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varGamma_{1}^{p}(x)=0.186\pm0.004.
+\end{equation}
+
+\end_inset
+
+Also the 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ is equal to the spin from all of the quarks from the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:a0"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a_{0}=2S_{z}^{quarks},\label{eq:a0sz}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{z}^{quarks}$
+\end_inset
+
+ is the spin combining of all flavor quarks\SpecialChar \@.
+ In the naive quark-parton model
+ all quarks move parallel to the parent hadron, thus there is no orbital
+ angular momentum contributed to the 
+\begin_inset Formula $J_{z}$
+\end_inset
+
+ carried by the quarks.
+ The total spin is expected as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "leadernewcleonspin"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{z}^{quark}=J_{z}=\frac{1}{2}.\label{eq:szquark}
+\end{equation}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+In 1988 the European Muon Collaboration (EMC) published their final results
+ from their study of deep inelastic muon-proton scattering experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ashman1988364"
+
+\end_inset
+
+ , the value implied that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\int_{0}^{1}g_{1}(x)dx=0.114\pm0.012\pm0.026,
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{z}^{quark}=0.006\pm0.058\pm0.117,\label{eq:EMCresult}
+\end{equation}
+
+\end_inset
+
+which indicating that the quark spins carry only a little part of the proton
+ spin, and the Ellis-Jaffe sum rule in the naive quark-parton model is invalid.
+ The large disagreement with the naive quark-parton model result, which
+ terms the spin crisis in the parton model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raeycrisis"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+The quark-parton model corrected by QCD
+\end_layout
+
+\begin_layout Standard
+The spin crisis was believed to be resolved by considering a large contribution
+ of the polarized gluon.
+ Once the QCD theory is accepted as a valid theory for the strong interaction,
+ it is introduced to the naive quark-parton model to complement the gluon
+ distribution, which describes the strong force between the quarks.
+ After introducing the gluon vector potential, it is much more complicated
+ to describe the nucleon structure.
+ The operator product expansion (OPE) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRev.179.1499"
+
+\end_inset
+
+ is a fundamental understanding originally within QCD that provide the QCD
+ prediction for the moments of the structure functions via the sum rules.
+ The OPE expresses the product of the two operators in the small distance
+ limit 
+\begin_inset Formula $d\rightarrow0$
+\end_inset
+
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{d\rightarrow0}{lim}\sigma_{a}(d)\sigma_{b}(0)=\underset{k}{\Sigma}C_{abk}(d)\sigma_{k}(0),
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $C_{abk}$
+\end_inset
+
+ are the Wilson coefficients, which are calculable perturbatively in QCD.
+ The 
+\begin_inset Formula $\sigma_{k}$
+\end_inset
+
+ are quark and gluon operators of dimension 
+\begin_inset Formula $d$
+\end_inset
+
+ and spin 
+\begin_inset Formula $n$
+\end_inset
+
+, which are not calculable in perturbative QCD.
+ The twist is defined as: 
+\begin_inset Formula $\tau\equiv d-n$
+\end_inset
+
+.
+ The contribution of any operator, i.e., the differential cross section, is
+ of order:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+x^{-n}(\frac{M}{Q})^{\tau-2},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $Q=\sqrt{Q^{2}}$
+\end_inset
+
+, and 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ is the squared four-momentum transfer, 
+\begin_inset Formula $Q^{2}=-q^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The OPE describes the quark-parton reaction as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:QCD-quark-parton"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "0812.3535v2"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/QCDreaction.png
+	lyxscale 30
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:QCD-quark-parton"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+QCD quark parton model diagram
+\end_layout
+
+\end_inset
+
+QCD quark parton model diagram 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "0812.3535v2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The interaction is splitted to two part: The hard interaction (top 
+\begin_inset Quotes eld
+\end_inset
+
+blob
+\begin_inset Quotes erd
+\end_inset
+
+) and the non-perturbative soft interaction (down 
+\begin_inset Quotes eld
+\end_inset
+
+blob
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Unfortunately even if for the simplest QCD correction terms, a vertex correctio
+n and a gluon radiative correction are infinite because of the masslessness
+ of the quarks.
+ The solution is referring to a factorization scale 
+\begin_inset Formula $\mu^{2}$
+\end_inset
+
+, and splitting the interaction terms of the form 
+\begin_inset Formula $\alpha_{s}ln\frac{Q^{2}}{m_{q}^{2}}$
+\end_inset
+
+ into two parts:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\alpha_{s}ln\frac{Q^{2}}{m_{q}^{2}}=\alpha_{s}ln\frac{Q^{2}}{\mu^{2}}+\alpha_{s}ln\frac{\mu^{2}}{m_{q}^{2}},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ is the strong coupling constant.
+ The first term 
+\begin_inset Formula $\alpha_{s}ln\frac{Q^{2}}{\mu^{2}}$
+\end_inset
+
+ was absorbed into the hard part, which can be dealt with the perturbative
+ QCD.
+ The second term 
+\begin_inset Formula $\alpha_{s}ln\frac{\mu^{2}}{m_{q}^{2}}$
+\end_inset
+
+ was absorbed into the soft part, which cannot be calculated and need to
+ be parametrized.
+ The 
+\begin_inset Formula $\mu^{2}$
+\end_inset
+
+ is an arbitrary number that we can take a choice.
+ One optimal choice is 
+\begin_inset Formula $\mu^{2}=Q^{2}$
+\end_inset
+
+.
+ The quark-parton densities which are only depend on 
+\begin_inset Formula $x$
+\end_inset
+
+ in the naive quark-parton model are now depend on both 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+: 
+\begin_inset Formula $q(x,Q^{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta q(x,Q^{2})$
+\end_inset
+
+, which break the Bjorken scaling.
+ The main effect for the QCD correction is that it introduces a calculable
+ logarithmic relation with 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ for quark-parton densities, and generates the gluon contribution for 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+At present there are three different factorization schemes in use for handling
+ the quark-gluon interactions and the gluon contributions to nucleon spin,
+ which are the 
+\begin_inset Formula $\overline{MS}$
+\end_inset
+
+ scheme 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.54.2023"
+
+\end_inset
+
+, the 
+\begin_inset Formula $AB$
+\end_inset
+
+ scheme 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ball1996255"
+
+\end_inset
+
+, and the 
+\begin_inset Formula $JET$
+\end_inset
+
+ scheme 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carlitz1988"
+
+\end_inset
+
+.
+ If considering all orders in perturbation theory there is no difference
+ to choose the scheme, but it becomes important when working to leading
+ order (LO), next to leading order (NLO), and NNLO.
+ In the 
+\begin_inset Formula $AB$
+\end_inset
+
+ scheme and the 
+\begin_inset Formula $JET$
+\end_inset
+
+ scheme, 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ can be implied as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a_{0}=\Delta\sum+a_{0}^{gluon},\label{eq:a0QCD}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta\Sigma$
+\end_inset
+
+ is the quark spin contribution, which is independent with 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $a_{0}^{gluon}$
+\end_inset
+
+ is the gluon contribution 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carlitz1988"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a_{0}^{gluon}=-3\frac{\alpha_{s}(Q^{2})}{2\pi}\Delta G(Q^{2}),\label{eq:a0gluon}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ is the run coupling constant in the QCD, 
+\begin_inset Formula $\Delta G(Q^{2})\equiv\intop_{0}^{1}dx\Delta G(x,Q^{2})$
+\end_inset
+
+, and parameter 3 correspond to three flavor quarks: 
+\begin_inset Formula $u,\ d,\ s$
+\end_inset
+
+.
+ The equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:a0QCD"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:a0gluon"
+
+\end_inset
+
+) show that the small measured 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ does not imply the small 
+\begin_inset Formula $\Delta\Sigma$
+\end_inset
+
+.
+ The gluon's contribution to the first moment is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varGamma_{1}^{gluon}(Q^{2})=-3\frac{\alpha_{s}(Q^{2})}{2\pi}\Delta G(Q^{2}).
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the 
+\begin_inset Formula $\overline{MS}$
+\end_inset
+
+ scheme, 
+\begin_inset Formula $\Delta\Sigma$
+\end_inset
+
+ is not the pure quark spin contribution anymore, which includes the interaction
+ of quark-gluon.
+ In the NLO of the 
+\begin_inset Formula $\overline{MS}$
+\end_inset
+
+ scheme, 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ became to:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a_{0}(Q^{2})=\Delta\Sigma(Q^{2}).\label{eq:a0MS}
+\end{equation}
+
+\end_inset
+
+The first moment for proton in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:eta1p"
+
+\end_inset
+
+) is corrected as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Larin1994192,yeprogressphys"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varGamma_{1}^{p}(Q^{2})=\int_{0}^{1}g_{1}(x)dx=(\frac{1}{12}a_{3}+\frac{1}{36}a_{8})C_{ns}(Q^{2})+\frac{1}{9}a_{0}C_{s}(Q^{2}).
+\end{equation}
+
+\end_inset
+
+In the 
+\begin_inset Formula $\overline{MS}$
+\end_inset
+
+ scheme, the non-singlet coefficient function 
+\begin_inset Formula $C_{ns}(Q^{2})$
+\end_inset
+
+ was calculated in the
+\begin_inset Formula $\alpha_{s}^{3}$
+\end_inset
+
+ approximation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{ns}=1-\frac{\alpha_{s}(Q^{2})}{\pi}-3.58(\frac{\alpha_{s}(Q^{2})}{\pi})^{2}-20.2153(\frac{\alpha_{s}(Q^{2})}{\pi})^{3}.
+\end{equation}
+
+\end_inset
+
+The singlet part 
+\begin_inset Formula $\frac{1}{9}a_{0}C_{s}(Q^{2})$
+\end_inset
+
+ exists in two forms, one yields a 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ dependent 
+\begin_inset Formula $a_{0}(Q^{2})$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.58.112003"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{9}a_{0}C_{s}(Q^{2})=\frac{1}{9}a_{0}(Q^{2})[1-\frac{a_{s}(Q^{2})}{\pi}-1.10(\frac{a_{s}(Q^{2})}{\pi})^{2}],
+\end{equation}
+
+\end_inset
+
+another one yields the 
+\begin_inset Formula $a_{0}^{inv}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Larin1994192"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\frac{1}{9}a_{0}C_{s}(Q^{2}) & =\frac{1}{9}C_{s}^{inv}(Q^{2})a_{0}^{inv}\nonumber \\
+= & \frac{1}{9}[1-0.3333(\frac{\alpha_{s}(Q^{2})}{\pi})-0.5495(\frac{\alpha_{s}(Q^{2})}{\pi})^{2}+O(\alpha_{s}^{3})]a_{0}^{inv},
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $a_{0}^{inv}$
+\end_inset
+
+ is the asymtotic high 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ limit of 
+\begin_inset Formula $a_{0}(Q^{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Chiral Perturbation Theory
+\end_layout
+
+\begin_layout Standard
+In the low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ region with low energy interactions, since 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ becomes large, the QCD becomes highly non-perturbative.
+ The strong force in the nucleon is relatively strong in the resonance region,
+ the quarks and the gluons cannot be escaped to become the free particles.
+ The QCD cannot be easily solved in this region, the usual perturbative
+ expansion does not work.
+ It is better to deal the composite hadrons as the degrees of freedom than
+ directly deal with the quarks and gluons in QCD, which called Chiral Perturbati
+on Theory (
+\begin_inset Formula $\chi PT$
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bernard200882"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Considering the complete QCD Lagrangian 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bernard:1995dp"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\mathcal{L}_{QCD} & =-\frac{1}{4g^{2}}G_{\mu\nu}^{a}G^{\mu\nu,a}+\bar{q}i\gamma^{\mu}D_{\mu}q-\bar{q}\mathcal{M}q,
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $G$
+\end_inset
+
+ is the strength of the gluon field, 
+\begin_inset Formula $q$
+\end_inset
+
+ is the quark spinor, and 
+\begin_inset Formula $\mathcal{M}=diag(m_{u},m_{d},m_{s},...)$
+\end_inset
+
+ is the quark mass matrix.
+ The masses of 
+\begin_inset Formula $u$
+\end_inset
+
+ and 
+\begin_inset Formula $d$
+\end_inset
+
+ are small compared with the proton's mass, i.e., 
+\begin_inset Formula $m_{u}/m_{e}\approx0.006$
+\end_inset
+
+.
+ If the quark mass is set to 0, the left and right handed quarks are defined
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+q_{R,L}=\frac{1}{2}(1\pm\gamma_{5})q,
+\end{equation}
+
+\end_inset
+
+where the chirality is identical to helicity 
+\begin_inset Formula $h$
+\end_inset
+
+ for a massless fermion.
+ The main idea of 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ is that the left and right handed quarks do not interact each other so
+ that the theory admits the 
+\begin_inset Formula $U(3)_{L}\times U(3)_{R}$
+\end_inset
+
+ symmetry.
+ The existed small quark mass breaks the symmetry.
+ In the low energy, the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ splits the Lagrangian into two parts:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\mathcal{L}_{QCD}=\mathcal{L}_{QCD}^{0}+\mathcal{L}_{QCD}^{\mathcal{0}}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathcal{L}_{QCD}^{0}$
+\end_inset
+
+ is the chiral symmetric part, and 
+\begin_inset Formula $\mathcal{L}_{QCD}^{\mathcal{0}}=-\bar{q}\mathcal{M}q$
+\end_inset
+
+ is regarded as a perturbation to the 
+\begin_inset Formula $\mathcal{L}_{QCD}^{0}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+The low-energy expansion in small momenta and quark masses involves pion
+ loops of the effective theory.
+ In the presence of baryons, it becomes more complex since the baryon mass
+ is non-vanishing in the chiral limit.
+ Two main approaches were considered for dealing of it: heavy baryon 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ (
+\begin_inset Formula $HB\chi PT$
+\end_inset
+
+) and relativistic baryon 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ (
+\begin_inset Formula $RB\chi PT$
+\end_inset
+
+).
+ The 
+\begin_inset Formula $HB\chi PT$
+\end_inset
+
+ considers the baryons as very heavy and the theory is expanded in inverse
+ powers of the baryon mass 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.48.3062"
+
+\end_inset
+
+, while the 
+\begin_inset Formula $RB\chi PT$
+\end_inset
+
+ performs the calculation in a fully relativistic treatment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bernard2002105"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ is available as high as 
+\begin_inset Formula $Q^{2}=0.2\ GeV^{2}$
+\end_inset
+
+, the calculation of it became very productive over the past 15 years.
+ The applicability range of it should be resolved by the benchmark tests
+ of measurements of the quantities calculable in 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Sum rules
+\end_layout
+
+\begin_layout Standard
+The first moment of the spin structure function is important since it can
+ extract the quark spin distribution to the nucleon spin.
+ Peoples built several sum rules to study QCD by involving the spin structure
+ of the nucleon.
+ Including the Ellis-Jaffe sum rule discussed above, there are several sum
+ rules related to the first moment of 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+.
+ Here we discuss the Bjorken sum rule and the Gerasimov-Drell-Hearn (GDH)
+ sum rule for 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+.
+ The Burkhardt-Cottingham sum rule for 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ will be discussed in the next section.
+\end_layout
+
+\begin_layout Subsection
+The Bjorken sum rule
+\end_layout
+
+\begin_layout Standard
+The most fundamental of the definite prediction for the 
+\begin_inset Formula $x$
+\end_inset
+
+ dependence of spin-dependent structure functions is the Bjorken sum rule,
+ which was derived from light cone current algebra and isospin invariance
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRev.179.1547"
+
+\end_inset
+
+.
+ In the naive quark-parton model it has the form of :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Gamma_{1}^{p}-\Gamma_{1}^{n}=\int_{0}^{1}[g_{1}^{p}(x)-g_{1}^{n}(x)]dx=\frac{1}{6}\left|\frac{g_{A}}{g_{V}}\right|,\label{eq:Bjsumrule}
+\end{equation}
+
+\end_inset
+
+which is the difference between the first moment of proton and neutron.
+ For the finite 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range, it is corrected by the QCD radiative corrections:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Gamma_{1}^{p}-\Gamma_{1}^{n}=\frac{1}{6}\left|\frac{g_{A}}{g_{V}}\right|[1-\frac{\alpha_{s}(Q^{2})}{\pi}-3.25(\frac{\alpha_{s}(Q^{2})}{\pi})^{2}-13.8(\frac{\alpha_{s}(Q^{2})}{\pi})^{3}+...].\label{eq:BjsumruleQCD}
+\end{equation}
+
+\end_inset
+
+It is clear from equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:BjsumruleQCD"
+
+\end_inset
+
+) that the 
+\begin_inset Formula $\Gamma_{1}$
+\end_inset
+
+ is independent with 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ when 
+\begin_inset Formula $a_{s}$
+\end_inset
+
+ becomes to 0, which is the case at 
+\begin_inset Formula $Q^{2}\rightarrow\infty$
+\end_inset
+
+, otherwise, the bjorken scaling breaks down when the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ are in the region of finite values.
+ The Bjorken sum rule is one of the sum rule which the right hand side is
+ accurately known.
+ Measuring the 
+\begin_inset Formula $\Gamma_{1}^{p}-\Gamma_{1}^{n}$
+\end_inset
+
+ at different 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ provides a sensitive test for the QCD.
+\end_layout
+
+\begin_layout Standard
+Many experiments from SLAC, HERMES, and JLab supported the result of the
+ Bjorken sum rule.
+ The sum rule is rigorous with only the assumption of isospin invariance.
+\end_layout
+
+\begin_layout Subsection
+The Gerasimov-Drell-Hearn sum rule
+\end_layout
+
+\begin_layout Standard
+The Bjorken sum rule describes the region of 
+\begin_inset Formula $Q^{2}\rightarrow\infty$
+\end_inset
+
+, while the GDH sum rule describes the region of 
+\begin_inset Formula $Q^{2}\rightarrow0$
+\end_inset
+
+.
+ With the assumptions of Lorentz and gauge invariance, unitarity and causality,
+ the GDH sum rule is derived from the calculation of the forward Compton
+ amplitude for real photon scattering from a nucleon 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "VincentAnthonySulkosky07"
+
+\end_inset
+
+.
+ The GDH sum rule relates to the particle's static properties from the ground
+ state to all of its excited states.
+ It relates to an energy-weighted integral over its photoabsorption cross
+ section to an anomalous magnetic moment 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.16.908"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I(0)=\intop_{\nu_{0}}^{\infty}\frac{d\nu}{\nu}[\sigma_{1/2}(\nu)-\sigma_{3/2}(\nu)]=-2\pi^{2}\alpha\frac{\kappa^{2}}{M^{2}},\label{eq:GDHsumrule}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\nu_{0}$
+\end_inset
+
+ is the threshold energy for pion production: 
+\begin_inset Formula $\nu_{0}=m_{\pi}(1+\frac{m_{\pi}}{2M})\approx150\ MeV$
+\end_inset
+
+, which ignored the elastic scattering below 
+\begin_inset Formula $\nu_{0}$
+\end_inset
+
+.
+ Since the right hand side of the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GDHsumrule"
+
+\end_inset
+
+) is given by the nucleon's ground state properties that are known exactly,
+ the sum rule provides an ideal study for the nucleon's internal structure.
+\end_layout
+
+\begin_layout Standard
+The original GDH sum rule pertains strictly to the real photon case for
+ 
+\begin_inset Formula $Q^{2}=0$
+\end_inset
+
+.
+ For the 
+\begin_inset Formula $Q^{2}>0$
+\end_inset
+
+ it is useful to generalize the 
+\begin_inset Quotes eld
+\end_inset
+
+GDH integral
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+I(Q^{2}) & =\intop_{\nu_{0}}^{\infty}\frac{d\nu}{\nu}(1-x)[\sigma_{1/2}(\nu,Q^{2})-\sigma_{3/2}(\nu,Q^{2})]\nonumber \\
+ & =2\intop_{\nu_{0}}^{\infty}\frac{d\nu}{\nu}(1-x)\sigma'_{TT},\label{eq:GDHintegral}
+\end{align}
+
+\end_inset
+
+which is valid in all 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range, where we can connect it with the Bjorken sum rule.
+ Study of the connection of these two sum rules can help us to understand
+ the transition from the resonance region to the DIS region.
+\end_layout
+
+\begin_layout Standard
+Near 
+\begin_inset Formula $Q^{2}=0$
+\end_inset
+
+, several calculation have been performed using chiral perturbation theory.
+ For large 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, OPE technology is used to predict.
+ The GDH sum rule is not investigated until this century at Mainz 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.87.022003"
+
+\end_inset
+
+.
+ After that several experiments at Jefferson Lab tried to extract the GDH
+ integral 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.89.242301,E97110proposal,E03006eg4-proposal"
+
+\end_inset
+
+.
+ Now the data below 
+\begin_inset Formula $Q^{2}<0.2\ GeV^{2}$
+\end_inset
+
+ is still lacking, which is necessary to extend the integration to 
+\begin_inset Formula $Q^{2}=0$
+\end_inset
+
+.
+ The data from E97-110 and E03-006 at Jeffereson Lab hopefully can extend
+ the GDH integral at low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ and test predictions of chiral perturbation theory.
+ 
+\end_layout
+
+\begin_layout Section
+The 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ Structure Function and the Spin Polarizabilities
+\end_layout
+
+\begin_layout Standard
+There is no definition for the structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ in the naive quark-parton model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anselmino:1994gn"
+
+\end_inset
+
+.
+  The later progress shows that it is related to the higher-twist quark-gluon
+ correlations and needed to be fixed by using QCD.
+ The first reliable result is decomposed by the Wandzura-Wilczek relation
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wandzura1977195"
+
+\end_inset
+
+, which is known as the leading twist-2 term of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+, depends only on 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g_{2}^{WW}(x,Q^{2})=-g_{1}(x,Q^{2})+\intop_{x}^{1}\frac{g_{1}(y,Q^{2})}{y}dy.\label{eq:g2WW}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With the help of the operator product expansion (OPE) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shuryak1982141,Ji1993217,Stein1995107"
+
+\end_inset
+
+, 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ can be expanded into leading (twist-2) and higher-twist components if ignoring
+ quark mass effect:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g_{2}(x,Q^{2})=g_{2}^{WW}(x,Q^{2})+\bar{g_{2}}(x,Q^{2}),\label{eq:g2expand}
+\end{equation}
+
+\end_inset
+
+where the higher twist part 
+\begin_inset Formula $\bar{g_{2}}(x,Q^{2})$
+\end_inset
+
+ can be expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\bar{g_{2}}(x,Q^{2})=-\intop_{x}^{1}\frac{\partial}{\partial y}[\frac{m_{q}}{M}h_{T}(y,Q^{2})+\zeta(y,Q^{2})]\frac{dy}{y},\label{eq:g2highertwist}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $m_{q}$
+\end_inset
+
+ is the quark mass, 
+\begin_inset Formula $h_{T}(y,Q^{2})$
+\end_inset
+
+ is from the quark transverse polarization distribution which suppressed
+ in DIS by 
+\begin_inset Formula $m_{q}/M$
+\end_inset
+
+, and 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ is the twist-3 part which from quark-gluon interactions.
+ 
+\end_layout
+
+\begin_layout Standard
+It is a good approximation of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ for equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:g2WW"
+
+\end_inset
+
+) while the 
+\begin_inset Formula $Q^{2}\rightarrow\infty$
+\end_inset
+
+.
+ In the low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ exhibits large deviations from leading twist behavior.
+ While the higher twist is more sensitive to the quark-gluon interaction,
+ the study of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ provides a good test for the quark-gluon interaction, especially for the
+ study of the difference between 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+The generalized forward spin polarizability 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ and The longitudinal-transverse polarizability 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Assuming an appropriate high-energy behavior, the spin-flip forward doubly-virtu
+al Compton scattering (VVCS) amplitude 
+\begin_inset Formula $g_{TT}$
+\end_inset
+
+ satisfies an unsubtracted dispersion relation as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jpsumrulspin2005,Drechsel200399"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+Re[g_{TT}(\nu,Q^{2})-g_{TT}^{pole}(\nu,Q^{2})] & =\frac{\nu}{2\pi^{2}}\mathcal{P}\intop_{\nu_{0}}^{\infty}\frac{K(\nu',Q^{2})\sigma_{TT}(\nu',Q^{2})}{\nu'^{2}-\nu^{2}}d\nu'\nonumber \\
+ & =\frac{2\alpha}{M^{2}}I_{A}(Q^{2})\nu+\gamma_{0}(Q^{2})\nu^{3}+\mathcal{O}(\nu^{5}),\label{eq:gttgttpole}
+\end{align}
+
+\end_inset
+
+where the 
+\begin_inset Formula $g_{TT}^{pole}$
+\end_inset
+
+ is the nucleon pole (elastic) contribution, 
+\begin_inset Formula $\mathcal{P}$
+\end_inset
+
+ denotes the principle value integral.
+ The 
+\begin_inset Formula $I_{A}(Q^{2})$
+\end_inset
+
+ is the coefficient of the 
+\begin_inset Formula $\mathcal{O}(\nu)$
+\end_inset
+
+ term of the Compton amplitude, it can be expressed as the GDH integral
+ by expanding a Taylor series 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drechsel200399"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+I_{A}(Q^{2}) & =\frac{M^{2}}{4\pi{}^{2}\alpha}\intop_{\nu_{0}}^{\infty}\frac{K(\nu,Q^{2})}{\nu}\frac{\sigma_{TT}(\nu,Q^{2})}{\nu}d\nu\nonumber \\
+ & =\frac{2M^{2}}{Q^{2}}\intop_{0}^{x_{0}}\{g_{1}(x,Q^{2})-\frac{4M^{2}}{Q^{2}}x^{2}g_{2}(x,Q^{2})\}dx.\label{eq:ITT}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similarly the 
+\begin_inset Formula $\mathcal{O}(\nu^{3})$
+\end_inset
+
+ term yields a generalization of the forward spin polarizability 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drechsel200399"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\gamma_{0}(Q^{2}) & =(\frac{1}{2\pi^{2}})\intop_{\nu_{0}}^{\infty}\frac{K(\nu,Q^{2})}{\nu}\frac{\sigma_{TT}(\nu,Q^{2})}{\nu^{3}}d\nu\nonumber \\
+ & =\frac{16\alpha M^{2}}{Q^{6}}\intop_{0}^{x_{0}}\{g_{1}(x,Q^{2})-\frac{4M^{2}}{Q^{2}}x^{2}g_{2}(x,Q^{2})\}x^{2}dx.\label{eq:gammaTT}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a similar way with 
+\begin_inset Formula $I(0)$
+\end_inset
+
+ expressed as the photoabsorption cross section in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GDHsumrule"
+
+\end_inset
+
+), the forward spin polarizability 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ can be expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\gamma_{0}=\frac{1}{4\pi^{2}}\intop_{\nu_{0}}^{\infty}\frac{d\nu}{\nu^{3}}[\sigma_{1/2}(\nu)-\sigma_{3/2}(\nu)].\label{eq:gamma0vc}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The longitudinal-transverse interference amplitude 
+\begin_inset Formula $g_{LT}$
+\end_inset
+
+ can be expressed by using the same assumption:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Re[g_{LT}(\nu,Q^{2})-g_{LT}^{pole}(\nu,Q^{2})]=\frac{2\alpha}{M^{2}}QI_{3}(Q^{2})+Q\delta_{LT}(Q^{2})\nu^{2}+\mathcal{O}(\nu^{4}),\label{eq:gLTgLTpole}
+\end{equation}
+
+\end_inset
+
+where the 
+\begin_inset Formula $\mathcal{O}(1)$
+\end_inset
+
+ term yields an integral by using a similar procedure:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+I_{3}(Q^{2}) & =\frac{M^{2}}{4\pi\alpha^{2}}\intop_{\nu_{0}}^{\infty}\frac{K(\nu,Q^{2})}{\nu}\frac{\sigma_{LT}(\nu,Q^{2})}{Q}d\nu\nonumber \\
+ & =\frac{2M^{2}}{Q^{2}}\intop_{0}^{x_{0}}\{g_{1}(x,Q^{2})-g_{2}(x,Q^{2})\}x^{2}dx,\label{eq:ILT}
+\end{align}
+
+\end_inset
+
+and the 
+\begin_inset Formula $\mathcal{O}(\nu^{2})$
+\end_inset
+
+ term yields a generalized longitudinal-transverse polarizability 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drechsel200399"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\delta_{LT}(Q^{2}) & =(\frac{1}{2\pi^{2}})\intop_{\nu_{0}}^{\infty}\frac{K(\nu,Q^{2})}{\nu}\frac{\sigma_{LT}(\nu,Q^{2})}{Q\nu^{2}}d\nu\nonumber \\
+ & =\frac{16\alpha M^{2}}{Q^{6}}\intop_{0}^{x_{0}}\{g_{1}(x,Q^{2})+g_{2}(x,Q^{2})\}x^{2}dx.\label{eq:deltaLT}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At large 
+\begin_inset Formula $\nu$
+\end_inset
+
+, the unmeasured region enlarges the uncertainty for the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculation.
+ The extra 
+\begin_inset Formula $\frac{1}{\nu^{2}}$
+\end_inset
+
+ weighting for 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gammaTT"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:deltaLT"
+
+\end_inset
+
+) compared with the first moment leads the value of 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ converge quickly in the large-
+\begin_inset Formula $\nu$
+\end_inset
+
+ region.
+  Measurements of the generalized spin polarizability provide a benchmark
+ tests of the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculation.
+ The value of 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ have been evaluated in 
+\begin_inset Formula $HB\chi PT$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.67.016001"
+
+\end_inset
+
+ and 
+\begin_inset Formula $RB\chi PT$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.67.076008"
+
+\end_inset
+
+.
+ Compared with the 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+, a measurement of the 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ is expected to be a good test of it since it is insensitive to the 
+\begin_inset Formula $\pi-\Delta$
+\end_inset
+
+ contribution, which is usually the main high-order correction 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.87.054032"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+The Burkhardt-Cottingham Sum Rule
+\end_layout
+
+\begin_layout Standard
+The spin-flip amplitude 
+\begin_inset Formula $g_{TT}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{LT}$
+\end_inset
+
+ are also related to the covariant spin-dependent VVCS amplitude 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $S_{2}$
+\end_inset
+
+, as expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+S_{1}(\nu,Q^{2}) & =\frac{\nu M}{\nu^{2}+Q^{2}}[g_{TT}(\nu,Q^{2})+\frac{Q}{\nu}g_{LT}(\nu,Q^{2})],\label{eq:S1}\\
+S_{2}(\nu,Q^{2}) & =-\frac{M^{2}}{\nu^{2}+Q^{2}}[g_{TT}(\nu,Q^{2})-\frac{\nu}{Q}g_{LT}(\nu,Q^{2})].\label{eq:S2}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the 
+\begin_inset Formula $S_{2}$
+\end_inset
+
+ the unsubtracted dispersion with 
+\begin_inset Formula $\nu S_{2}$
+\end_inset
+
+ lead to the Burkhardt-Cottingham (B-C) sum rule 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Burkhardt1970453"
+
+\end_inset
+
+ which is valid for any value of 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\intop_{0}^{1}g_{2}(x,Q^{2})=0.\label{eq:BC}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The test of the B-C sum rule can be taken either at DIS region or at low
+ region.
+ The validity of the B-C sum rule depends on the integral at low 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ It will be failed if 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ exhibits non-Regge behavior at low x 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Soffer2002323"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Higher twist moments 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The moments 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+is expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+d_{2}(Q^{2}) & =\intop_{0}^{1}x^{2}[2g_{1}(x,Q^{2})+3g_{2}(x,Q^{2})]dx\nonumber \\
+ & =3\intop_{0}^{1}x^{2}[g_{2}(x,Q^{2})-g_{2}^{WW}(x,Q^{2})]dx.\label{eq:d2}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At large 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, the higher twist moments 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ is related to the color polarizability, which describes color electric
+ and magnetic polarizabilities.
+ It can be calculated from Lattice QCD at high 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, which provides a benchmark test for the Lattice QCD.
+ At lower 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, it provides the study of the transition from perturbative to non-perturbative
+ region.
+ Since it is the 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ moment of the difference between 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+, it represents a measure of QCD complexity.
+\end_layout
+
+\end_body
+\end_document

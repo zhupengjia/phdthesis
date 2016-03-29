@@ -1,0 +1,423 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside
+\use_default_options false
+\master ustcthesis.lyx
+\maintain_unincluded_children false
+\begin_local_layout
+#####################################
+# CSS for the TOC
+AddToHTMLPreamble
+<style type="text/css">
+div.toc {
+margin: 2em 0em;
+border-style: solid;
+border-width: 2px 0px;
+padding: 1em 0em;
+}
+div.tochead { font-size: x-large; font-weight: bold; }
+div.lyxtoc-0 {
+margin: 2em 0em 0em 0em;
+font-size: xx-large;
+font-weight: bold;
+}
+div.lyxtoc-1 {
+margin: 1em 0em 0em 0em;
+font-size: x-large;
+font-weight: bold;
+}
+div.lyxtoc-2 {
+margin: 0em 0em 0em 1em;
+font-size: large;
+font-weight: normal;
+}
+div.lyxtoc-3 { margin: 0em 0em 0em 0.5em; font-size: medium; }
+div.lyxtoc-4 { margin: 0em 0em 0em 0.5em; }
+div.lyxtoc-5 { margin: 0em 0em 0em 0.5em; }
+div.lyxtoc-6 { margin: 0em 0em 0em 0.5em; }
+a.tocentry {
+text-decoration: none;
+color: black;
+}
+a.tocentry:visited { color: black; }
+a.tocarrow {
+font-weight: bold;
+text-decoration: none;
+color: #909090;
+}
+a.tocarrow:visited { color: #C0C0C0; }
+</style>
+EndPreamble
+Style Standard
+ParSkip               0.4
+ParSep                0.4
+Spacing               onehalf
+InTitle               1
+End
+Style Title
+Margin                Static
+LatexType             Command
+Category              FrontMatter
+InTitle               1
+LatexName             title
+ParSkip               0.4
+ItemSep               0
+TopSep                0
+BottomSep             1
+ParSep                1
+Align                 Center
+LabelType             No_Label
+Font
+Series 		Bold
+Size 		Giant
+EndFont
+HTMLTag               h1
+HTMLTitle             true
+End
+Style EnglishTitle
+CopyStyle             Title
+LatexName             etitle
+Font
+Family 	         Sans
+EndFont
+End
+Style EnglishAuthor
+Margin                Static
+LatexType             Command
+Category              FrontMatter
+InTitle               1
+LatexName             eauthor
+LabelSep              xxx
+ParSkip               0.4
+TopSep                0.5
+BottomSep             0.5
+ParSep                0.7
+Align                 Center
+LabelType             No_Label
+Font
+Size                Large
+EndFont
+End
+Style Author
+CopyStyle             EnglishAuthor
+LatexName             author
+End
+Style 院系
+CopyStyle             EnglishAuthor
+LatexName             depart
+End
+Style 专业
+CopyStyle             EnglishAuthor
+LatexName             major
+End
+Style Major
+CopyStyle             EnglishAuthor
+LatexName             emajor
+End
+Style 导师
+CopyStyle             EnglishAuthor
+LatexName             advisor
+End
+Style Advisor
+CopyStyle             EnglishAuthor
+LatexName             eadvisor
+End
+Style 辅助导师
+CopyStyle             EnglishAuthor
+LatexName             coadvisor
+End
+Style CoAdvisor
+CopyStyle             EnglishAuthor
+LatexName             ecoadvisor
+End
+Style 完成时间
+CopyStyle             EnglishAuthor
+LatexName             submitdate
+End
+Style SubmitDate
+CopyStyle             EnglishAuthor
+LatexName             esubmitdate
+End
+##############################################
+NoStyle	Chapter
+NoStyle	Chapter*
+NoStyle	Section
+NoStyle	Section*
+NoStyle	Subsection
+NoStyle	Subsection*
+NoStyle	Subsubsection
+NoStyle	Subsubsection*
+NoStyle	Paragraph
+NoStyle	Paragraph*
+NoStyle	Subparagraph
+NoStyle	Subparagraph*
+NoStyle	Thanks
+NoStyle	Bibliography
+NoStyle	LyX-Code
+NoStyle	List
+NoStyle 	Description
+NoStyle 	Enumerate
+NoStyle	Itemize
+NoStyle	Quotation
+NoStyle	ChapterSpecial
+NoStyle	Labeling
+NoStyle	ChineseAbstract
+NoStyle	EnglishAbstract
+NoStyle      Denotation
+NoStyle      FrontMatter
+NoStyle      MainMatter
+NoStyle      BackMatter
+NoStyle      Quote
+NoStyle      Verse
+\end_local_layout
+\language chinese-simplified
+\language_package none
+\inputencoding gbk
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Cover
+
+\end_layout
+
+\begin_layout Title
+低
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+下质子
+\begin_inset Formula $g_{2}$
+\end_inset
+
+结构函数的测量
+\end_layout
+
+\begin_layout EnglishTitle
+A measurement of the proton's spin structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ at low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Author
+朱
+\begin_inset space \space{}
+\end_inset
+
+鹏
+\begin_inset space \space{}
+\end_inset
+
+佳
+\end_layout
+
+\begin_layout EnglishAuthor
+Pengjia Zhu
+\end_layout
+
+\begin_layout 院系
+四系
+\end_layout
+
+\begin_layout 专业
+粒子物理 
+\end_layout
+
+\begin_layout Major
+Partical Physics
+\end_layout
+
+\begin_layout 导师
+叶云秀
+\begin_inset space \space{}
+\end_inset
+
+教授, 陈剑平教授
+\end_layout
+
+\begin_layout Advisor
+Prof.
+ Yunxiu Ye
+\begin_inset Newline newline
+\end_inset
+
+Prof.
+ Jian-ping Chen
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CTEXdigits{
+\backslash
+ChineseYear}{
+\backslash
+the
+\backslash
+year}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 完成时间
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ChineseYear 
+\end_layout
+
+\end_inset
+
+年十月
+\end_layout
+
+\begin_layout SubmitDate
+October, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+the
+\backslash
+year
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeetitle   
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makebookspine{低Q2下质子g2结构函数的测量}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeauthorization % 授权页 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

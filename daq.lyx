@@ -1,0 +1,1304 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+The Data Acquisition System
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:The-Data-Acquisition"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The standard HRS DAQ system was used for recording the detector information.
+ The helicity based DAQ systems, scaler ringbuffer and HAPPEX DAQ, were
+ installed for getting the helicity related information, such as the charge
+ and the helicity for each event.
+ For the double check of 
+\begin_inset Formula $P_{b}P_{t}$
+\end_inset
+
+ measurement, an independent DAQ system which called third arm DAQ was built
+ by a measurement of the proton's elastic asymmetry.
+\end_layout
+
+\begin_layout Subsection
+Single arm HRS DAQ
+\end_layout
+
+\begin_layout Subsubsection
+Event trigger
+\end_layout
+
+\begin_layout Standard
+When the scattered electron passed through two scintillators, the logical
+ signal of S1&S2m (means both scintillator have signal) was used for the
+ main trigger.
+ The gas Cherencov counter was used for checking the trigger efficiency,
+ the logical signal of (S1 xor S2m)&cer was defined for the efficiency trigger,
+ which means one of two scintillators have signal, but not both, and at
+ the same time gas Cherencov have signal.
+ The trigger efficiency was defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E_{ff}=\frac{T_{main}}{T_{main}+T_{eff}},\label{eq:triggerEff}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $T_{main}$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{eff}$
+\end_inset
+
+ are total accounts of main trigger and efficiency trigger 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ryantriggereff"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The trigger efficiency for both arms are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Trigger-efficiency"
+
+\end_inset
+
+.
+ The results show most of runs the efficiency is higher than 
+\begin_inset Formula $99.1\%$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/trigger_eff_left.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename pic/trigger_eff_right.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left arm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Trigger-efficiency"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Trigger efficiency
+\end_layout
+
+\end_inset
+
+Trigger efficiency 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ryantriggereff"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Connection
+\end_layout
+
+\begin_layout Standard
+There are 3 fastbus crates, 1 trigger supervisor scaler crate, 1 HAPPEX
+ crate for each arm.
+ The main trigger and the efficiency trigger was connected to the trigger
+ supervisor after several logic modules and trigger the ADC and TDC in fastbus
+ crate to collect the data from detectors (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Hall-A-standard-DAQ"
+
+\end_inset
+
+).
+ The trigger supervisor is the device distributes triggers and maintains
+ system busy signals.
+ The charge information from BCM and the trigger count was recorded in scaler.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/DAQ.png
+	lyxscale 30
+	width 80line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Hall-A-standard-DAQ"
+
+\end_inset
+
+Hall A standard DAQ system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Scaler
+\end_layout
+
+\begin_layout Standard
+The scaler sis38xx have two mode, sis3800 and sis3801.
+ The former is a counter, each trigger caused to read the count once.
+ The sis3800 was used to save the information of charge, clock and trigger
+ signal for each event; the latter is a ring buffer triggered by helicity,
+ each event trigger pulse caused to read out the buffered data saved in
+ FIFO and clean it.
+ The sis3801 was used to save the helicity dependent charge, clock and trigger
+ signal.
+\end_layout
+
+\begin_layout Subsubsection
+Dead time
+\end_layout
+
+\begin_layout Standard
+When DAQ cannot accept another trigger, the deadtime occurs.
+ Since g2p ran in low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ level, the physics rate was large even if the beam current kept in a low
+ level of 50 nA.
+ The deadtime includes two part: the readout deadtime (
+\begin_inset Formula $D_{r}$
+\end_inset
+
+) and the conversion deadtime (
+\begin_inset Formula $D_{c}$
+\end_inset
+
+, or front-end deadtime).
+ The conversion deadtime occurs when a trigger come and ADC/TDC is still
+ busy dealing the signals from last trigger 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "halladeadtime"
+
+\end_inset
+
+.
+ The readout deadtime occurs when the read out control (ROC) cannot accept
+ new event.
+ The total deadtime is the sum of them: 
+\begin_inset Formula $D_{r}+D_{c}$
+\end_inset
+
+.
+ To reduce the dead time for the HRS DAQ system, the buffered mode was used,
+ which means the event is buffered before readout and the trigger supervisor
+ can process a new event while reading out the previous event, and readout
+ time is separated with the conversion time.
+ During the whole experiment, the deadtime kept near 25% (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DAQ-deadtime"
+
+\end_inset
+
+) when the prescale set to 1 and running 6.5 kHz of production run, this
+ was a new record in Hall A at Jefferson Lab.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/deadtime.png
+	lyxscale 20
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:DAQ-deadtime"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+DAQ deadtime during production run
+\end_layout
+
+\end_inset
+
+DAQ deadtime during production run, T3 is the main trigger in left arm.
+ The trigger rate was kept around 6~7 kHz after the prescale during the
+ experiment.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Helicity
+\end_layout
+
+\begin_layout Standard
+The beam was polarized in injector before going to CEBAF accelerator and
+ controlled by a helicity control board, which is a NIM board.
+ The helicity control board generate several signals which relative to each
+ other.
+ It controls the high voltage supply to change the orientation of laser's
+ polarization, which was used to generate the polarized electron beam with
+ GaAs photogun by using the method of optical pumping.
+ Meanwhile the helicity control board send four waves to the DAQ system
+ in Hall.
+ During the g2p experiment the helicity setting is the same as QWEAK experiment
+ in Hall C, as shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Helicity-configuration"
+
+\end_inset
+
+.
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mode
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Free clock
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T-Settle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70 
+\begin_inset Formula $\mu s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T-Stable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+971.65 
+\begin_inset Formula $\mu s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Helicity Pattern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+--+$
+\end_inset
+
+ or 
+\begin_inset Formula $-++-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reporting delay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 window
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Helicity board frequency
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+960.015 Hz
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Helicity-configuration"
+
+\end_inset
+
+Helicity configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+helicity signals
+\end_layout
+
+\begin_layout Standard
+Four waves sent to hall during experiment by fiber which named T-Settle
+ (or MPS), pattern_sync (or QRT), pair_sync, delayed helicity (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Helicitysignal"
+
+\end_inset
+
+).
+ The quartet helicity pattern is used for experiment to minimize the system
+ error, which is 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $+--+$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $-++-$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+, one pattern is composed with four helicity windows.
+ The pattern_sync shown the first window of one pattern.
+ The T-Settle signal is used for judging if helicity is reliable and triggering
+ the helicity related DAQ like sis3801 scaler and HAPPEX DAQ.
+ The pair sync signal flipped in each helicity window, which was used as
+ the redundancy information.
+ The helicity flip signal sent to hall is 8 windows delayed with the real
+ helicity flip signal, and need to further dealt for use.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/helicitysignal.png
+	lyxscale 20
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Helicitysignal"
+
+\end_inset
+
+Helicity signal 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+storage
+\end_layout
+
+\begin_layout Standard
+The helicity signal sent to hall A was connected to several places: trigger
+ interface register (TIR) to record the helicity status for each physics
+ event; sis3801 scaler's ring buffer to record the charge for each helicity
+ status; HAPPEX DAQ (will discuss below) for the more precise current and
+ position record for each helicity status.
+ The helicity gated sis3801 scaler and HAPPEX DAQ was triggered by T-Settle
+ signal.
+\end_layout
+
+\begin_layout Subsubsection
+helicity decoder
+\end_layout
+
+\begin_layout Standard
+The helicity control board uses a 30 bit register generate pseudo-random
+ bits to control the pattern of helicity, the prediction program is needed
+ to regenerate the actual helicity.
+ We built a new helicity decoder package to regenerate the actual helicity
+ in offline analysis.
+ The main idea is to use 30 continuous helicity pattern as pseudo-random
+ seed to predict the actual helicity.
+ Since the beam tripped during run, each trip caused the helicity needed
+ to be predicted again if the trip time is too long.
+ The events before helicity successfully predicted might not usable for
+ the data analysis.
+ To get more efficiency decoder and recover more events, we did two times
+ of prediction, one predict from the start of the events, one predict reversed
+ from the end of event.
+ 
+\end_layout
+
+\begin_layout Standard
+There are three devices recorded the helicity signal, the TIR, scaler ringbuffer
+, HAPPEX ringbuffer.
+ The advantage of using three devices to record is we can predict each devices
+ and compare of them, and we can recover more events even if one device
+ failed to predict.
+ The scaler ringbuffer and HAPPEX ringbuffer was triggered by helicity,
+ the ringbuffer is an array saved in FIFO for former and CPU's register
+ for latter.
+ Each element in array includes the information of helicity, charge, clock
+ signals for this helicity status (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ringbuffer"
+
+\end_inset
+
+).
+ In order to let all ringbuffer data recorded in data-stream, and not be
+ affected with beam trip, the minimum DAQ rate was set as 20 Hz by using
+ of the clock signal combined with prescale, since the maximum ringbuffer
+ readout is 50 buffers considered about the dead time and the helicity frequency
+ is about 1 KHz.
+ The ringbuffer worked much stable and didn't have any problems during experimen
+ts.
+ The prediction for ringbuffer helicity is easy and don't have additional
+ treatment.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/ringbuffer2.png
+	lyxscale 20
+	width 80line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ringbuffer"
+
+\end_inset
+
+Ringbuffer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Since TIR uses physics trigger, there might have several events that have
+ same helicity status, or some helicity status may lose.
+ The direct prediction may fail for these situations.
+ The solution is using the fast clock signal recorded in TIR as time stamp,
+ compare the time stamp to judge if there are multiple physics events in
+ one helicity status or there are helicity status lost.
+\end_layout
+
+\begin_layout Subsection
+HAPPEX DAQ
+\end_layout
+
+\begin_layout Standard
+The HAPPEX DAQ uses 18bit ADC which designed for the parity violation experiment
+s.
+ The reason to use it is because of its high bit resolution, it is important
+ to get high precise charge asymmetry.
+ It was reprogrammed and reassembled for g2p experiment.
+\end_layout
+
+\begin_layout Standard
+The HAPPEX DAQ contains a timing board (NIM) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "timingboard"
+
+\end_inset
+
+, several pieces of HAPPEX ADC 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ADC18bob"
+
+\end_inset
+
+, a flexible IO (FLEXIO,NIM) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flexioEd"
+
+\end_inset
+
+ , a trigger interface, and a vxworks CPU.
+ The diagram for HAPPEX DAQ is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Happex-DAQ-diagram"
+
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/happex.png
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Happex-DAQ-diagram"
+
+\end_inset
+
+HAPPEX DAQ diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Timing board
+\end_layout
+
+\begin_layout Standard
+The timing board is a NIM board that generate several time information to
+ control when ADC start and stop integrating.
+ The T-Settle signal is used as trigger source for timing board.
+ Based on the trigger signal, the timing board generated a group of signals
+ (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Timing-board-signals"
+
+\end_inset
+
+).
+ The reset signal controls the ADC integrating, the delay time between the
+ baseline signal and the peak signal is used as integrated time, and the
+ digital value difference between them is used as integrated result.
+ The DAC module in timing board is also useful for debugging during the
+ experiment.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/timing_board.png
+	lyxscale 20
+	width 90line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Timing-board-signals"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Timing board signals
+\end_layout
+
+\end_inset
+
+Timing board signals.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "flexioEd"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+HAPPEX ADC
+\end_layout
+
+\begin_layout Standard
+The HAPPEX ADC was designed for high bit resolution (18 bit) and small non-linea
+rity (
+\begin_inset Formula $\leq2\times10^{-5}$
+\end_inset
+
+) .
+ From the asymmetry measurement test (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparison-for-asym"
+
+\end_inset
+
+), the bit resolution for HAPPEX ADC is much better than scaler.
+ The integration time for HAPPEX ADC controlled by timing board for g2p
+ is 875
+\begin_inset Formula $\mu s$
+\end_inset
+
+, a little bit lower than helicity period (1041.65
+\begin_inset Formula $\mu s$
+\end_inset
+
+).
+ This caused very precise record for position and current information.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/asym_diff.png
+	lyxscale 30
+	width 95line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Comparison-for-asym"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Charge asym comparison between HAPPEX and scaler
+\end_layout
+
+\end_inset
+
+Comparison for charge asymmetry measurement histogram between using HAPPEX
+ and scaler, up three use HAPPEX, down three use scaler.
+ From left to right the current used are 125nA,75nA,50nA.
+ The total events are same.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Flexible IO
+\end_layout
+
+\begin_layout Standard
+The flexible IO is a NIM board that used to record the digital information.
+ In HAPPEX DAQ it was used to record the helicity signals.
+ When a baseline signal peak came from timing board, the flexible IO recorded
+ one group information.
+ It also provides a trigger signal for further usage.
+\end_layout
+
+\begin_layout Subsubsection
+Ring Buffer
+\end_layout
+
+\begin_layout Standard
+A vxworks CPU controls the data reading from HAPPEX ADC and flexible IO
+ to the ringbuffer server in CPU's register.
+ For more reliable performance and less CPU occupation, a trigger was used
+ instead of checking pair sync polarity all of the time.
+ The trigger information came from flexible IO with the same period as T-Settle.
+ Each trigger caused CPU readout the data from flexible IO and ADC one time.
+ To mix the data to the data-stream with detector data, a trigger interface
+ controlled by HRS trigger superviser was used for reading the data from
+ ringbuffer server in CPU to the data-stream.
+ For the debug usage online, a TCP-IP server was running in CPU in order
+ to readout the data from ringbuffer from any linux computer at any time.
+\end_layout
+
+\begin_layout Subsection
+Third arm DAQ
+\end_layout
+
+\begin_layout Standard
+The main purpose of third arm is to provide additional measurement of beam
+ and target polarization and cross-checking the result from Møller and NMR
+ measurement.
+ The main idea is measuring e-p elastic asymmetry and compare with well-known
+ physics asymmetry:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{raw}=P_{b}*P_{t}*D*A_{phy},\label{eq:3rmAraw}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $A_{raw}$
+\end_inset
+
+ is measured e-p raw asymmetry, 
+\begin_inset Formula $A_{phy}$
+\end_inset
+
+ is physics asymmetry, D is dilution factor.
+ 
+\begin_inset Formula $P_{b}$
+\end_inset
+
+ and 
+\begin_inset Formula $P_{t}$
+\end_inset
+
+ are the polarization of beam and target.
+\end_layout
+
+\begin_layout Standard
+The third arm was located near target (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:beamline-for-g2p"
+
+\end_inset
+
+, id 12).
+ Due to low rates of elastic electrons at 
+\begin_inset Formula $42^{\circ}$
+\end_inset
+
+ scattering angle for the beam energy of 2.2/3.3 GeV, the proton's elastic
+ peak at 
+\begin_inset Formula $72^{\circ}$
+\end_inset
+
+ scattering angle was measuring instead.
+ The third arm DAQ uses two scintillator trackers for dE plane, which used
+ in SANE experiment, one for X plane, another for Y plane; a proton array
+ counters with four scintillators for E plane, which used in DVCS experiment.
+ The trigger signal was set as coincidence between dE1 and dE2 plane, which
+ is dE1&dE2.
+ The energy deposition for each E plane is about 9.96~10.27MeV.
+\end_layout
+
+\begin_layout Standard
+Due to the large scattering angle for elastic proton peak measurement, the
+ third arm is very sensitive with the reactive status change.
+ The slow raster's magnet current was connected to the third arm DAQ.
+ If the beam hit the beam pipe or the target pipe, the histogram of x:y
+ for slow raster will show the hot spot in the picture, and the rate for
+ third arm will arise.
+ Due to this feature, the third arm was also used for beam quality check
+ during experiment.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hole"
+
+\end_inset
+
+ shows the third arm used for tuning beam using the carbon hole target.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/hole.png
+	lyxscale 20
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hole"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The slow raster current histogram in third arm DAQ
+\end_layout
+
+\end_inset
+
+The slow raster current histogram in third arm DAQ.
+ The hole in center shows less events in there, which reveals the carbon
+ hole in the target stick.
+ Since the scattered proton from hole region is much less than from target
+ stick region.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

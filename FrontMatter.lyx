@@ -1,0 +1,427 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,adobefont
+\use_default_options false
+\master phdthesis.lyx
+\maintain_unincluded_children false
+\begin_local_layout
+#####################Keywords
+InsetLayout Flex:eKeywords
+LyXType element
+LabelString 	"　Keywords:"
+LatexType       Command
+LatexName       ekeywords
+Decoration 	   Classic
+Font
+Series 	Bold
+EndFont
+LabelFont
+Shape         Up
+Color         blue
+EndFont
+End
+InsetLayout Flex:Keywords
+CopyStyle		Flex:eKeywords
+LabelString 	"　关键词:"
+LatexType            	 Command
+LatexName            	 keywords
+End
+#######
+NoStyle	Chapter
+NoStyle	Chapter*
+NoStyle	Section
+NoStyle	Section*
+NoStyle	Subsection
+NoStyle	Subsection*
+NoStyle	Subsubsection
+NoStyle	Subsubsection*
+NoStyle	Paragraph
+NoStyle	Paragraph*
+NoStyle	Subparagraph
+NoStyle	Subparagraph*
+NoStyle	Thanks
+NoStyle	Bibliography
+NoStyle	ChapterSpecial
+\end_local_layout
+\language chinese-simplified
+\language_package babel
+\inputencoding gbk
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout FrontMatter
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+JLab E08-027 实验在2012年3月至5月期间成功获取了数据，其目的是测量质子的极化结构函数
+\begin_inset Formula $g_{2}$
+\end_inset
+
+以及自旋极化率
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+.
+ 当前不管对于理论物理还是对于实验物理来说对核子自旋结构的研究都是一个热门的领域。近二十年来在此领域已经出了许多令人振奋及惊讶的结果。近年来JLab在低
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+共振区获得了大量关于核子结构的精确数据，其覆盖了禁闭区以及从渐进自由到禁闭区的过渡区间。对实验结果与手征微扰理论（一个在低能领域公认比较有效QCD理论）的比较显
+示了非常好的相似性，但对于中子的自旋极化率的比较却显示出了相当大的不同。本实验精确测量了在低
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+共振区间的质子的极化结构函数
+\begin_inset Formula $g_{2}$
+\end_inset
+
+以及自旋极化率
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Abstract
+本实验第一次在JLab A大厅使用了极化质子靶(固态氨靶)。 散射电子由一对高精度谱仪测量， 并且加了一对额外的切隔磁铁以获取小散射角度的散射电子。
+ 为了避免靶上大量的退极化， 束流强度被限制在了50-100纳安区间。 由于原有的束流强度探测器(BCM)， 束流位置探测器(BPM)以及相应的刻度方法在这个低
+束流强度的情况下无法工作， 设计了新的BCM和BPM的电子学接收器。一对超级harp以及一个钨质量能器被用于刻度BCM和BPM。 为了补偿2.5/5特斯拉的靶区间
+的强磁场， 一对chicane偶极磁场被放置于靶前。 一套标准的A大厅数据获取系统以及一套改进过的高精度数据获取系统被分别用来记录探测器信息以及和螺旋度相关的束
+流信息。
+\end_layout
+
+\begin_layout Abstract
+为获取在靶上必要精度的位置和角度信息， 对于BPM以及harp的数据进行了非常仔细的分析，以得到在靶区域重建每个事例的位置及角度信息。 使用钨质量能器刻度以后的
+BCM可以达到1%以下的不准确度， 这对非对称性的测量至关重要。 在对谱仪的接收率以及靶的稀释因子的分析结束前， 前人拟合得到的物理模型用来得到非极化截面以及靶
+的稀释因子。 在对从物理模型得到的非对称性进行反辐射修正以后， 将其与实验得到的横向及纵向极化的非对称性进行了对比。 结合测量得到的非对称性以及从物理模型中得到
+的非极化截面，我们得到了原始的
+\begin_inset Formula $g_{1}$
+\end_inset
+
+和
+\begin_inset Formula $g_{2}$
+\end_inset
+
+结果。
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Flex Keywords
+status open
+
+\begin_layout Plain Layout
+极化结构函数, g2, 非对称性, 自旋极化率
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnglishAbstract
+JLab E08-027, a measurement of g2p and the longitudinal-transverse (LT)
+ spin polarizability, successfully collected data from March to May, 2012.
+ Nucleon spin structure study has been an active research area, which has
+ attracted a very large effort from both experimentalists and theorists.
+ The spin structure study for the last 2 decades has provided us with many
+ exciting and often surprising results.
+ Recently, new precision results in the low-to-intermediate momentum transfer
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ region from JLab have provided extensive information on the nucleon structure
+ in the confinement region and the transition region between asymptotic
+ free to confinement.
+ In particular, the extensive comparisons of experimental results with Chiral
+ Perturbation Theory (the effective theory of QCD at low energy) calculations
+ show general good agreements, but strong disagreement in the case of the
+ neutron LT spin polarizability.
+ This experiment completed the measurements of 
+\begin_inset Formula $g_{2}^{p}$
+\end_inset
+
+ and the LT spin polarizability on the proton in the low-to-intermediate
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ region.
+ 
+\end_layout
+
+\begin_layout EnglishAbstract
+The experiment used a polarized proton (
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+) target for the first time in Hall A.
+ Scattered electrons were detected by a pair of Hall A high resolution spectrome
+ter (HRS) with a pair of septum magnets.
+ To avoid too much depolarization of the target, beam current was limited
+ to 50-100 nA during the experiment.
+ Since the existing beam current monitors (BCMs), beam position monitors
+ (BPMs) and calibration methods did not work at such a low current range,
+ new BPM and BCM receivers were designed and used for current condition.
+ A pair of super-harps and a tungsten calorimeter were installed to calibrate
+ the BPMs and BCMs.
+ To compensate for the effect of the 2.5/5T transverse magnet field, two
+ chicane dipole magnets were installed.
+ A pair of slow rasters were installed for the first time in Hall A, combining
+ with a pair of fast raster.
+ The standard Hall A DAQ system and the improved high resolution DAQ system
+ were used to record the detector information and the helicity dependent
+ beam information, respectively.
+ 
+\end_layout
+
+\begin_layout EnglishAbstract
+In order to achieve the required accuracy of the beam position and angle
+ and reconstruct them event by event at the target location, the data of
+ the BPMs and harps were carefully analyzed.
+ The final uncertainty of BCM after the calibration using the tungsten calorimet
+er is below 1%, which is important for the asymmetry extraction.
+ Before the acceptance and the dilution factor are available, the models
+ from fitting to the world data were used instead to extract the unpolarized
+ cross section and the dilution factor.
+ The longitudinal and transverse physics asymmetries were extracted and
+ compared with the model, with the study of the radiative correction.
+ The preliminary 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ results were then extracted using the measured asymmetry and the model.
+\end_layout
+
+\begin_layout EnglishAbstract
+\begin_inset Flex eKeywords
+status open
+
+\begin_layout Plain Layout
+g2, E08-027, structure function, asymmetry, spin polarizability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{List of Tables}%加入目录
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{List of Figures}%加入目录
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset FloatList algorithm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{算
+\backslash
+hspace{1em}法}%加入目录
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+生成目录，表格，图像，算法列表
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\end_layout
+
+\end_body
+\end_document

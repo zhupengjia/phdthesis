@@ -1,0 +1,4331 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\usepackage{lineno,hyperref}
+\linenumbers
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+History and Recent Results on the Measurement of Spin Structure function
+\end_layout
+
+\begin_layout Section
+History for the spin structure measurement
+\end_layout
+
+\begin_layout Standard
+After the discovery of the 
+\begin_inset Quotes eld
+\end_inset
+
+spin crisis
+\begin_inset Quotes erd
+\end_inset
+
+ from the EMC group, more collaboration groups participated in the study
+ of the spin structures besides the groups at SLAC and CERN, like the groups
+ at DESY, at Brookhaven Nation Lab (BNL) and Jefferson Lab (JLab).
+\end_layout
+
+\begin_layout Standard
+The E142 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.54.6620"
+
+\end_inset
+
+, E143 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "E1431994"
+
+\end_inset
+
+, E154 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Incerti:1998ky"
+
+\end_inset
+
+ and E155/E155x 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SLAC-PUB-9741"
+
+\end_inset
+
+ collaborations at SLAC used a polarized electron beam with the polarization
+ around 36% to hit the fixed polarized target in order to measure the spin
+ structure functions 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ for proton, deuteron and neutron in the DIS region.
+ The polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target system was used for the neutron target with about 33% polarization.
+ A polarized target system with 1K refrigerator and 5T magnet field was
+ used to extract the spin structure functions for proton and deuteron with
+ the materials of 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+, 
+\begin_inset Formula $ND_{3}$
+\end_inset
+
+, 
+\begin_inset Formula $LiD$
+\end_inset
+
+, 
+\begin_inset Formula $C_{4}H_{9}OH$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{4}D_{9}OD$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Unlike the external polarized target at SLAC, HERMES collaboration used
+ the polarized 
+\begin_inset Formula $e^{+}$
+\end_inset
+
+,
+\begin_inset Formula $e{}^{-}$
+\end_inset
+
+ beam in one of the HERA rings at DESY to hit the internal gas target fed
+ from atomic beam sources like the hydrogen gas and 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ gas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ackerstaff1997383,Airapetian1998484"
+
+\end_inset
+
+.
+ The gas was polarized in the atomic beam source (ABS) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "aipcp10.10631.55016"
+
+\end_inset
+
+, with up to 95% polarization for the proton and up to 46% for the 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+.
+ The advantage of the internal targets is with no dilution and windowless
+ storage cell.
+ They measured the spin structure functions 
+\begin_inset Formula $g_{1}^{p,d}$
+\end_inset
+
+ in inclusive 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.75.012007"
+
+\end_inset
+
+, the spin contributions from each type of quarks in semi-inclusive scattering
+ experiments 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.71.012003"
+
+\end_inset
+
+, and the gluon polarization for the first time 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.84.2584"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The SMC (Spin Muon Collaboration) at CERN took the measurements 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kunne:2002dx"
+
+\end_inset
+
+ with the polarized hydrogen and deuteron targets over a period of ten years
+ after the EMC measurements.
+ They measured the structure functions in the kinematic range of 
+\begin_inset Formula $1<Q^{2}<60\ GeV^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $0.003<x<0.7$
+\end_inset
+
+ in the DIS region.
+ The semi-inclusive lepton scattering allowed them to distinguish the contributi
+ons from quark and anti-quark densities.
+ The neutron spin structure functions were also extracted from the hydrogen
+ and deuteron data.
+ Results of them are shown in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Adeva1993533,Adams1994125,Adams1994399,Adams1995248,PhysRevD.56.5330,PhysRevD.58.112001,Adeva1998180,PhysRevD.60.072004,Adeva199693,Adeva1997414,PhysRevD.70.012002"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The COMPASS at CERN used the secondary muon beam with naturally polarized
+ to hit the polarized deuteron and hydrogen targets to extract information
+ on the gluon polarization.
+ The first result are shown in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alexakhin20078,Alexakhin2007330,Alekseev2008458"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The relativistic heavy ion collider (RHIC) at BNL provides an approach using
+ polarized proton collisions with the high energies up to 250GeV to study
+ the spin structures.
+ Two collaborations, PHENIX and STAR, at BNL are trying to study the gluon
+ helicity contribution 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ by probing the quark-gluon, gluon-gluon interactions in the initial state.
+ The first results were published in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.73.091102,PhysRevD.76.051106,PhysRevLett.97.252001,PhysRevLett.100.232003"
+
+\end_inset
+
+.
+ The most recent results from them can be found from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.113.072301,PhysRevLett.115.092002,Aschenauer:2015eha,PhysRevLett.113.012001,PhysRevLett.106.062002,PhysRevLett.106.062001"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The continuous electron beam accelerator facility (CEBAF) at JLab provides
+ the polarized electron beam with high luminosity (up to 
+\begin_inset Formula $10^{36}\ s^{-1}cm^{-2}$
+\end_inset
+
+), which significantly increased the precision and extended the kinematic
+ ranges of the measurement.
+ All of the three experiment halls (Hall A, B and C) measured the spin structure
+s for the last 17 years.
+ Combining with the polarized target system, the experiments at JLab not
+ only measured the total spin contributions of quarks to the nucleon, but
+ also measured the contributions from each type of quarks.
+ Both longitudinal and transverse spin structures were studied.
+ Hall A has two high resolution spectrometers (HRS) with momentum up to
+ 
+\begin_inset Formula $4\ GeV/c$
+\end_inset
+
+ and resolution up to 
+\begin_inset Formula $10^{-4}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallanim"
+
+\end_inset
+
+.
+ With the polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target, Hall A collected the most precisely data on the 
+\begin_inset Formula $g_{1,2}^{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{1,2}^{n}$
+\end_inset
+
+ at the wide 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range of 
+\begin_inset Formula $0.02<Q^{2}<5\ GeV^{2}$
+\end_inset
+
+ with a series of experiments.
+ Hall B has the CEBAF Large Acceptance Spectrometer (CLAS) with almost 
+\begin_inset Formula $2\pi$
+\end_inset
+
+ in azimuth and 6 to 140 degrees in polar angle acceptance for all of the
+ particles produced in the electron-proton collisions 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mecking2003513"
+
+\end_inset
+
+.
+ The EG1-EG4 series of experiments took the most detailed study on the asymmetry
+ 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and the longitudinal spin structure function 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+on both 
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+ and 
+\begin_inset Formula $ND_{3}$
+\end_inset
+
+ targets over a continuous coverage in 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ from 0.015 to 5 
+\begin_inset Formula $GeV^{2}$
+\end_inset
+
+.
+ Hall C has the High Momentum Spectrometer (HMS) with the momentum up to
+ 
+\begin_inset Formula $7.5\ GeV/c$
+\end_inset
+
+ and resolution up to 
+\begin_inset Formula $10^{-3}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hallchms"
+
+\end_inset
+
+.
+ The RSS and the SANE experiments in Hall C collected the precise data of
+ 
+\begin_inset Formula $g_{12}^{p}$
+\end_inset
+
+ on both resonances and the DIS region 
+\begin_inset CommandInset citation
+LatexCommand cite
+key ":/content/aip/proceeding/aipcp/10.1063/1.3203305"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+With the data collected from the experiments over the latest 30 years, peoples
+ get much clearer pictures for the spin structures.
+ The longitudinal spin structure function 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ was confirmed to have a strong dependence on the Bjorken scaling variable
+ 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ The Bjorken sum rule is verified to an accuracy of better than 10%, while
+ the Ellis-Jaffe sum rule is broken.
+ The experiments concluded that the quarks carry about 30% of the nucleon
+ spin.
+ The results from the semi-inclusive show that the distribution of 
+\begin_inset Formula $\Delta u(x)$
+\end_inset
+
+ is positive, while 
+\begin_inset Formula $\Delta d(x)$
+\end_inset
+
+ is negative.
+ The distribution of the non-strange sea quark is consistent with zero in
+ the range of uncertainty.
+ The spin contributions for each type of quark are calculated by assuming
+ the 
+\begin_inset Formula $SU(3)$
+\end_inset
+
+ flavor symmetry in the inclusive measurements and by assuming sea quark
+ flavor symmetry in the semi-inclusive measurements.
+ Most results in the inclusive measurements show a small negative helicity
+ 
+\begin_inset Formula $\Delta s$
+\end_inset
+
+ of the strange sea quark, while it is consistent with zero in the semi-inclusiv
+e measurements 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yeprogressphys"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Results for 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+In order to extract the spin structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+, one can either use the longitudinal and the transverse asymmetry 
+\begin_inset Formula $A_{\parallel}$
+\end_inset
+
+, 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ via the equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:A1g12"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:AtranA1A2"
+
+\end_inset
+
+) combining existed 
+\begin_inset Formula $F_{1}$
+\end_inset
+
+ result, or the longitudinal and the transverse differential cross section
+ 
+\begin_inset Formula $\Delta\sigma_{\Vert}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta\sigma_{\bot}$
+\end_inset
+
+ via the equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxslong2"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxstran2"
+
+\end_inset
+
+).
+ The earliest results for 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ are from SLAC in the DIS region by measuring both the longitudinal and
+ the transverse asymmetry 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.54.6620"
+
+\end_inset
+
+.
+ During the same period with SLAC, the SMC group at CERN used a muon beam
+ instead of using an electron beam to extract the 
+\begin_inset Formula $g_{1,2}$
+\end_inset
+
+ from the longitudinal and transverse asymmetries at the proton and deuteron
+ target in the DIS region 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Adams1994399,PhysRevD.56.5330,Adams1994125,Adams1997"
+
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is relatively small, it needs more beam time and larger luminosity than
+ 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+.
+ Several experiments only focused on the transverse polarized target to
+ get enough statistics on 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+, and using existed data 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ or 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ from other experiments 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SLAC-PUB-9741,Bosted2000297c,Adams1994125"
+
+\end_inset
+
+.
+ Some experiments only used the transverse polarized data to reduce the
+ systematic error on 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ due to 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+, yielding the very rough result on 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.54.6620,Abe1997377,Adams1994125,Adams1997"
+
+\end_inset
+
+.
+ Recently JLab collected a massive precise data set over a wide 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range using the high luminosity electron beam on both DIS region and the
+ resonance region.
+ A summary of experiments for the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ measurement is shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:g2exp"
+
+\end_inset
+
+.
+\begin_inset Float table
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="10">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Exp.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Year
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+(
+\begin_inset Formula $GeV^{2}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $W$
+\end_inset
+
+(
+\begin_inset Formula $GeV$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beam (
+\begin_inset Formula $GeV$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Target
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measured
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Region
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{SLAC}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E142 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.54.6620"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1992
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.03-0.6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+19-26\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{SLAC}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E143
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.76.587,PhysRevLett.78.815,PhysRevD.58.112003"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1993
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{0.5,1.2},\\
+\mathrm{1.3-10}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.03-0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+9.7-29\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+NH_{3}\\
+ND_{3}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{DIS}\\
+\mathrm{Resonance}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{SLAC}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E154 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Abe1997377,Incerti:1998ky"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1995
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1-17$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.014-0.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+48\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{SLAC}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E155
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony1999529"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1997
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1-30$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.02-0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+48\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+NH_{3}\\
+LiD
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{SLAC}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E155x 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bosted2000297c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.7-20$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.02-0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+30\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+NH_{3}\\
+LiD
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{CERN}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SMC 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Adams1994399,PhysRevD.56.5330,Adams1994125,Adams1997"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{1992}\\
+\mathrm{-1996}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1-60$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.004-0.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+100,190\\
+\mu^{+}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+C_{4}H_{9}OH\\
+C_{4}D_{9}OD\\
+NH_{3}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ A}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E94-010 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.89.242301,PhysRevLett.92.022301,PhysRevLett.93.152301,PhysRevLett.101.022303"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1998
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.1-0.9$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.5-2.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+2.6-5.0\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 
+\begin_inset Formula $\begin{array}{c}
+\Delta\sigma_{\parallel}\\
+\Delta\sigma_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ A}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E99-117 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.70.065207"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.7,3.5,4.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.33,0.47.0.6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4.0,4.9,6.4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+5.7\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ A}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E97-103 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.95.142002"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.57-1.34$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>3.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+3.5-5.7\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\Delta\sigma_{\parallel}\\
+\Delta\sigma_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ A}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E97-110 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(saGDH) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "E97110proposal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2003
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02 - 0.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.8 - 2.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+1.6-6.0\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\Delta\sigma_{\parallel}\\
+\Delta\sigma_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ A}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E01-012 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "E01012proposal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2004
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0 - 5.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2 - 0.87
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 - 2.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+3.0-5.0\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\Delta\sigma_{\parallel}\\
+\Delta\sigma_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ A}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E06-014 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(d2n) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "d2nproposal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2009
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 - 6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2 - 0.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.79 - 2.86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+5.7\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{3}He$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ C}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RSS 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jpspin2007"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2002
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.6-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.3-0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.8-1.9$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+5.7\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+NH_{3}\\
+ND_{3}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\mathrm{JLab}\\
+\mbox{\mathrm{Hall\ C}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SANE 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SANEproposal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2008
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.5-6.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.3-0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+4.8-6\\
+e^{-}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NH_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+A_{\parallel}\\
+A_{\bot}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:g2exp"
+
+\end_inset
+
+Summary of spin structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ measurement before E08-027
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the DIS region, 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ was precisely measured for both neutron and proton.
+ The most precise 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data for the proton and deuteron is from SLAC E155x 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bosted2000297c,SLAC-PUB-9741"
+
+\end_inset
+
+.
+ The 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ for neutron was extracted by the difference of the proton and deuteron
+ data from E155x, as well.
+ Also, the SLAC E143 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.58.112003"
+
+\end_inset
+
+ and E155 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+ contributed precise data to 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:E155xg2p"
+
+\end_inset
+
+ shows the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ results from SLAC E143, E155 and E155x.
+ The curve is mostly matched the 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ from equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:g2WW"
+
+\end_inset
+
+), but with some deviation, especially at the small 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/E155_xg2pd.png
+	lyxscale 40
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:E155xg2p"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Result of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ for the proton and deuteron in DIS region
+\end_layout
+
+\end_inset
+
+Result of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ for the proton and deuteron in DIS region 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+.
+ The solid circle is from E155x, the open diamond is from E143, and the
+ open square is from E155.
+ The solid line is the 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ at the average 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ of E155x.
+ Also the models calculated from Stratmann 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raey"
+
+\end_inset
+
+ (dash-dot-dot) , Song 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.54.1955"
+
+\end_inset
+
+ (dot), Weigel 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Weigel200148"
+
+\end_inset
+
+ (dash-dot) and Wakamatsu 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wakamatsu2000118"
+
+\end_inset
+
+ (dash) are compared.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The difference between the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data and the 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ is because of the high-twist effect, which is sensitive to the quark-gluon
+ interaction.
+ 
+\end_layout
+
+\begin_layout Standard
+With the high luminosity polarized beam, JLab extracted extremely precised
+ 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data for the neutron in the DIS region.
+ The experiment E97-103 measured dedicated 
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ data at low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ DIS region in order to study the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ dependence of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.95.142002"
+
+\end_inset
+
+, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:E97103g2n"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/E97103_g2n.png
+	lyxscale 40
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:E97103g2n"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ extracted from the experiment E97-103 at JLab for 
+\begin_inset Formula $x\approx0.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ extracted from the experiment E97-103 at JLab for 
+\begin_inset Formula $x\approx0.2$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.95.142002"
+
+\end_inset
+
+.
+ The low-dark gray band is the systematic uncertainties.
+ The error bar is the statics.
+ The light gray line and the dark solid line with gray uncertainty band
+ are 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ from the fit of world 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ data.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ It covered five 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ values in the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range of 
+\begin_inset Formula $0.58<Q^{2}<1.36\ GeV^{2}$
+\end_inset
+
+ at 
+\begin_inset Formula $x\approx0.2$
+\end_inset
+
+.
+ The result shows that the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ consistently higher than 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ in this kinematic range.
+ This is the first time that shows the difference between 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ significantly positive, while the higher-twist effects predicted from the
+ bag model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raey"
+
+\end_inset
+
+ and Chiral Soliton model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wakamatsu2000118,Weigel200148"
+
+\end_inset
+
+ are negative or close to zero.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:E97103xg2n"
+
+\end_inset
+
+ shows the 
+\begin_inset Formula $xg_{2}^{n}$
+\end_inset
+
+ results from the experiments E97-103 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.95.142002"
+
+\end_inset
+
+, E99-117 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.70.065207"
+
+\end_inset
+
+ from JLab and E155 from SLAC 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/E97103_xg2n.png
+	lyxscale 40
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:E97103xg2n"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ extracted from experiments at JLab and SLAC
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ extracted from the experiment E97-103 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.95.142002"
+
+\end_inset
+
+ (blue square), E99-117 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.70.065207"
+
+\end_inset
+
+ (red square) at JLab and the E155x 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+ (pink triangle) at SLAC, compared with the 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ from model.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The precision from JLab is much higher than the one from E155.
+ 
+\end_layout
+
+\begin_layout Standard
+Comparing with the DIS region, the resonance region has stronger effect
+ of the quark-gluon interaction.
+ Many of the experiments collects the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ data in the region of 
+\begin_inset Formula $W<2GeV$
+\end_inset
+
+.
+ The study in the resonance region can reveal important information on the
+ internal structure of the nucleon resonances.
+ Using the data from neutron, proton and deuteron, several spin-isospin
+ channels that lead to the different excited resonances can be extracted.
+ The first experiment to measure the 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ in the resonance region is E143 experiment at SLAC, with the beam energy
+ of 
+\begin_inset Formula $9.7\ GeV$
+\end_inset
+
+ and the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ value of 
+\begin_inset Formula $0.5\ GeV^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $1.2\ GeV^{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.78.815"
+
+\end_inset
+
+.
+ JLab E94-010 collected a vast data for the neutron 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.92.022301"
+
+\end_inset
+
+ at low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:E94010g2"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/E94010g2.png
+	lyxscale 40
+	width 40page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:E94010g2"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ extracted from the experiment E94-010 for the different 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $g_{2}^{n}$
+\end_inset
+
+ extracted from the experiment E94-010 for the different 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ in the resonance region, compared with 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ (grey band) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.92.022301"
+
+\end_inset
+
+.
+ The unit for the constant 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ in each panel is 
+\begin_inset Formula $GeV^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The structure function 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ was directly extracted from the measurement of cross section difference
+ for the polarized electron beam scattering of the longitudinal and transverse
+ polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target.
+ The data shows a significantly positive response of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ in the 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance region, and a large deviation with 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Currently the lowest momentum transfer investigated for proton's 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is 
+\begin_inset Formula $1.3\ GeV^{2}$
+\end_inset
+
+ by the RSS collaboration 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.98.132003"
+
+\end_inset
+
+ in JLab Hall B .
+ The result is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:RSSg2-1"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/RSS_g2.png
+	lyxscale 40
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RSSg2-1"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proton's 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ result and the approximation 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ from 
+\begin_inset Formula $RSS$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Proton's 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ result and the approximation 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ in resonance region, from 
+\begin_inset Formula $RSS$
+\end_inset
+
+ collaboration 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.98.132003"
+
+\end_inset
+
+.
+ The 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance region is at large x around 0.7.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The comparison of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ provides strong evidence of the significance of higher-twist terms in this
+ 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ range.
+ It is clearly that 
+\begin_inset Formula $g_{2}^{WW}$
+\end_inset
+
+ insufficient to describe the data in the low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+region.
+\end_layout
+
+\begin_layout Section
+Results for B-C sum rule
+\end_layout
+
+\begin_layout Standard
+The first moment of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is expected to be 0 in all of the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ ranges as the result of the B-C sum rule.
+ The first measurement for the first moment of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is from E155 at SLAC, which included the result of proton, deuteron and
+ neutron.
+ JLab Hall A extensively extracted the neutron's 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ integral in a wide kinematic range in several experiments: E94-010 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.92.022301"
+
+\end_inset
+
+, E99-117 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.70.065207"
+
+\end_inset
+
+, E97-103 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.95.142002"
+
+\end_inset
+
+, E97-110 
+\begin_inset CommandInset citation
+LatexCommand cite
+key ":/content/aip/proceeding/aipcp/10.1063/1.3203306"
+
+\end_inset
+
+ and E01-012 
+\begin_inset CommandInset citation
+LatexCommand cite
+key ":/content/aip/proceeding/aipcp/10.1063/1.3203291"
+
+\end_inset
+
+.
+ The RSS experiment from Hall C in JLab provided the proton's 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ integral in the average 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ of 
+\begin_inset Formula $1.3\ GeV^{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.98.132003"
+
+\end_inset
+
+.
+ The unmeasured low 
+\begin_inset Formula $x$
+\end_inset
+
+ DIS contribution mostly uses the assumption of 
+\begin_inset Formula $g_{2}=g_{2}^{WW}$
+\end_inset
+
+, and the elastic contribution (x=1) is mostly from the well know elastic
+ form factors.
+ The results for the B-C sum rule are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Verification-of-BC"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/BCresult.png
+	lyxscale 20
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Verification-of-BC"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Verification of BC sum rule
+\end_layout
+
+\end_inset
+
+Verification of BC sum rule 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "1001.3898v1"
+
+\end_inset
+
+.
+ The top plot is for proton and the bottom one is for neutron.
+ The open circle are the measured values, while the solid square are the
+ total integral in 0<x<1.
+ The proton data is from JLab RSS experiment (red) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key ":/content/aip/proceeding/aipcp/10.1063/1.3203305"
+
+\end_inset
+
+ and SLAC E155 experiment (brown) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+.
+ The neutron data is from JLab E97-110 
+\begin_inset CommandInset citation
+LatexCommand cite
+key ":/content/aip/proceeding/aipcp/10.1063/1.3203306"
+
+\end_inset
+
+, E94-010 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.92.022301"
+
+\end_inset
+
+, E01-012 
+\begin_inset CommandInset citation
+LatexCommand cite
+key ":/content/aip/proceeding/aipcp/10.1063/1.3203291"
+
+\end_inset
+
+ and RSS experiment and SLAC E155 experiment.
+ The neutron data from RSS and E155x is extracted from proton and deuteron
+ data, while others are from 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ data.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The neutron data from E155x shows agreement with the B-C sum rule with a
+ large error bar.
+ The data from RSS also agree with the B-C sum rule.
+ Other extensive data from JLab Hall A was extracted by using a longitudinal
+ and transverse polarized 
+\begin_inset Formula $^{3}He$
+\end_inset
+
+ target.
+ The results from E94-010 in the measured region shows a significantly positive
+ value, but consistent with 0 after extended to the elastic and DIS region.
+ The total integral exhibits a significant cancellation of the inelastic
+ and elastic contribution.
+ Most precise data is from E97-110, E94-010 and E01-012, which are consistent
+ with 0.
+\end_layout
+
+\begin_layout Standard
+The proton data from E155 shows large deviation with the B-C sum rule, while
+ the error bar is large 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+.
+ For the 
+\begin_inset Formula $x\rightarrow0$
+\end_inset
+
+ extrapolation, they assumed 
+\begin_inset Formula $g_{2}=g_{2}^{WW}$
+\end_inset
+
+, which is difficult to quantify.
+ The preliminary result from RSS in the measured resonance region is negative,
+ while it consistent with 0 after adding the contributions from elastic
+ scattering and the data in small-x region.
+ The proton data of the B-C sum rule is mostly unmeasured.
+\end_layout
+
+\begin_layout Section
+Results for spin polarizabilities 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The experimental results compared with the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculation is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaltresult"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/deltaltgone.png
+	lyxscale 30
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:deltaltresult"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Spin polarizabilities of proton and neutron
+\end_layout
+
+\end_inset
+
+Spin polarizabilities of proton and neutron.
+ The neutron data points (blue dots) are from E94-010 experiment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.93.152301"
+
+\end_inset
+
+.
+ The proton 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ data points are from Mainz (
+\begin_inset Formula $Q^{2}=0$
+\end_inset
+
+, purple dot) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.91.192001"
+
+\end_inset
+
+ and EG1 in JLab Hall B (finite 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, blue dot) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Prok200912"
+
+\end_inset
+
+ calculated from Ref.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.90.055202"
+
+\end_inset
+
+.
+ Red solid lines and blue bands are the baryon 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ LO and NLO results calculated from Vadim 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.90.055202"
+
+\end_inset
+
+.
+ Black dotted lines are from MAID 2007.
+ Grey band are the covariant 
+\begin_inset Formula $B\chi PT$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.87.054032"
+
+\end_inset
+
+.
+ Blue dashed line is the 
+\begin_inset Formula $\mathcal{O}(p^{4})$
+\end_inset
+
+ HB calculation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.67.016001"
+
+\end_inset
+
+.
+ Red band is the IR calculation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.67.076008"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Since the forward spin polarizability 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ can be expressed as the photoabsorption cross section from equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gamma0vc"
+
+\end_inset
+
+), it can be measured by the real photon Compton scattering experiment with
+ 
+\begin_inset Formula $Q^{2}=0$
+\end_inset
+
+.
+ An experiment at MAMI (Mainz) measured the 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ by using a circularly polarized photon beam on a longitudinal polarized
+ proton (butanol) target 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.87.022003,PhysRevLett.91.192001"
+
+\end_inset
+
+, shows in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaltresult"
+
+\end_inset
+
+ (purple dot, for proton 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The first results for the neutron 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ were obtained from E94-010 experiment in Jefferson Lab 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.93.152301"
+
+\end_inset
+
+ (blue dot for proton 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaltresult"
+
+\end_inset
+
+ ).
+ At the 
+\begin_inset Formula $Q^{2}=0.1\ GeV^{2}$
+\end_inset
+
+ point, the experiment result for neutron agree with the 
+\begin_inset Formula $RB\chi PT$
+\end_inset
+
+ calculation, but with significant discrepancy with the 
+\begin_inset Formula $HB\chi PT$
+\end_inset
+
+ calculation.
+ Since the 
+\begin_inset Formula $\gamma_{0}$
+\end_inset
+
+ is sensitive with 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ resonance, it indicates that the 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ contribution should be considered properly in the 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculation.
+ The higher 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ point is agree with the MAID model, while the lower one is significantly
+ lower.
+ The discrepancy 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ data indicates a significant disagreement with both heavy baryon 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ (blue dashed line in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaltresult"
+
+\end_inset
+
+ ) and relativistic baryon 
+\begin_inset Formula $\chi PT$
+\end_inset
+
+ calculations (red dashed line in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaltresult"
+
+\end_inset
+
+ ), which known as 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ puzzle
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The puzzle presents a challenge to the present theoretical prediction.
+ However, the recent calculation using leading- and next-to-leading-order
+ predictions of chiral perturbation theory shows that the 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ puzzle is gone 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.90.055202"
+
+\end_inset
+
+ (red solid line and blue band in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaltresult"
+
+\end_inset
+
+).
+ The data has good agreement with MAID prediction.
+ The proton data for 
+\begin_inset Formula $\delta_{LT}$
+\end_inset
+
+ is needed to complete for further comparison.
+\end_layout
+
+\begin_layout Section
+Results for  
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The experimental results for the higher twist moment 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:d2"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/d2p.png
+	lyxscale 20
+	width 40col%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pic/d2n.png
+	lyxscale 20
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:d2"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ data for proton and neutron
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ data for proton (left) and neutron (right).
+ Proton data contains the results from RSS at JLab 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.98.132003"
+
+\end_inset
+
+ and E155x at SLAC 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anthony200318"
+
+\end_inset
+
+, compared with the calculation from the Lattice QCD 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.63.074506"
+
+\end_inset
+
+, the PQCD 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shuryak1982141"
+
+\end_inset
+
+, the MAID model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drechsel:2000ct"
+
+\end_inset
+
+, the chiral soliton models of WGR 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Weigel200148,PhysRevD.55.6910"
+
+\end_inset
+
+ and Wakamatsu 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wakamatsu2000118"
+
+\end_inset
+
+.
+ The expected SANE uncertainties are also included.
+ The large shaded area is from Osipenko et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.71.054007"
+
+\end_inset
+
+.
+ Neutron results are from E94-010 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.93.152301"
+
+\end_inset
+
+, E01-012 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevLett.101.182502"
+
+\end_inset
+
+, E99-117 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevC.70.065207"
+
+\end_inset
+
+, RSS experiments at JLab and E155x 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.58.112003"
+
+\end_inset
+
+ at SLAC, compared with MAID 2007 and Lattice QCD.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ For the neutron data, the E94-010 data shows increased 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ in low 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ and then decrease, while the result of Lattice QCD shows negative but close
+ to 0 in 
+\begin_inset Formula $Q^{2}=5\ GeV^{2}$
+\end_inset
+
+, but with large discrepancy with JLab E99-117 and SLAC E155x data.
+ It is important to get high precision data at large 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ for testing of the lattice QCD and understanding of the quark-gluon correlation
+s.
+\end_layout
+
+\begin_layout Standard
+For the proton data the calculation of the Lattice QCD matched well with
+ the RSS data and E155x data.
+ But the data is scarce.
+ The result of MAID model strongly disagree with data, which needs more
+ 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ experimental data to optimize 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.71.054007"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

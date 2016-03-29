@@ -1,0 +1,2676 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass USTCthesis
+\begin_preamble
+%Created by jmcui 
+%\graphicspath{{C:/Users/jmcui/Desktop/Lyxthesis/USTCthesis}}
+\end_preamble
+\options doctor,twoside,nocap,nointent,psfont
+\use_default_options false
+\master phdthesis.lyx
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+NoStyle	Thanks
+NoStyle	ChapterSpecial
+NoStyle	Abstract
+NoStyle	EnglishAbstract
+NoStyle      Cover
+\end_local_layout
+\language english
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk fs
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Inclusive Lepton-Nucleon Scattering
+\end_layout
+
+\begin_layout Standard
+For the process of the lepton scattering, the reaction is divided into several
+ classes:
+\end_layout
+
+\begin_layout Itemize
+The inclusive scattering only refers to measure the scattered lepton.
+ This is the simplest way.
+\end_layout
+
+\begin_layout Itemize
+The semi-inclusive scattering refers to measure the scattered lepton and
+ one or more final-state particles.
+\end_layout
+
+\begin_layout Itemize
+The exclusive scattering refers to measure the scattered lepton, nucleon
+ and all the reconstructed final particle produced in the interaction.
+\end_layout
+
+\begin_layout Standard
+Here we only focus on the inclusive scattering.
+ 
+\end_layout
+
+\begin_layout Section
+Kinematic variables
+\end_layout
+
+\begin_layout Standard
+The lowest order inclusive diagram for the lepton-nucleon scattering is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+l(p)+N(P)\rightarrow l(p')+X(P').\label{eq:lpscat}
+\end{equation}
+
+\end_inset
+
+The diagram is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Feynman-DIS"
+
+\end_inset
+
+.
+ For the fixed-target, the cross section for the scattering of leptons is
+ dominated by virtual photon exchange.
+ We denote the 
+\begin_inset Formula $k$
+\end_inset
+
+ and 
+\begin_inset Formula $s$
+\end_inset
+
+ (
+\begin_inset Formula $k'$
+\end_inset
+
+ and 
+\begin_inset Formula $s'$
+\end_inset
+
+) are the initial (final) four-momentum and spin four-vector of the lepton,
+ respectively, 
+\begin_inset Formula $q=k-k'$
+\end_inset
+
+ is the transferred four-momentum from the lepton to the nucleon, 
+\begin_inset Formula $M$
+\end_inset
+
+ is the nucleon mass, 
+\begin_inset Formula $P$
+\end_inset
+
+ and 
+\begin_inset Formula $S$
+\end_inset
+
+ are the nucleon four-momentum and spin four-vector, respectively.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/DIS_feynman.png
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Feynman-DIS"
+
+\end_inset
+
+Feynman diagram for deep-inelastic lepton-hadron scattering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Several invariant quantities are used:
+\end_layout
+
+\begin_layout Itemize
+Lepton's energy loss in the nucleon rest frame: 
+\begin_inset Formula 
+\begin{align}
+\nu & =\frac{q*P}{M}=E-E',\label{eq:nu}
+\end{align}
+
+\end_inset
+
+ where 
+\begin_inset Formula $E$
+\end_inset
+
+ and 
+\begin_inset Formula $E'$
+\end_inset
+
+ are the initial and final lepton energies.
+\end_layout
+
+\begin_layout Itemize
+Squared four-momentum transfer: 
+\begin_inset Formula 
+\begin{equation}
+Q^{2}=-q^{2}\approx4EE'sin^{2}(\frac{\theta}{2}),\label{eq:q2}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\theta$
+\end_inset
+
+ is the leptons scattering angle.
+\end_layout
+
+\begin_layout Itemize
+Square of invariant mass: 
+\begin_inset Formula 
+\begin{equation}
+W^{2}=(P+q)^{2}=M^{2}+2M\nu-Q^{2},\label{eq:W}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Bjorken scaling variable: 
+\begin_inset Formula 
+\begin{equation}
+x=\frac{Q^{2}}{2M\nu}.\label{eq:x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The fraction of lepton energy loss: 
+\begin_inset Formula 
+\begin{equation}
+y=\frac{\nu}{E}.\label{eq:y}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Types of the inclusive electron scattering
+\end_layout
+
+\begin_layout Standard
+The cross section of the electron scattering is a function of the 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\nu$
+\end_inset
+
+.
+ The spectrum is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spectrumexs"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "XiaochaoZheng"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/scattering.png
+	lyxscale 30
+	width 70line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spectrumexs"
+
+\end_inset
+
+Spectrum of the electron scattering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ It is splitted into several different kinematic regions: elastic, quasi-elastic
+, resonance, deep inelastic.
+\end_layout
+
+\begin_layout Standard
+In elastic scattering the nucleon remain in the ground state.
+ The 
+\begin_inset Formula $\nu$
+\end_inset
+
+ is not high enough so that the nucleus stays intact.
+ The invariant mass 
+\begin_inset Formula $W$
+\end_inset
+
+ is equal to the mass of the nucleon.
+\end_layout
+
+\begin_layout Standard
+The quasi-elastic scattering happened when the 
+\begin_inset Formula $\nu$
+\end_inset
+
+ is higher than the nuclear binding energy.
+ The nucleon is knocked out of the nucleus and can be considered as quasi-free.
+ The energy shift of the quasi-elastic peak is because of the energy absorption
+ for the nucleon remove from the nucleus.
+ If the target is nucleon like a proton target, then there is no quasi-elastic
+ peak.
+ Difference of them are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:epscatdiff"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/epscat.png
+	lyxscale 30
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:epscatdiff"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Spectrum of electron-nucleus scattering and electron-nucleon scattering
+\end_layout
+
+\end_inset
+
+Spectrum of electron-nucleus scattering (up) and electron-nucleon scattering
+ (down) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yeprogressphys"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As the 
+\begin_inset Formula $\nu$
+\end_inset
+
+ increase, the nucleon is excited to several different states known as the
+ resonance region, which shows the composite structure system of the nucleon.
+ The kinematic range of resonance is usually at 
+\begin_inset Formula $1.0\ <\ W\ <\ 2.0\ GeV^{2}$
+\end_inset
+
+.
+ Several peaks in the resonance region show the different states of the
+ nucleon.
+ The first peak is the 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ resonance.
+ The second peak consists of the 
+\begin_inset Formula $N(1520)$
+\end_inset
+
+ and 
+\begin_inset Formula $N(1535)$
+\end_inset
+
+ resonances.
+ The third peak becomes more complicate since it contains many states.
+ Also there is 
+\begin_inset Formula $N(1440)$
+\end_inset
+
+ resonance exists between the peak of 
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+ and 
+\begin_inset Formula $N(1520)$
+\end_inset
+
+.
+ The properties of each resonance states such like the invariant mass (
+\begin_inset Formula $W$
+\end_inset
+
+), width (
+\begin_inset Formula $\Gamma$
+\end_inset
+
+), total angular momentum (
+\begin_inset Formula $J^{P}$
+\end_inset
+
+) and the orbital angular momentum (
+\begin_inset Formula $l$
+\end_inset
+
+) are shown in table (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:resonance"
+
+\end_inset
+
+).
+ 
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Particle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $W(MeV)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Gamma(MeV)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $J^{P}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta(1232)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P_{33}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1232
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+120
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1440)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P_{11}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1440
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1520)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D_{13}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1520
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+115
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1535)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{11}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1535
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+150
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta(1600)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P_{33}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1600
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+320
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta(1620)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{31}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1620
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1650)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{11}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1650
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1675)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D_{15}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1675
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+150
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1680)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{15}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1680
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+130
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta(1700)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D_{33}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1700)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D_{13}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+150
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}^{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1710)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P_{11}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1710
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N(1720)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P_{13}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1720
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+250
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:resonance"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+The properties of the nucleon resonance
+\end_layout
+
+\end_inset
+
+The properties of the nucleon resonance 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PDGbook"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $Q^{2}>1-2GeV^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $W>2GeV^{2}$
+\end_inset
+
+, the strong interaction becomes relatively weak.
+ The quarks and gluons can be treated as free particles and the reaction
+ can be treated as the lepton-quark scattering with the quark-parton model.
+ Deep inelastic scattering was used as a powerful tool to study the nucleon
+ structure.
+ QCD has been well tested in this region.
+\end_layout
+
+\begin_layout Section
+Differential cross section and structure functions
+\end_layout
+
+\begin_layout Standard
+Considering of one photon exchange for detecting the final lepton in the
+ solid angle 
+\begin_inset Formula $d\Omega$
+\end_inset
+
+ and final energy range (
+\begin_inset Formula $E'$
+\end_inset
+
+,
+\begin_inset Formula $E'+dE'$
+\end_inset
+
+), the differential cross section can be written as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anselmino:1994gn"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d^{2}\sigma}{d\Omega dE'}=\frac{\alpha^{2}}{2Mq^{4}}\frac{E'}{E}L_{\mu\nu}W^{\mu\nu},\label{eq:differentxsLW}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ is the electromagnetic coupling constant.
+ The cross-section contains two part: The leptonic tensor 
+\begin_inset Formula $L_{\mu\nu}$
+\end_inset
+
+ and the hadronic tensor 
+\begin_inset Formula $W_{\mu\nu}$
+\end_inset
+
+.
+ The 
+\begin_inset Formula $L_{\mu\nu}$
+\end_inset
+
+ is known exactly and is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L_{\mu\nu}(k,s;k',s')=[\bar{u}(k',s')\gamma_{\mu}u(k,s)]^{*}[\bar{u}(k',s')\gamma_{\mu}u(k,s)],\label{eq:Luv}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mu(k,s)$
+\end_inset
+
+ and 
+\begin_inset Formula $\bar{\mu}(k',s')$
+\end_inset
+
+ are electron spinors.
+ The leptonic tensor can be split into symmetry part (
+\begin_inset Formula $S$
+\end_inset
+
+) and anti-symmetry part (
+\begin_inset Formula $A$
+\end_inset
+
+) by interchanging the Lorentz indices 
+\begin_inset Formula $\mu$
+\end_inset
+
+ and 
+\begin_inset Formula $\nu$
+\end_inset
+
+ and on summing over 
+\begin_inset Formula $s'$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+L_{\mu\nu}(k,s,k') & =L_{\mu\nu}^{(S)}(k;k')+iL_{\mu\nu}^{(A)}(k,s;k'),\label{eq:luvSA}\\
+L_{\mu\nu}^{(S)}(k;k') & =2[k_{\mu}k_{\nu}'+k_{\mu}'k_{\nu}-g_{\mu\nu}(kk'-m^{2})],\\
+L_{\mu\nu}^{(A)}(k,s;k') & =2[m\epsilon_{\mu\nu\alpha\beta}s^{\alpha}q^{\beta}],
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $g_{\mu\nu}$
+\end_inset
+
+ is the metric tensor, 
+\begin_inset Formula $\epsilon_{\mu\nu\alpha\beta}$
+\end_inset
+
+ is the Levi-Civita tensor.
+ The Leptonic tensor is easy to calculate by using the QED formalism.
+ 
+\end_layout
+
+\begin_layout Standard
+The hadronic tensor describes the interaction between the virtual photon
+ and the nucleon, it is complicated to calculate directly.
+ Four structure functions: unpolarized structure functions 
+\begin_inset Formula $F_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $F_{2}$
+\end_inset
+
+ and the spin related structure functions 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ are used to parametrize the quantity.
+ The tensor 
+\begin_inset Formula $W_{\mu\nu}$
+\end_inset
+
+ can also be split into symmetry and anti-symmetry part:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+W_{\mu\nu}(q;P,s)=W_{\mu\nu}^{(S)}(q;P)+iW_{\mu\nu}^{(A)}(q;P,s),\label{eq:Wuv}
+\end{equation}
+
+\end_inset
+
+where the symmetry part is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{2M}W_{\mu\nu}^{(S)}(q;P)=(-g_{\mu\nu}+\frac{q_{\mu}q_{\nu}}{q^{2}})W_{1}(\nu,Q^{2})+[(P_{\mu}-\frac{P\cdot q}{q^{2}}q_{\mu})(P_{\nu}-\frac{P\cdot q}{q^{2}}q_{\nu})]\frac{W_{2}(\nu,Q^{2})}{M^{2}},\label{eq:WuvSW1W2}
+\end{equation}
+
+\end_inset
+
+and the anti-symmetry is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{2M}W_{\mu\nu}^{(A)}(q;P,s)=\epsilon_{\mu\nu\alpha\beta}q^{\alpha}\{MS^{\beta}G_{1}(\nu,Q^{2})+[(P\cdot q)S^{\beta}-(S\cdot q)P^{\beta}]\frac{G_{2}(\nu,Q^{2})}{M}\},\label{eq:WuvAG1G2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:luvSA"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Wuv"
+
+\end_inset
+
+), the differential cross section can be rewritten as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d^{2}\sigma}{d\Omega dE'}=\frac{\alpha^{2}}{2Mq^{4}}\frac{E'}{E}[L_{\mu\nu}^{(S)}W^{\mu\nu(S)}-L_{\mu\nu}^{(A)}W^{\mu\nu(A)}].\label{eq:differentxsLWAS}
+\end{equation}
+
+\end_inset
+
+It can be separately studied by considering the symmetry part 
+\begin_inset Formula $L_{\mu\nu}^{(S)}W_{\mu\nu}^{(S)}$
+\end_inset
+
+ and the anti-symmetry part 
+\begin_inset Formula $L_{\mu\nu}^{(A)}W_{\mu\nu}^{(A)}$
+\end_inset
+
+.
+ The symmetry part is proportional to the unpolarized cross-section:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\frac{d^{2}\sigma^{unpol}}{d\Omega dE'}(k;P;k') & =2\frac{\alpha^{2}}{2Mq^{4}}\frac{E'}{E}L_{\mu\nu}^{(S)}W_{\mu\nu}^{(S)}\nonumber \\
+ & =\frac{4\alpha^{2}E'^{2}}{q^{4}}[2W_{1}sin^{2}\frac{\theta}{2}+W_{2}cos^{2}\frac{\theta}{2}],\label{eq:unpoldiffxs}
+\end{align}
+
+\end_inset
+
+where the 
+\begin_inset Formula $W_{1}(P\cdot q,Q^{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{2}(P\cdot q,Q^{2})$
+\end_inset
+
+ are the unpolarized structure functions.
+ Note that the lepton mass is ignored.
+ The anti-symmetry part can be extracted by using the differences of cross-secti
+ons with opposite target or beam spins:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+[\frac{d^{2}\sigma}{d\Omega dE'}(k,s,P,S;k')-\frac{d^{2}\sigma}{d\Omega dE'}(k,s,P,-S;k')]=\frac{\alpha^{2}}{2Mq^{4}}\frac{E'}{E}L_{\mu\nu}^{(A)}W^{\mu\nu(A)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+ & =\frac{8m\alpha^{2}E'}{q^{4}E}\{[(q\cdot S)(q\cdot s)+Q^{2}(s\cdot S)]MG_{1}+Q^{2}[(s\cdot S)(P\cdot q)-(q\cdot S)(P\cdot s)]\frac{G_{2}}{M}\},\label{eq:poldiffxs}
+\end{align}
+
+\end_inset
+
+where the 
+\begin_inset Formula $G_{1}(P\cdot q,Q^{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $G_{2}(P\cdot q,Q^{2})$
+\end_inset
+
+ are two polarized structure functions.
+ For the longitudinally polarized case, the spin of the initial lepton is
+ along with or opposite to the nucleon polarization.
+ One obtains:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta\sigma_{\Vert}=\frac{d^{2}\sigma^{\overrightarrow{\Rightarrow}}}{d\Omega dE'}-\frac{d^{2}\sigma^{\overrightarrow{\Leftarrow}}}{d\Omega dE'}=-\frac{4\alpha^{2}}{Q^{2}}\frac{E'}{E}[(E+E'cos\theta)MG_{1}-Q^{2}G_{2}].\label{eq:dxslong}
+\end{equation}
+
+\end_inset
+
+For the transversely polarized case, the nucleon spin is perpendicular to
+ the spin direction of the incoming lepton, and the azimuthal angle between
+ the scattering plane (the plane between the incoming and outgoing lepton
+ direction) and the polarization plane (the plane between the incoming lepton
+ direction and the target polarization direction) is 0, one obtains:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta\sigma_{\bot}=\frac{d^{2}\sigma^{\rightarrow\Uparrow}}{d\Omega dE'}-\frac{d^{2}\sigma^{\rightarrow\Downarrow}}{d\Omega dE'}=-\frac{4\alpha^{2}}{Q^{2}}\frac{E'^{2}}{E}sin\theta[MG_{1}+2EG_{2}].\label{eq:dxstran}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the deep inelastic region, with the Bjorken limit of: 
+\begin_inset Formula 
+\begin{equation}
+Q^{2}\rightarrow\infty,\ \nu\rightarrow\infty,\ and\ x\ fixed,\label{eq:bjorkenlimit}
+\end{equation}
+
+\end_inset
+
+the structure functions 
+\begin_inset Formula $W_{1}$
+\end_inset
+
+,
+\begin_inset Formula $W_{2}$
+\end_inset
+
+,
+\begin_inset Formula $G_{1}$
+\end_inset
+
+,
+\begin_inset Formula $G_{2}$
+\end_inset
+
+ are known to approximately scale 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRev.179.1547"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\underset{Bj}{lim}MW_{1}(P\cdot q,Q^{2}) & = & F_{1}(x),\label{eq:f1}\\
+\underset{Bj}{lim}\nu W_{2}(P\cdot q,Q^{2}) & = & F_{2}(x),\label{eq:f2}\\
+\underset{Bj}{lim}\frac{(P\cdot q)^{2}}{\nu}G_{1}(P\cdot q,Q^{2}) & = & g_{1}(x),\label{eq:g1}\\
+\underset{Bj}{lim}\nu(P\cdot q)G_{2}(P\cdot q,Q^{2}) & = & g_{2}(x),\label{eq:g2}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $F_{1,2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{1,2}$
+\end_inset
+
+ vary very slow with 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ at fixed 
+\begin_inset Formula $x$
+\end_inset
+
+, which means in the Bjorken limit the 
+\begin_inset Formula $F_{1,2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{1,2}$
+\end_inset
+
+ are only the function of 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ From the naive quark-parton model, the energy of the virtual photon is
+ totally absorbed by the quark when 
+\begin_inset Formula $x$
+\end_inset
+
+ is equal to the momentum of the quark-parton, which is definitely independent
+ with 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+.
+  The experiments also confirmed that they are independent with 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ in a large 
+\begin_inset Formula $x$
+\end_inset
+
+ range.
+ But later on people found that the Bjorken scale will be failed in the
+ region of smaller 
+\begin_inset Formula $x$
+\end_inset
+
+ value 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.12.1884"
+
+\end_inset
+
+, which needs to consider the gluon contribution using the QCD correction.
+ The structure function 
+\begin_inset Formula $F_{1,2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{1,2}$
+\end_inset
+
+ are then extended to 
+\begin_inset Formula $F_{1,2}(x,Q^{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{1,2}(x,Q^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+g_{1}(x,Q^{2}) & = & M^{2}\nu G_{1}(\nu,Q^{2}),\label{eq:g1G1}\\
+g_{2}(x,Q^{2}) & = & M\nu^{2}G_{2}(\nu,Q^{2}),\label{eq:g2G2}\\
+F_{1}(x,Q^{2}) & = & MW_{1}(\nu,Q^{2}),\label{eq:F1W1}\\
+F_{2}(x,Q^{2}) & = & \nu W_{2}(\nu,Q^{2}).\label{eq:F2W2}
+\end{eqnarray}
+
+\end_inset
+
+The equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:unpoldiffxs"
+
+\end_inset
+
+), (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxslong"
+
+\end_inset
+
+), (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxstran"
+
+\end_inset
+
+) are then expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+d\sigma_{unpol}=\frac{d^{2}\sigma_{unpol}}{d\Omega dE'} & = & (\frac{d\sigma}{d\Omega})_{Mott}[\frac{2}{M}F_{1}(x,Q^{2})tan^{2}\frac{\theta}{2}+\frac{1}{\nu}F_{2}(x,Q^{2})],\label{eq:dxsunpol2}\\
+(\frac{d\sigma}{d\Omega})_{Mott} & = & \frac{\alpha^{2}cos^{2}\frac{\theta}{2}}{4E^{2}sin^{4}\frac{\theta}{2}},\label{eq:mott}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\Delta\sigma_{\Vert} & =-\frac{4\alpha^{2}E'}{MQ^{2}E\nu}[(E+E'cos\theta)g_{1}(x,Q^{2})-2Mxg_{2}(x,Q^{2})],\label{eq:dxslong2}\\
+\Delta\sigma_{\bot} & =-\frac{4\alpha^{2}E'^{2}}{MQ^{2}E\nu}sin\theta[g_{1}(x,Q^{2})+\frac{2E}{\nu}g_{2}(x,Q^{2})],\label{eq:dxstran2}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $(\frac{d\sigma}{d\Omega})_{Mott}$
+\end_inset
+
+ is the Mott cross section, which describes the cross section when assuming
+ the nucleon is a point-like particle.
+ 
+\end_layout
+
+\begin_layout Standard
+Sometimes it is more convenient to measure the asymmetries than the cross
+ sections in order to avoid some system error, which are ratios of the cross
+ section difference to the unpolarized cross section.
+ The longitudinal asymmetry 
+\begin_inset Formula $A_{\parallel}$
+\end_inset
+
+ and the transverse asymmetry 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ are expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{\Vert}=\frac{\Delta\sigma_{\Vert}}{2d\sigma_{unpol}},\label{eq:asymlong}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{\bot}=\frac{\Delta\sigma_{\bot}}{2d\sigma_{unpol}}.\label{eq:asymtran}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Virtual photoabsorption cross section
+\end_layout
+
+\begin_layout Standard
+Considering the inelastic scattering of polarized electrons off polarized
+ target nucleons, the differential cross section can be expressed with the
+ virtual photon absorption cross section.
+ In the deep-inelastic region, it is a process that the quark absorb the
+ virtual photon, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vphoton"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pic/vphoton.png
+	lyxscale 30
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vphoton"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The interaction between the virtual photon and the polarized nucleon
+\end_layout
+
+\end_inset
+
+The interaction between the virtual photon and the polarized nucleon 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yeprogressphys"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ We denote the longitudinal polarization of the incoming electrons as 
+\begin_inset Formula $h=\pm1$
+\end_inset
+
+, and two polarization component of the target polarization as 
+\begin_inset Formula $P_{z}$
+\end_inset
+
+ and 
+\begin_inset Formula $P_{x}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $P_{z}$
+\end_inset
+
+ and 
+\begin_inset Formula $P_{x}$
+\end_inset
+
+ are parallel and perpendicular to the lab momentum of the virtual photon,
+ respectively.
+ The differential cross section for the absorption of the virtual photon
+ can be express in terms of a virtual photon flux factor 
+\begin_inset Formula $\Gamma_{v}$
+\end_inset
+
+ and four partial cross sections 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drechsel200399,PhysRevD.63.114010"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\frac{d\sigma}{d\Omega dE'} & =\varGamma_{v}\sigma(\nu,Q^{2}),\label{eq:diffxsphotoabsorption}\\
+\sigma & =\sigma_{T}+\epsilon\sigma_{L}+hP_{x}\sqrt{2\epsilon(1-\epsilon)}\sigma'_{LT}+hP_{z}\sqrt{1-\epsilon^{2}}\sigma'_{TT}.
+\end{align}
+
+\end_inset
+
+where the flux factor:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Gamma_{v}=\frac{\alpha}{2\pi}\frac{E'}{E}\frac{K}{Q^{2}}\frac{1}{1-\epsilon},\label{eq:Gamma}
+\end{equation}
+
+\end_inset
+
+and its transverse polarization 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\epsilon=\frac{1}{1+2(1+\frac{\nu^{2}}{Q^{2}})tan^{2}(\frac{\theta}{2})}.\label{eq:epsilon}
+\end{equation}
+
+\end_inset
+
+The 
+\begin_inset Quotes eld
+\end_inset
+
+equivalent photon energy
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $K$
+\end_inset
+
+ is the laboratory photon energy producing a final state of total center-of-mass
+ energy 
+\begin_inset Formula $E$
+\end_inset
+
+ upon absorption by a proton at rest defined by Hand 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRev.129.1834"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K=\nu(1-x)=\frac{(W^{2}-M^{2})}{2M}.\label{eq:K}
+\end{equation}
+
+\end_inset
+
+The 
+\begin_inset Formula $\sigma_{T}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{L}$
+\end_inset
+
+ are for the unpolarized experiment, while the 
+\begin_inset Formula $\sigma'_{LT}$
+\end_inset
+
+ and the 
+\begin_inset Formula $\sigma'_{TT}$
+\end_inset
+
+ are for the double polarization experiment.
+ The 
+\begin_inset Formula $\sigma_{T}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma'_{TT}$
+\end_inset
+
+ can be expressed in terms of the helicity cross sections 
+\begin_inset Formula $\sigma_{3/2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{1/2}$
+\end_inset
+
+, which are corresponded to excitation of intermediate states with spin
+ 
+\begin_inset Formula $\frac{3}{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+, respectively:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\sigma_{T} & =\frac{1}{2}(\sigma_{3/2}+\sigma_{1/2}),\\
+\sigma'_{TT} & =\frac{1}{2}(\sigma_{3/2}-\sigma_{1/2}).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The four virtual photoabsorption cross sections are related to the structure
+ functions 
+\begin_inset Formula $F_{1,2}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{1,2}$
+\end_inset
+
+, which depend on 
+\begin_inset Formula $\nu$
+\end_inset
+
+ and 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\sigma_{T} & =\frac{4\pi^{2}\alpha}{MK}F_{1},\label{eq:sigmaT}\\
+\sigma_{L} & =\frac{4\pi^{2}\alpha}{K}(\frac{1+\gamma^{2}}{\gamma^{2}\nu}F_{2}-\frac{1}{M}F_{1}),\label{eq:sigmaL}\\
+\sigma_{TT} & =\frac{4\pi^{2}\alpha}{MK}(g_{1}-\gamma^{2}g_{2}),\label{eq:sigmaLT}\\
+\sigma_{LT} & =\frac{4\pi^{2}\alpha}{MK}\gamma(g_{1}+g_{2}).\label{eq:sigmaTT}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The virtual Compton scattering asymmetries, 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+, are defined by the helicity dependent virtual photon-nucleon scattering
+ cross sections 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "robertsprotonstructure,leaderintroduction"
+
+\end_inset
+
+.
+ For spin 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+ targets (proton and neutron), the longitudinal asymmetry 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ is expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{1}(x,Q^{2})=\frac{\sigma_{1/2}-\sigma_{3/2}}{\sigma_{1/2}+\sigma_{3/2}}.\label{eq:A1}
+\end{equation}
+
+\end_inset
+
+and the transverse asymmetry 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+ is expressed as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{2}(x,Q^{2})=\frac{2\sigma_{LT}}{\sigma_{1/2}+\sigma_{3/2}}.\label{eq:A2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is customary to have the relationship between the virtual photon asymmetries
+ and the structure functions:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+A_{1}(x,Q^{2}) & =\frac{\sigma_{TT}}{\sigma_{T}}=\frac{g_{1}(x,Q^{2})-\gamma^{2}g_{2}(x,Q^{2})}{F_{1}},\label{eq:A1g12}\\
+A_{2}(x,Q^{2}) & =\frac{\sigma_{LT}}{\sigma_{T}}=\gamma(\frac{g_{1}(x,Q^{2})+g_{2}(x,Q^{2})}{F_{1}(x,Q^{2})}),\label{eq:A2g12}
+\end{align}
+
+\end_inset
+
+where 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\gamma=\frac{2Mx}{Q}=\frac{Q}{\nu}.\label{eq:gamma}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The asymmetries 
+\begin_inset Formula $A_{\Vert}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ are expressed in terms of 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+ following by equations (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxsunpol2"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxslong2"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:dxstran2"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+A_{\Vert} & =D(A_{1}+\eta A_{2}),\label{eq:AlongA1A2}\\
+A_{\bot} & =d(A_{2}-\xi A_{1}),\label{eq:AtranA1A2}
+\end{align}
+
+\end_inset
+
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+D & =\frac{y[(1+\frac{\gamma^{2}y}{2})(2-y)-\frac{2y^{2}m^{2}}{Q^{2}}]}{y^{2}(1-\frac{2m^{2}}{Q^{2}})(1+\gamma^{2})+2(1+R)(1-y-\frac{\gamma^{2}y^{2}}{4})},\label{eq:D}\\
+d & =D\cdot\frac{[1+\frac{\gamma^{2}y}{2}(1+\frac{2m^{2}y}{Q^{2}})]\sqrt{1-y-\frac{\gamma^{2}y^{2}}{4}}}{(1-\frac{y}{2})(1+\frac{\gamma^{2}y}{2})-\frac{y^{2}m^{2}}{Q^{2}}},\label{eq:d}\\
+\eta & =\gamma\frac{[1-y-y^{2}(\frac{\gamma^{2}}{4}+\frac{m^{2}}{Q^{2}})]}{(1-\frac{y}{2})(1+\frac{\gamma^{2}y}{2})-\frac{y^{2}m^{2}}{Q^{2}}},\label{eq:eta}\\
+\xi & =\gamma\frac{1-\frac{y}{2}-\frac{y^{2}m^{2}}{Q^{2}}}{1+\frac{\gamma^{2}y}{2}(1+\frac{2m^{2}y}{Q^{2}})},\label{eq:xi}
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $R$
+\end_inset
+
+ is the ratio of the longitudinal and transverse cross section:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R=\frac{\sigma_{L}}{\sigma_{T}}=(1+\gamma^{2})(\frac{F_{2}}{2xF_{1}})-1.\label{eq:R}
+\end{equation}
+
+\end_inset
+
+When ignoring the mass of lepton with a small 
+\begin_inset Formula $\gamma^{2}$
+\end_inset
+
+, it becomes to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PhysRevD.58.112003"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+D & =\frac{1-E'\epsilon/E}{1+\epsilon R},\\
+d & =D\sqrt{\frac{2\epsilon}{1+\epsilon}},\\
+\eta & =\frac{\epsilon\sqrt{Q^{2}}}{(E-E'\epsilon)},\\
+\xi & =\frac{\eta(1+\epsilon)}{2\epsilon}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+ can be extracted by measuring the longitudinal asymmetry 
+\begin_inset Formula $A_{\parallel}$
+\end_inset
+
+ and the transverse asymmetry 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ using the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:asymlong"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:asymtran"
+
+\end_inset
+
+).
+ The structure functions 
+\begin_inset Formula $g_{1,2}$
+\end_inset
+
+ can then be extracted from the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:A1g12"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:A2g12"
+
+\end_inset
+
+).
+ With a series of measurement in different 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+, we can obtain the first moment of 
+\begin_inset Formula $\Gamma_{1}(Q^{2})$
+\end_inset
+
+ and
+\begin_inset Formula $\Gamma_{2}(Q^{2})$
+\end_inset
+
+ with the structure functions 
+\begin_inset Formula $g_{1}(x,Q^{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}(x,Q^{2})$
+\end_inset
+
+.
+ The 
+\begin_inset Formula $A_{\bot}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ are much smaller than 
+\begin_inset Formula $A_{\parallel}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ in the DIS region, thus the measurement needs more accuracy.
+ In the high 
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+ region the term of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+ is suppressed due to the factor of 
+\begin_inset Formula $\gamma^{2}$
+\end_inset
+
+, the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:A1g12"
+
+\end_inset
+
+) can be simplified as 
+\begin_inset Formula $A_{1}=g_{1}/F_{1}$
+\end_inset
+
+.
+ Many experiments used this method to extract 
+\begin_inset Formula $g_{1}$
+\end_inset
+
+ without measuring the transverse polarized cross section.
+ But there is not enough reason to ignore the term of 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+.
+ For safety it is necessary to make a limit of it.
+ There is a well-known condition established from the quark-parton model:
+ 
+\begin_inset Formula $|A_{2}|\leq\sqrt{R}$
+\end_inset
+
+.
+ Later on people found that there exists a strong bound between 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Soffer:1999zv"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+|A_{2}|\leq\sqrt{R(1+A_{1})/2}.\label{eq:A1A2bound}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
